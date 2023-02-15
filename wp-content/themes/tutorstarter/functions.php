@@ -246,7 +246,7 @@ function custom_api_request_column($columns)
     foreach ($columns as $column_name => $column_info) {
         $new_meta_column[$column_name] = $column_info;
         if ('order_total' === $column_name) {
-            $new_meta_column['send_request'] = __('Send Api Request', 'my-textdomain');
+            $new_meta_column['send_request'] = __('Api Request', 'my-textdomain');
         }
     }
     return $new_meta_column;
@@ -273,7 +273,7 @@ function custom_orders_list_column_content( $column, $post_id )
 
 
 
-
+//Arvind
 
 
 // // ADDING 2 NEW COLUMNS WITH THEIR TITLES (keeping "Total" and "Actions" columns at the end)

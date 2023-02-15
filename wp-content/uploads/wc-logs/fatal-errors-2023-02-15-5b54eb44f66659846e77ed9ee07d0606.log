@@ -112,3 +112,9 @@ Stack trace:
 #7 {main}
   thrown in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php on line 243
 
+2023-02-15T09:44:24+00:00 CRITICAL Cannot redeclare custom_orders_list_column_content() (previously declared in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php:259) in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php on line 299
+
+2023-02-15T09:44:25+00:00 CRITICAL Cannot redeclare custom_orders_list_column_content() (previously declared in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php:259) in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php on line 299
+
+2023-02-15T09:44:30+00:00 CRITICAL Cannot redeclare custom_orders_list_column_content() (previously declared in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php:259) in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php on line 299
+
