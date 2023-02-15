@@ -167,7 +167,7 @@ function wdm_send_order_to_ext( $order_id ){
  }
 
 
-
+// Add the custom meta field 
 
 //  woocommerce_checkout_create_order
 add_action('woocommerce_checkout_create_order', 'before_checkout_create_order', 20, 2);
@@ -180,6 +180,7 @@ function before_checkout_create_order( $order, $data ) {
     
 }
 
+// display custom field on order edit pages
 
 add_action( 'woocommerce_admin_order_data_after_billing_address', 'display_custom_field_on_order_edit_pages', 10, 1 );
 function display_custom_field_on_order_edit_pages( $order ){
@@ -195,6 +196,8 @@ function display_custom_field_on_order_edit_pages( $order ){
     ),  $send_api_request_value );
 
 }
+
+//display custom field on order edit pages via Ajax
 
 
 function my_enqueue($hook) {
@@ -223,7 +226,7 @@ function api_request_ajax_function() {
 
 
 
-// // Add a column to the edit post list
+// // Add a column to the edit post list p
 // add_filter( 'manage_edit-shop_order_columns', 'add_new_columns');
 // /**
 //  * Add new columns to the post table
@@ -238,8 +241,6 @@ function api_request_ajax_function() {
 
 
 // Add column to admin Orders summary page with custom field data
-
-
 function custom_api_request_column($columns)
 {
     $new_meta_column = array();
@@ -273,7 +274,7 @@ function custom_orders_list_column_content( $column, $post_id )
 
 
 
-//Arvind
+//Arvind Adding custom fields meta data for each new column
 
 
 // // ADDING 2 NEW COLUMNS WITH THEIR TITLES (keeping "Total" and "Actions" columns at the end)
