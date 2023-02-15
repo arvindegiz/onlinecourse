@@ -1,0 +1,860 @@
+2023-02-09T06:11:47+00:00 CRITICAL Uncaught TypeError: stripslashes(): Argument #1 ($string) must be of type string, array given in C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce-admin-custom-order-fields\includes\class-wc-custom-order-field.php:256
+Stack trace:
+#0 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce-admin-custom-order-fields\includes\class-wc-custom-order-field.php(256): stripslashes(Array)
+#1 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce-admin-custom-order-fields\includes\admin\post-types\class-wc-admin-custom-order-fields-shop-order-cpt.php(139): WC_Custom_Order_Field->get_value_formatted()
+#2 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(310): WC_Admin_Custom_Order_Fields_Shop_Order_CPT->render_column_content('_wc_acof_2')
+#3 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#4 C:\xampp\htdocs\onlinecourse\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#5 C:\xampp\htdocs\onlinecourse\wp-admin\includes\class-wp-posts-list-table.php(1363): do_action('manage_shop_ord...', '_wc_acof_2', 116)
+#6 C:\xampp\htdocs\onlinecourse\wp-admin\includes\class-wp-list-table.php(1532): WP_Posts_List_Table->column_default(Object(WP_Post), '_wc_acof_2')
+#7 C:\xampp\htdocs\onlinecourse\wp-admin\includes\class-wp-posts-list-table.php(1397): WP_List_Table->single_row_columns(Object(WP_Post))
+#8 C:\xampp\htdocs\onlinecourse\wp-admin\includes\class-wp-posts-list-table.php(807): WP_Posts_List_Table->single_row(Object(WP_Post), 0)
+#9 C:\xampp\htdocs\onlinecourse\wp-admin\includes\class-wp-posts-list-table.php(783): WP_Posts_List_Table->_display_rows(Array, 0)
+#10 C:\xampp\htdocs\onlinecourse\wp-admin\includes\class-wp-list-table.php(1444): WP_Posts_List_Table->display_rows()
+#11 C:\xampp\htdocs\onlinecourse\wp-admin\includes\class-wp-list-table.php(1371): WP_List_Table->display_rows_or_placeholder()
+#12 C:\xampp\htdocs\onlinecourse\wp-admin\edit.php(487): WP_List_Table->display()
+#13 {main}
+  thrown in C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce-admin-custom-order-fields\includes\class-wc-custom-order-field.php on line 256
+
+2023-02-09T06:13:03+00:00 CRITICAL Uncaught TypeError: stripslashes(): Argument #1 ($string) must be of type string, array given in C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce-admin-custom-order-fields\includes\class-wc-custom-order-field.php:256
+Stack trace:
+#0 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce-admin-custom-order-fields\includes\class-wc-custom-order-field.php(256): stripslashes(Array)
+#1 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce-admin-custom-order-fields\includes\admin\post-types\class-wc-admin-custom-order-fields-shop-order-cpt.php(139): WC_Custom_Order_Field->get_value_formatted()
+#2 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(310): WC_Admin_Custom_Order_Fields_Shop_Order_CPT->render_column_content('_wc_acof_2')
+#3 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#4 C:\xampp\htdocs\onlinecourse\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#5 C:\xampp\htdocs\onlinecourse\wp-admin\includes\class-wp-posts-list-table.php(1363): do_action('manage_shop_ord...', '_wc_acof_2', 116)
+#6 C:\xampp\htdocs\onlinecourse\wp-admin\includes\class-wp-list-table.php(1532): WP_Posts_List_Table->column_default(Object(WP_Post), '_wc_acof_2')
+#7 C:\xampp\htdocs\onlinecourse\wp-admin\includes\class-wp-posts-list-table.php(1397): WP_List_Table->single_row_columns(Object(WP_Post))
+#8 C:\xampp\htdocs\onlinecourse\wp-admin\includes\class-wp-posts-list-table.php(807): WP_Posts_List_Table->single_row(Object(WP_Post), 0)
+#9 C:\xampp\htdocs\onlinecourse\wp-admin\includes\class-wp-posts-list-table.php(783): WP_Posts_List_Table->_display_rows(Array, 0)
+#10 C:\xampp\htdocs\onlinecourse\wp-admin\includes\class-wp-list-table.php(1444): WP_Posts_List_Table->display_rows()
+#11 C:\xampp\htdocs\onlinecourse\wp-admin\includes\class-wp-list-table.php(1371): WP_List_Table->display_rows_or_placeholder()
+#12 C:\xampp\htdocs\onlinecourse\wp-admin\edit.php(487): WP_List_Table->display()
+#13 {main}
+  thrown in C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce-admin-custom-order-fields\includes\class-wc-custom-order-field.php on line 256
+
+2023-02-09T06:13:40+00:00 CRITICAL Uncaught TypeError: stripslashes(): Argument #1 ($string) must be of type string, array given in C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce-admin-custom-order-fields\includes\class-wc-custom-order-field.php:256
+Stack trace:
+#0 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce-admin-custom-order-fields\includes\class-wc-custom-order-field.php(256): stripslashes(Array)
+#1 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce-admin-custom-order-fields\includes\admin\post-types\class-wc-admin-custom-order-fields-shop-order-cpt.php(139): WC_Custom_Order_Field->get_value_formatted()
+#2 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(310): WC_Admin_Custom_Order_Fields_Shop_Order_CPT->render_column_content('_wc_acof_2')
+#3 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#4 C:\xampp\htdocs\onlinecourse\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#5 C:\xampp\htdocs\onlinecourse\wp-admin\includes\class-wp-posts-list-table.php(1363): do_action('manage_shop_ord...', '_wc_acof_2', 116)
+#6 C:\xampp\htdocs\onlinecourse\wp-admin\includes\class-wp-list-table.php(1532): WP_Posts_List_Table->column_default(Object(WP_Post), '_wc_acof_2')
+#7 C:\xampp\htdocs\onlinecourse\wp-admin\includes\class-wp-posts-list-table.php(1397): WP_List_Table->single_row_columns(Object(WP_Post))
+#8 C:\xampp\htdocs\onlinecourse\wp-admin\includes\class-wp-posts-list-table.php(807): WP_Posts_List_Table->single_row(Object(WP_Post), 0)
+#9 C:\xampp\htdocs\onlinecourse\wp-admin\includes\class-wp-posts-list-table.php(783): WP_Posts_List_Table->_display_rows(Array, 0)
+#10 C:\xampp\htdocs\onlinecourse\wp-admin\includes\class-wp-list-table.php(1444): WP_Posts_List_Table->display_rows()
+#11 C:\xampp\htdocs\onlinecourse\wp-admin\includes\class-wp-list-table.php(1371): WP_List_Table->display_rows_or_placeholder()
+#12 C:\xampp\htdocs\onlinecourse\wp-admin\edit.php(487): WP_List_Table->display()
+#13 {main}
+  thrown in C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce-admin-custom-order-fields\includes\class-wc-custom-order-field.php on line 256
+
+2023-02-09T06:14:17+00:00 CRITICAL Uncaught TypeError: stripslashes(): Argument #1 ($string) must be of type string, array given in C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce-admin-custom-order-fields\includes\class-wc-custom-order-field.php:256
+Stack trace:
+#0 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce-admin-custom-order-fields\includes\class-wc-custom-order-field.php(256): stripslashes(Array)
+#1 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce-admin-custom-order-fields\includes\admin\post-types\class-wc-admin-custom-order-fields-shop-order-cpt.php(139): WC_Custom_Order_Field->get_value_formatted()
+#2 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(310): WC_Admin_Custom_Order_Fields_Shop_Order_CPT->render_column_content('_wc_acof_2')
+#3 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#4 C:\xampp\htdocs\onlinecourse\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#5 C:\xampp\htdocs\onlinecourse\wp-admin\includes\class-wp-posts-list-table.php(1363): do_action('manage_shop_ord...', '_wc_acof_2', 116)
+#6 C:\xampp\htdocs\onlinecourse\wp-admin\includes\class-wp-list-table.php(1532): WP_Posts_List_Table->column_default(Object(WP_Post), '_wc_acof_2')
+#7 C:\xampp\htdocs\onlinecourse\wp-admin\includes\class-wp-posts-list-table.php(1397): WP_List_Table->single_row_columns(Object(WP_Post))
+#8 C:\xampp\htdocs\onlinecourse\wp-admin\includes\class-wp-posts-list-table.php(807): WP_Posts_List_Table->single_row(Object(WP_Post), 0)
+#9 C:\xampp\htdocs\onlinecourse\wp-admin\includes\class-wp-posts-list-table.php(783): WP_Posts_List_Table->_display_rows(Array, 0)
+#10 C:\xampp\htdocs\onlinecourse\wp-admin\includes\class-wp-list-table.php(1444): WP_Posts_List_Table->display_rows()
+#11 C:\xampp\htdocs\onlinecourse\wp-admin\includes\class-wp-list-table.php(1371): WP_List_Table->display_rows_or_placeholder()
+#12 C:\xampp\htdocs\onlinecourse\wp-admin\edit.php(487): WP_List_Table->display()
+#13 {main}
+  thrown in C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce-admin-custom-order-fields\includes\class-wc-custom-order-field.php on line 256
+
+2023-02-09T10:08:50+00:00 CRITICAL Uncaught Error: Call to a member function get_cart_contents_count() on null in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\inc\Helpers.php:458
+Stack trace:
+#0 C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\views\partials\header\header_default.php(40): tutor_starter_header_cart()
+#1 C:\xampp\htdocs\onlinecourse\wp-includes\template.php(785): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\onlinecourse\wp-includes\template.php(718): load_template('C:\\xampp\\htdocs...', false, Array)
+#3 C:\xampp\htdocs\onlinecourse\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#4 C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\header.php(42): get_template_part('views/partials/...')
+#5 C:\xampp\htdocs\onlinecourse\wp-includes\template.php(783): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\onlinecourse\wp-includes\template.php(718): load_template('C:\\xampp\\htdocs...', true, Array)
+#7 C:\xampp\htdocs\onlinecourse\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#8 C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\page.php(14): get_header()
+#9 C:\xampp\htdocs\onlinecourse\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\onlinecourse\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#11 C:\xampp\htdocs\onlinecourse\index.php(17): require('C:\\xampp\\htdocs...')
+#12 {main}
+  thrown in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\inc\Helpers.php on line 458
+
+2023-02-09T10:08:57+00:00 CRITICAL Uncaught Error: Call to a member function get_cart_contents_count() on null in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\inc\Helpers.php:458
+Stack trace:
+#0 C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\views\partials\header\header_default.php(40): tutor_starter_header_cart()
+#1 C:\xampp\htdocs\onlinecourse\wp-includes\template.php(785): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\onlinecourse\wp-includes\template.php(718): load_template('C:\\xampp\\htdocs...', false, Array)
+#3 C:\xampp\htdocs\onlinecourse\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#4 C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\header.php(42): get_template_part('views/partials/...')
+#5 C:\xampp\htdocs\onlinecourse\wp-includes\template.php(783): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\onlinecourse\wp-includes\template.php(718): load_template('C:\\xampp\\htdocs...', true, Array)
+#7 C:\xampp\htdocs\onlinecourse\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#8 C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\404.php(12): get_header()
+#9 C:\xampp\htdocs\onlinecourse\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\onlinecourse\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#11 C:\xampp\htdocs\onlinecourse\index.php(17): require('C:\\xampp\\htdocs...')
+#12 {main}
+  thrown in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\inc\Helpers.php on line 458
+
+2023-02-09T10:20:32+00:00 CRITICAL syntax error, unexpected token ";", expecting ")" in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php on line 267
+
+2023-02-09T10:22:33+00:00 CRITICAL syntax error, unexpected token ";", expecting ")" in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php on line 267
+
+2023-02-09T10:23:44+00:00 CRITICAL syntax error, unexpected token ";", expecting ")" in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php on line 274
+
+2023-02-09T10:23:45+00:00 CRITICAL syntax error, unexpected token ";", expecting ")" in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php on line 274
+
+2023-02-09T10:32:57+00:00 CRITICAL Cannot redeclare before_checkout_create_order() (previously declared in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php:243) in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php on line 250
+
+2023-02-09T10:32:58+00:00 CRITICAL Cannot redeclare before_checkout_create_order() (previously declared in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php:243) in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php on line 250
+
+2023-02-09T10:44:16+00:00 CRITICAL Uncaught Exception: Invalid order. in C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\data-stores\abstract-wc-order-data-store-cpt.php:120
+Stack trace:
+#0 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\class-wc-data-store.php(159): Abstract_WC_Order_Data_Store_CPT->read(Object(WC_Order))
+#1 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\abstracts\abstract-wc-order.php(128): WC_Data_Store->read(Object(WC_Order))
+#2 C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php(256): WC_Abstract_Order->__construct(34)
+#3 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(308): add_date_field_shipped(Object(WP_Query))
+#4 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#5 C:\xampp\htdocs\onlinecourse\wp-includes\plugin.php(565): WP_Hook->do_action(Array)
+#6 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-query.php(1833): do_action_ref_array('pre_get_posts', Array)
+#7 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-query.php(3749): WP_Query->get_posts()
+#8 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-query.php(3881): WP_Query->query(Array)
+#9 C:\xampp\htdocs\onlinecourse\wp-content\plugins\elementor-pro\modules\assets-manager\asset-types\fonts-manager.php(397): WP_Query->__construct(Array)
+#10 C:\xampp\htdocs\onlinecourse\wp-content\plugins\elementor-pro\modules\assets-manager\asset-types\fonts-manager.php(336): ElementorPro\Modules\AssetsManager\AssetTypes\Fonts_Manager->generate_fonts_list()
+#11 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(308): ElementorPro\Modules\AssetsManager\AssetTypes\Fonts_Manager->register_fonts_in_control(Array)
+#12 C:\xampp\htdocs\onlinecourse\wp-includes\plugin.php(205): WP_Hook->apply_filters(Array, Array)
+#13 C:\xampp\htdocs\onlinecourse\wp-content\plugins\elementor\includes\fonts.php(122): apply_filters('elementor/fonts...', Array)
+#14 C:\xampp\htdocs\onlinecourse\wp-content\plugins\elementor\includes\controls\font.php(46): Elementor\Fonts::get_fonts()
+#15 C:\xampp\htdocs\onlinecourse\wp-content\plugins\elementor\includes\controls\base.php(73): Elementor\Control_Font->get_default_settings()
+#16 C:\xampp\htdocs\onlinecourse\wp-content\plugins\elementor\includes\controls\base-data.php(19): Elementor\Base_Control->__construct()
+#17 C:\xampp\htdocs\onlinecourse\wp-content\plugins\elementor\includes\managers\controls.php(436): Elementor\Base_Data_Control->__construct()
+#18 C:\xampp\htdocs\onlinecourse\wp-content\plugins\elementor\includes\managers\controls.php(589): Elementor\Controls_Manager->register_controls()
+#19 C:\xampp\htdocs\onlinecourse\wp-content\plugins\elementor\includes\managers\controls.php(608): Elementor\Controls_Manager->get_controls()
+#20 C:\xampp\htdocs\onlinecourse\wp-content\plugins\elementor\includes\managers\controls.php(779): Elementor\Controls_Manager->get_control('section')
+#21 C:\xampp\htdocs\onlinecourse\wp-content\plugins\elementor\includes\base\controls-stack.php(421): Elementor\Controls_Manager->add_control_to_stack(Object(Elementor\Core\Kits\Documents\Kit), 'document_settin...', Array, Array)
+#22 C:\xampp\htdocs\onlinecourse\wp-content\plugins\elementor\includes\base\controls-stack.php(1520): Elementor\Controls_Stack->add_control('document_settin...', Array)
+#23 C:\xampp\htdocs\onlinecourse\wp-content\plugins\elementor\core\base\document.php(1677): Elementor\Controls_Stack->start_controls_section('document_settin...', Array)
+#24 C:\xampp\htdocs\onlinecourse\wp-content\plugins\elementor\core\kits\documents\kit.php(155): Elementor\Core\Base\Document->register_document_controls()
+#25 C:\xampp\htdocs\onlinecourse\wp-content\plugins\elementor\includes\base\controls-stack.php(2329): Elementor\Core\Kits\Documents\Kit->register_controls()
+#26 C:\xampp\htdocs\onlinecourse\wp-content\plugins\elementor\includes\base\controls-stack.php(496): Elementor\Controls_Stack->init_controls()
+#27 C:\xampp\htdocs\onlinecourse\wp-content\plugins\elementor\includes\base\controls-stack.php(300): Elementor\Controls_Stack->get_stack()
+#28 C:\xampp\htdocs\onlinecourse\wp-content\plugins\elementor\includes\base\controls-stack.php(2416): Elementor\Controls_Stack->get_controls()
+#29 C:\xampp\htdocs\onlinecourse\wp-content\plugins\elementor\includes\base\controls-stack.php(1109): Elementor\Controls_Stack->sanitize_settings(Array)
+#30 C:\xampp\htdocs\onlinecourse\wp-content\plugins\elementor\includes\base\controls-stack.php(2163): Elementor\Controls_Stack->get_data('settings')
+#31 C:\xampp\htdocs\onlinecourse\wp-content\plugins\elementor\core\base\base-object.php(142): Elementor\Controls_Stack->get_init_settings()
+#32 C:\xampp\htdocs\onlinecourse\wp-content\plugins\elementor\core\base\base-object.php(40): Elementor\Core\Base\Base_Object->ensure_settings()
+#33 C:\xampp\htdocs\onlinecourse\wp-content\plugins\elementor\core\kits\manager.php(117): Elementor\Core\Base\Base_Object->get_settings('viewport_mobile')
+#34 C:\xampp\htdocs\onlinecourse\wp-content\plugins\elementor\core\breakpoints\breakpoint.php(130): Elementor\Core\Kits\Manager->get_current_settings('viewport_mobile')
+#35 C:\xampp\htdocs\onlinecourse\wp-content\plugins\elementor\core\breakpoints\breakpoint.php(71): Elementor\Core\Breakpoints\Breakpoint->init_value()
+#36 C:\xampp\htdocs\onlinecourse\wp-content\plugins\elementor\core\breakpoints\breakpoint.php(88): Elementor\Core\Breakpoints\Breakpoint->get_value()
+#37 C:\xampp\htdocs\onlinecourse\wp-content\plugins\elementor\core\breakpoints\manager.php(195): Elementor\Core\Breakpoints\Breakpoint->is_custom()
+#38 C:\xampp\htdocs\onlinecourse\wp-content\plugins\elementor\includes\frontend.php(525): Elementor\Core\Breakpoints\Manager->has_custom_breakpoints()
+#39 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(308): Elementor\Frontend->register_styles('')
+#40 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#41 C:\xampp\htdocs\onlinecourse\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#42 C:\xampp\htdocs\onlinecourse\wp-includes\script-loader.php(2180): do_action('wp_enqueue_scri...')
+#43 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(308): wp_enqueue_scripts('')
+#44 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#45 C:\xampp\htdocs\onlinecourse\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#46 C:\xampp\htdocs\onlinecourse\wp-includes\general-template.php(3043): do_action('wp_head')
+#47 C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\header.php(27): wp_head()
+#48 C:\xampp\htdocs\onlinecourse\wp-includes\template.php(783): require_once('C:\\xampp\\htdocs...')
+#49 C:\xampp\htdocs\onlinecourse\wp-includes\template.php(718): load_template('C:\\xampp\\htdocs...', true, Array)
+#50 C:\xampp\htdocs\onlinecourse\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#51 C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\woocommerce.php(14): get_header()
+#52 C:\xampp\htdocs\onlinecourse\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#53 C:\xampp\htdocs\onlinecourse\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#54 C:\xampp\htdocs\onlinecourse\index.php(17): require('C:\\xampp\\htdocs...')
+#55 {main}
+  thrown in C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\data-stores\abstract-wc-order-data-store-cpt.php on line 120
+
+2023-02-09T10:44:16+00:00 CRITICAL Uncaught Exception: Invalid order. in C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\data-stores\abstract-wc-order-data-store-cpt.php:120
+Stack trace:
+#0 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\class-wc-data-store.php(159): Abstract_WC_Order_Data_Store_CPT->read(Object(WC_Order))
+#1 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\abstracts\abstract-wc-order.php(128): WC_Data_Store->read(Object(WC_Order))
+#2 C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php(256): WC_Abstract_Order->__construct(7)
+#3 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(308): add_date_field_shipped(Object(WP_Query))
+#4 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#5 C:\xampp\htdocs\onlinecourse\wp-includes\plugin.php(565): WP_Hook->do_action(Array)
+#6 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-query.php(1833): do_action_ref_array('pre_get_posts', Array)
+#7 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-query.php(3749): WP_Query->get_posts()
+#8 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-query.php(3881): WP_Query->query(Array)
+#9 C:\xampp\htdocs\onlinecourse\wp-content\plugins\elementor-pro\modules\assets-manager\asset-types\fonts-manager.php(397): WP_Query->__construct(Array)
+#10 C:\xampp\htdocs\onlinecourse\wp-content\plugins\elementor-pro\modules\assets-manager\asset-types\fonts-manager.php(336): ElementorPro\Modules\AssetsManager\AssetTypes\Fonts_Manager->generate_fonts_list()
+#11 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(308): ElementorPro\Modules\AssetsManager\AssetTypes\Fonts_Manager->register_fonts_in_control(Array)
+#12 C:\xampp\htdocs\onlinecourse\wp-includes\plugin.php(205): WP_Hook->apply_filters(Array, Array)
+#13 C:\xampp\htdocs\onlinecourse\wp-content\plugins\elementor\includes\fonts.php(122): apply_filters('elementor/fonts...', Array)
+#14 C:\xampp\htdocs\onlinecourse\wp-content\plugins\elementor\includes\controls\font.php(46): Elementor\Fonts::get_fonts()
+#15 C:\xampp\htdocs\onlinecourse\wp-content\plugins\elementor\includes\controls\base.php(73): Elementor\Control_Font->get_default_settings()
+#16 C:\xampp\htdocs\onlinecourse\wp-content\plugins\elementor\includes\controls\base-data.php(19): Elementor\Base_Control->__construct()
+#17 C:\xampp\htdocs\onlinecourse\wp-content\plugins\elementor\includes\managers\controls.php(436): Elementor\Base_Data_Control->__construct()
+#18 C:\xampp\htdocs\onlinecourse\wp-content\plugins\elementor\includes\managers\controls.php(589): Elementor\Controls_Manager->register_controls()
+#19 C:\xampp\htdocs\onlinecourse\wp-content\plugins\elementor\includes\managers\controls.php(608): Elementor\Controls_Manager->get_controls()
+#20 C:\xampp\htdocs\onlinecourse\wp-content\plugins\elementor\includes\managers\controls.php(779): Elementor\Controls_Manager->get_control('section')
+#21 C:\xampp\htdocs\onlinecourse\wp-content\plugins\elementor\includes\base\controls-stack.php(421): Elementor\Controls_Manager->add_control_to_stack(Object(Elementor\Core\Kits\Documents\Kit), 'document_settin...', Array, Array)
+#22 C:\xampp\htdocs\onlinecourse\wp-content\plugins\elementor\includes\base\controls-stack.php(1520): Elementor\Controls_Stack->add_control('document_settin...', Array)
+#23 C:\xampp\htdocs\onlinecourse\wp-content\plugins\elementor\core\base\document.php(1677): Elementor\Controls_Stack->start_controls_section('document_settin...', Array)
+#24 C:\xampp\htdocs\onlinecourse\wp-content\plugins\elementor\core\kits\documents\kit.php(155): Elementor\Core\Base\Document->register_document_controls()
+#25 C:\xampp\htdocs\onlinecourse\wp-content\plugins\elementor\includes\base\controls-stack.php(2329): Elementor\Core\Kits\Documents\Kit->register_controls()
+#26 C:\xampp\htdocs\onlinecourse\wp-content\plugins\elementor\includes\base\controls-stack.php(496): Elementor\Controls_Stack->init_controls()
+#27 C:\xampp\htdocs\onlinecourse\wp-content\plugins\elementor\includes\base\controls-stack.php(300): Elementor\Controls_Stack->get_stack()
+#28 C:\xampp\htdocs\onlinecourse\wp-content\plugins\elementor\includes\base\controls-stack.php(2416): Elementor\Controls_Stack->get_controls()
+#29 C:\xampp\htdocs\onlinecourse\wp-content\plugins\elementor\includes\base\controls-stack.php(1109): Elementor\Controls_Stack->sanitize_settings(Array)
+#30 C:\xampp\htdocs\onlinecourse\wp-content\plugins\elementor\includes\base\controls-stack.php(2163): Elementor\Controls_Stack->get_data('settings')
+#31 C:\xampp\htdocs\onlinecourse\wp-content\plugins\elementor\core\base\base-object.php(142): Elementor\Controls_Stack->get_init_settings()
+#32 C:\xampp\htdocs\onlinecourse\wp-content\plugins\elementor\core\base\base-object.php(40): Elementor\Core\Base\Base_Object->ensure_settings()
+#33 C:\xampp\htdocs\onlinecourse\wp-content\plugins\elementor\core\kits\manager.php(117): Elementor\Core\Base\Base_Object->get_settings('viewport_mobile')
+#34 C:\xampp\htdocs\onlinecourse\wp-content\plugins\elementor\core\breakpoints\breakpoint.php(130): Elementor\Core\Kits\Manager->get_current_settings('viewport_mobile')
+#35 C:\xampp\htdocs\onlinecourse\wp-content\plugins\elementor\core\breakpoints\breakpoint.php(71): Elementor\Core\Breakpoints\Breakpoint->init_value()
+#36 C:\xampp\htdocs\onlinecourse\wp-content\plugins\elementor\core\breakpoints\breakpoint.php(88): Elementor\Core\Breakpoints\Breakpoint->get_value()
+#37 C:\xampp\htdocs\onlinecourse\wp-content\plugins\elementor\core\breakpoints\manager.php(195): Elementor\Core\Breakpoints\Breakpoint->is_custom()
+#38 C:\xampp\htdocs\onlinecourse\wp-content\plugins\elementor\includes\frontend.php(525): Elementor\Core\Breakpoints\Manager->has_custom_breakpoints()
+#39 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(308): Elementor\Frontend->register_styles('')
+#40 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#41 C:\xampp\htdocs\onlinecourse\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#42 C:\xampp\htdocs\onlinecourse\wp-includes\script-loader.php(2180): do_action('wp_enqueue_scri...')
+#43 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(308): wp_enqueue_scripts('')
+#44 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#45 C:\xampp\htdocs\onlinecourse\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#46 C:\xampp\htdocs\onlinecourse\wp-includes\general-template.php(3043): do_action('wp_head')
+#47 C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\header.php(27): wp_head()
+#48 C:\xampp\htdocs\onlinecourse\wp-includes\template.php(783): require_once('C:\\xampp\\htdocs...')
+#49 C:\xampp\htdocs\onlinecourse\wp-includes\template.php(718): load_template('C:\\xampp\\htdocs...', true, Array)
+#50 C:\xampp\htdocs\onlinecourse\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#51 C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\page.php(14): get_header()
+#52 C:\xampp\htdocs\onlinecourse\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#53 C:\xampp\htdocs\onlinecourse\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#54 C:\xampp\htdocs\onlinecourse\index.php(17): require('C:\\xampp\\htdocs...')
+#55 {main}
+  thrown in C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\data-stores\abstract-wc-order-data-store-cpt.php on line 120
+
+2023-02-09T10:44:27+00:00 CRITICAL Uncaught Exception: Invalid order. in C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\data-stores\abstract-wc-order-data-store-cpt.php:120
+Stack trace:
+#0 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\class-wc-data-store.php(159): Abstract_WC_Order_Data_Store_CPT->read(Object(WC_Order))
+#1 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\abstracts\abstract-wc-order.php(128): WC_Data_Store->read(Object(WC_Order))
+#2 C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php(256): WC_Abstract_Order->__construct(34)
+#3 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(308): add_date_field_shipped(Object(WP_Query))
+#4 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#5 C:\xampp\htdocs\onlinecourse\wp-includes\plugin.php(565): WP_Hook->do_action(Array)
+#6 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-query.php(1833): do_action_ref_array('pre_get_posts', Array)
+#7 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-query.php(3749): WP_Query->get_posts()
+#8 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-query.php(3881): WP_Query->query(Array)
+#9 C:\xampp\htdocs\onlinecourse\wp-content\plugins\elementor-pro\modules\assets-manager\asset-types\fonts-manager.php(397): WP_Query->__construct(Array)
+#10 C:\xampp\htdocs\onlinecourse\wp-content\plugins\elementor-pro\modules\assets-manager\asset-types\fonts-manager.php(336): ElementorPro\Modules\AssetsManager\AssetTypes\Fonts_Manager->generate_fonts_list()
+#11 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(308): ElementorPro\Modules\AssetsManager\AssetTypes\Fonts_Manager->register_fonts_in_control(Array)
+#12 C:\xampp\htdocs\onlinecourse\wp-includes\plugin.php(205): WP_Hook->apply_filters(Array, Array)
+#13 C:\xampp\htdocs\onlinecourse\wp-content\plugins\elementor\includes\fonts.php(122): apply_filters('elementor/fonts...', Array)
+#14 C:\xampp\htdocs\onlinecourse\wp-content\plugins\elementor\includes\controls\font.php(46): Elementor\Fonts::get_fonts()
+#15 C:\xampp\htdocs\onlinecourse\wp-content\plugins\elementor\includes\controls\base.php(73): Elementor\Control_Font->get_default_settings()
+#16 C:\xampp\htdocs\onlinecourse\wp-content\plugins\elementor\includes\controls\base-data.php(19): Elementor\Base_Control->__construct()
+#17 C:\xampp\htdocs\onlinecourse\wp-content\plugins\elementor\includes\managers\controls.php(436): Elementor\Base_Data_Control->__construct()
+#18 C:\xampp\htdocs\onlinecourse\wp-content\plugins\elementor\includes\managers\controls.php(589): Elementor\Controls_Manager->register_controls()
+#19 C:\xampp\htdocs\onlinecourse\wp-content\plugins\elementor\includes\managers\controls.php(608): Elementor\Controls_Manager->get_controls()
+#20 C:\xampp\htdocs\onlinecourse\wp-content\plugins\elementor\includes\managers\controls.php(779): Elementor\Controls_Manager->get_control('section')
+#21 C:\xampp\htdocs\onlinecourse\wp-content\plugins\elementor\includes\base\controls-stack.php(421): Elementor\Controls_Manager->add_control_to_stack(Object(Elementor\Core\Kits\Documents\Kit), 'document_settin...', Array, Array)
+#22 C:\xampp\htdocs\onlinecourse\wp-content\plugins\elementor\includes\base\controls-stack.php(1520): Elementor\Controls_Stack->add_control('document_settin...', Array)
+#23 C:\xampp\htdocs\onlinecourse\wp-content\plugins\elementor\core\base\document.php(1677): Elementor\Controls_Stack->start_controls_section('document_settin...', Array)
+#24 C:\xampp\htdocs\onlinecourse\wp-content\plugins\elementor\core\kits\documents\kit.php(155): Elementor\Core\Base\Document->register_document_controls()
+#25 C:\xampp\htdocs\onlinecourse\wp-content\plugins\elementor\includes\base\controls-stack.php(2329): Elementor\Core\Kits\Documents\Kit->register_controls()
+#26 C:\xampp\htdocs\onlinecourse\wp-content\plugins\elementor\includes\base\controls-stack.php(496): Elementor\Controls_Stack->init_controls()
+#27 C:\xampp\htdocs\onlinecourse\wp-content\plugins\elementor\includes\base\controls-stack.php(300): Elementor\Controls_Stack->get_stack()
+#28 C:\xampp\htdocs\onlinecourse\wp-content\plugins\elementor\includes\base\controls-stack.php(2416): Elementor\Controls_Stack->get_controls()
+#29 C:\xampp\htdocs\onlinecourse\wp-content\plugins\elementor\includes\base\controls-stack.php(1109): Elementor\Controls_Stack->sanitize_settings(Array)
+#30 C:\xampp\htdocs\onlinecourse\wp-content\plugins\elementor\includes\base\controls-stack.php(2163): Elementor\Controls_Stack->get_data('settings')
+#31 C:\xampp\htdocs\onlinecourse\wp-content\plugins\elementor\core\base\base-object.php(142): Elementor\Controls_Stack->get_init_settings()
+#32 C:\xampp\htdocs\onlinecourse\wp-content\plugins\elementor\core\base\base-object.php(40): Elementor\Core\Base\Base_Object->ensure_settings()
+#33 C:\xampp\htdocs\onlinecourse\wp-content\plugins\elementor\core\kits\manager.php(117): Elementor\Core\Base\Base_Object->get_settings('viewport_mobile')
+#34 C:\xampp\htdocs\onlinecourse\wp-content\plugins\elementor\core\breakpoints\breakpoint.php(130): Elementor\Core\Kits\Manager->get_current_settings('viewport_mobile')
+#35 C:\xampp\htdocs\onlinecourse\wp-content\plugins\elementor\core\breakpoints\breakpoint.php(71): Elementor\Core\Breakpoints\Breakpoint->init_value()
+#36 C:\xampp\htdocs\onlinecourse\wp-content\plugins\elementor\core\breakpoints\breakpoint.php(88): Elementor\Core\Breakpoints\Breakpoint->get_value()
+#37 C:\xampp\htdocs\onlinecourse\wp-content\plugins\elementor\core\breakpoints\manager.php(195): Elementor\Core\Breakpoints\Breakpoint->is_custom()
+#38 C:\xampp\htdocs\onlinecourse\wp-content\plugins\elementor\includes\frontend.php(525): Elementor\Core\Breakpoints\Manager->has_custom_breakpoints()
+#39 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(308): Elementor\Frontend->register_styles('')
+#40 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#41 C:\xampp\htdocs\onlinecourse\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#42 C:\xampp\htdocs\onlinecourse\wp-includes\script-loader.php(2180): do_action('wp_enqueue_scri...')
+#43 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(308): wp_enqueue_scripts('')
+#44 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#45 C:\xampp\htdocs\onlinecourse\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#46 C:\xampp\htdocs\onlinecourse\wp-includes\general-template.php(3043): do_action('wp_head')
+#47 C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\header.php(27): wp_head()
+#48 C:\xampp\htdocs\onlinecourse\wp-includes\template.php(783): require_once('C:\\xampp\\htdocs...')
+#49 C:\xampp\htdocs\onlinecourse\wp-includes\template.php(718): load_template('C:\\xampp\\htdocs...', true, Array)
+#50 C:\xampp\htdocs\onlinecourse\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#51 C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\woocommerce.php(14): get_header()
+#52 C:\xampp\htdocs\onlinecourse\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#53 C:\xampp\htdocs\onlinecourse\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#54 C:\xampp\htdocs\onlinecourse\index.php(17): require('C:\\xampp\\htdocs...')
+#55 {main}
+  thrown in C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\data-stores\abstract-wc-order-data-store-cpt.php on line 120
+
+2023-02-09T10:48:11+00:00 CRITICAL Cannot redeclare before_checkout_create_order() (previously declared in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php:243) in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php on line 255
+
+2023-02-09T10:48:12+00:00 CRITICAL Cannot redeclare before_checkout_create_order() (previously declared in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php:243) in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php on line 255
+
+2023-02-09T11:48:54+00:00 CRITICAL Cannot redeclare update_post_meta() (previously declared in C:\xampp\htdocs\onlinecourse\wp-includes\post.php:2515) in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php on line 245
+
+2023-02-09T11:48:56+00:00 CRITICAL Cannot redeclare update_post_meta() (previously declared in C:\xampp\htdocs\onlinecourse\wp-includes\post.php:2515) in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php on line 245
+
+2023-02-09T11:51:00+00:00 CRITICAL Cannot redeclare update_post_meta() (previously declared in C:\xampp\htdocs\onlinecourse\wp-includes\post.php:2515) in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php on line 245
+
+2023-02-09T11:51:19+00:00 CRITICAL Cannot redeclare update_post_meta() (previously declared in C:\xampp\htdocs\onlinecourse\wp-includes\post.php:2515) in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php on line 245
+
+2023-02-09T11:51:27+00:00 CRITICAL Cannot redeclare update_post_meta() (previously declared in C:\xampp\htdocs\onlinecourse\wp-includes\post.php:2515) in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php on line 245
+
+2023-02-09T11:51:45+00:00 CRITICAL Cannot redeclare update_post_meta() (previously declared in C:\xampp\htdocs\onlinecourse\wp-includes\post.php:2515) in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php on line 245
+
+2023-02-09T12:27:39+00:00 CRITICAL Uncaught Error: Undefined constant "data" in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php:236
+Stack trace:
+#0 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(308): before_checkout_create_order(Object(WC_Order), Array)
+#1 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\onlinecourse\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\class-wc-checkout.php(446): do_action('woocommerce_che...', Object(WC_Order), Array)
+#4 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\class-wc-checkout.php(1256): WC_Checkout->create_order(Array)
+#5 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(481): WC_Checkout->process_checkout()
+#6 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(308): WC_AJAX::checkout('')
+#7 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\onlinecourse\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(94): do_action('wc_ajax_checkou...')
+#10 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(308): WC_AJAX::do_wc_ajax('')
+#11 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(false, Array)
+#12 C:\xampp\htdocs\onlinecourse\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#13 C:\xampp\htdocs\onlinecourse\wp-includes\template-loader.php(13): do_action('template_redire...')
+#14 C:\xampp\htdocs\onlinecourse\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#15 C:\xampp\htdocs\onlinecourse\index.php(17): require('C:\\xampp\\htdocs...')
+#16 {main}
+  thrown in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php on line 236
+
+2023-02-09T12:27:50+00:00 CRITICAL Uncaught Error: Undefined constant "data" in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php:236
+Stack trace:
+#0 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(308): before_checkout_create_order(Object(WC_Order), Array)
+#1 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\onlinecourse\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\class-wc-checkout.php(446): do_action('woocommerce_che...', Object(WC_Order), Array)
+#4 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\class-wc-checkout.php(1256): WC_Checkout->create_order(Array)
+#5 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(481): WC_Checkout->process_checkout()
+#6 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(308): WC_AJAX::checkout('')
+#7 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\onlinecourse\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(94): do_action('wc_ajax_checkou...')
+#10 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(308): WC_AJAX::do_wc_ajax('')
+#11 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(false, Array)
+#12 C:\xampp\htdocs\onlinecourse\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#13 C:\xampp\htdocs\onlinecourse\wp-includes\template-loader.php(13): do_action('template_redire...')
+#14 C:\xampp\htdocs\onlinecourse\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#15 C:\xampp\htdocs\onlinecourse\index.php(17): require('C:\\xampp\\htdocs...')
+#16 {main}
+  thrown in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php on line 236
+
+2023-02-09T12:28:28+00:00 CRITICAL Uncaught Error: Undefined constant "data" in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php:236
+Stack trace:
+#0 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(308): before_checkout_create_order(Object(WC_Order), Array)
+#1 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\onlinecourse\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\class-wc-checkout.php(446): do_action('woocommerce_che...', Object(WC_Order), Array)
+#4 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\class-wc-checkout.php(1256): WC_Checkout->create_order(Array)
+#5 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(481): WC_Checkout->process_checkout()
+#6 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(308): WC_AJAX::checkout('')
+#7 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\onlinecourse\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(94): do_action('wc_ajax_checkou...')
+#10 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(308): WC_AJAX::do_wc_ajax('')
+#11 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(false, Array)
+#12 C:\xampp\htdocs\onlinecourse\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#13 C:\xampp\htdocs\onlinecourse\wp-includes\template-loader.php(13): do_action('template_redire...')
+#14 C:\xampp\htdocs\onlinecourse\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#15 C:\xampp\htdocs\onlinecourse\index.php(17): require('C:\\xampp\\htdocs...')
+#16 {main}
+  thrown in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php on line 236
+
+2023-02-09T12:28:44+00:00 CRITICAL Uncaught Error: Undefined constant "data" in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php:236
+Stack trace:
+#0 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(308): before_checkout_create_order(Object(WC_Order), Array)
+#1 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\onlinecourse\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\class-wc-checkout.php(446): do_action('woocommerce_che...', Object(WC_Order), Array)
+#4 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\class-wc-checkout.php(1256): WC_Checkout->create_order(Array)
+#5 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(481): WC_Checkout->process_checkout()
+#6 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(308): WC_AJAX::checkout('')
+#7 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\onlinecourse\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(94): do_action('wc_ajax_checkou...')
+#10 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(308): WC_AJAX::do_wc_ajax('')
+#11 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(false, Array)
+#12 C:\xampp\htdocs\onlinecourse\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#13 C:\xampp\htdocs\onlinecourse\wp-includes\template-loader.php(13): do_action('template_redire...')
+#14 C:\xampp\htdocs\onlinecourse\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#15 C:\xampp\htdocs\onlinecourse\index.php(17): require('C:\\xampp\\htdocs...')
+#16 {main}
+  thrown in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php on line 236
+
+2023-02-09T12:28:59+00:00 CRITICAL Uncaught Error: Undefined constant "data" in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php:236
+Stack trace:
+#0 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(308): before_checkout_create_order(Object(WC_Order), Array)
+#1 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\onlinecourse\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\class-wc-checkout.php(446): do_action('woocommerce_che...', Object(WC_Order), Array)
+#4 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\class-wc-checkout.php(1256): WC_Checkout->create_order(Array)
+#5 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(481): WC_Checkout->process_checkout()
+#6 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(308): WC_AJAX::checkout('')
+#7 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\onlinecourse\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(94): do_action('wc_ajax_checkou...')
+#10 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(308): WC_AJAX::do_wc_ajax('')
+#11 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(false, Array)
+#12 C:\xampp\htdocs\onlinecourse\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#13 C:\xampp\htdocs\onlinecourse\wp-includes\template-loader.php(13): do_action('template_redire...')
+#14 C:\xampp\htdocs\onlinecourse\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#15 C:\xampp\htdocs\onlinecourse\index.php(17): require('C:\\xampp\\htdocs...')
+#16 {main}
+  thrown in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php on line 236
+
+2023-02-09T12:29:11+00:00 CRITICAL Uncaught Error: Undefined constant "data" in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php:236
+Stack trace:
+#0 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(308): before_checkout_create_order(Object(WC_Order), Array)
+#1 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\onlinecourse\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\class-wc-checkout.php(446): do_action('woocommerce_che...', Object(WC_Order), Array)
+#4 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\class-wc-checkout.php(1256): WC_Checkout->create_order(Array)
+#5 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(481): WC_Checkout->process_checkout()
+#6 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(308): WC_AJAX::checkout('')
+#7 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\onlinecourse\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(94): do_action('wc_ajax_checkou...')
+#10 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(308): WC_AJAX::do_wc_ajax('')
+#11 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(false, Array)
+#12 C:\xampp\htdocs\onlinecourse\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#13 C:\xampp\htdocs\onlinecourse\wp-includes\template-loader.php(13): do_action('template_redire...')
+#14 C:\xampp\htdocs\onlinecourse\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#15 C:\xampp\htdocs\onlinecourse\index.php(17): require('C:\\xampp\\htdocs...')
+#16 {main}
+  thrown in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php on line 236
+
+2023-02-09T12:49:47+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Order::add_post_meta() in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php:237
+Stack trace:
+#0 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(308): before_checkout_create_order(Object(WC_Order), Array)
+#1 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\onlinecourse\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\class-wc-checkout.php(446): do_action('woocommerce_che...', Object(WC_Order), Array)
+#4 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\class-wc-checkout.php(1256): WC_Checkout->create_order(Array)
+#5 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(481): WC_Checkout->process_checkout()
+#6 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(308): WC_AJAX::checkout('')
+#7 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\onlinecourse\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(94): do_action('wc_ajax_checkou...')
+#10 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(308): WC_AJAX::do_wc_ajax('')
+#11 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(false, Array)
+#12 C:\xampp\htdocs\onlinecourse\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#13 C:\xampp\htdocs\onlinecourse\wp-includes\template-loader.php(13): do_action('template_redire...')
+#14 C:\xampp\htdocs\onlinecourse\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#15 C:\xampp\htdocs\onlinecourse\index.php(17): require('C:\\xampp\\htdocs...')
+#16 {main}
+  thrown in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php on line 237
+
+2023-02-09T12:50:24+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Order::add_post_meta() in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php:237
+Stack trace:
+#0 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(308): before_checkout_create_order(Object(WC_Order), Array)
+#1 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\onlinecourse\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\class-wc-checkout.php(446): do_action('woocommerce_che...', Object(WC_Order), Array)
+#4 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\class-wc-checkout.php(1256): WC_Checkout->create_order(Array)
+#5 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(481): WC_Checkout->process_checkout()
+#6 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(308): WC_AJAX::checkout('')
+#7 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\onlinecourse\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(94): do_action('wc_ajax_checkou...')
+#10 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(308): WC_AJAX::do_wc_ajax('')
+#11 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(false, Array)
+#12 C:\xampp\htdocs\onlinecourse\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#13 C:\xampp\htdocs\onlinecourse\wp-includes\template-loader.php(13): do_action('template_redire...')
+#14 C:\xampp\htdocs\onlinecourse\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#15 C:\xampp\htdocs\onlinecourse\index.php(17): require('C:\\xampp\\htdocs...')
+#16 {main}
+  thrown in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php on line 237
+
+2023-02-09T12:52:28+00:00 CRITICAL Uncaught Error: Call to a member function add_post_meta() on null in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php:244
+Stack trace:
+#0 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(308): {closure}(148, Array)
+#1 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\onlinecourse\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\class-wc-checkout.php(456): do_action('woocommerce_che...', 148, Array)
+#4 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\class-wc-checkout.php(1256): WC_Checkout->create_order(Array)
+#5 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(481): WC_Checkout->process_checkout()
+#6 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(308): WC_AJAX::checkout('')
+#7 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\onlinecourse\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(94): do_action('wc_ajax_checkou...')
+#10 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(308): WC_AJAX::do_wc_ajax('')
+#11 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(false, Array)
+#12 C:\xampp\htdocs\onlinecourse\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#13 C:\xampp\htdocs\onlinecourse\wp-includes\template-loader.php(13): do_action('template_redire...')
+#14 C:\xampp\htdocs\onlinecourse\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#15 C:\xampp\htdocs\onlinecourse\index.php(17): require('C:\\xampp\\htdocs...')
+#16 {main}
+  thrown in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php on line 244
+
+2023-02-09T12:52:43+00:00 CRITICAL Uncaught Error: Call to a member function add_post_meta() on null in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php:244
+Stack trace:
+#0 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(308): {closure}(149, Array)
+#1 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\onlinecourse\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\class-wc-checkout.php(456): do_action('woocommerce_che...', 149, Array)
+#4 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\class-wc-checkout.php(1256): WC_Checkout->create_order(Array)
+#5 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(481): WC_Checkout->process_checkout()
+#6 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(308): WC_AJAX::checkout('')
+#7 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\onlinecourse\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(94): do_action('wc_ajax_checkou...')
+#10 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(308): WC_AJAX::do_wc_ajax('')
+#11 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(false, Array)
+#12 C:\xampp\htdocs\onlinecourse\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#13 C:\xampp\htdocs\onlinecourse\wp-includes\template-loader.php(13): do_action('template_redire...')
+#14 C:\xampp\htdocs\onlinecourse\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#15 C:\xampp\htdocs\onlinecourse\index.php(17): require('C:\\xampp\\htdocs...')
+#16 {main}
+  thrown in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php on line 244
+
+2023-02-09T12:58:22+00:00 CRITICAL Uncaught Error: Undefined constant "data" in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php:270
+Stack trace:
+#0 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(308): before_checkout_create_order(Object(WC_Order), Array)
+#1 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\onlinecourse\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\class-wc-checkout.php(446): do_action('woocommerce_che...', Object(WC_Order), Array)
+#4 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\class-wc-checkout.php(1256): WC_Checkout->create_order(Array)
+#5 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(481): WC_Checkout->process_checkout()
+#6 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(308): WC_AJAX::checkout('')
+#7 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\onlinecourse\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(94): do_action('wc_ajax_checkou...')
+#10 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(308): WC_AJAX::do_wc_ajax('')
+#11 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(false, Array)
+#12 C:\xampp\htdocs\onlinecourse\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#13 C:\xampp\htdocs\onlinecourse\wp-includes\template-loader.php(13): do_action('template_redire...')
+#14 C:\xampp\htdocs\onlinecourse\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#15 C:\xampp\htdocs\onlinecourse\index.php(17): require('C:\\xampp\\htdocs...')
+#16 {main}
+  thrown in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php on line 270
+
+2023-02-09T13:03:08+00:00 CRITICAL Uncaught Error: Undefined constant "data" in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php:270
+Stack trace:
+#0 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(308): before_checkout_create_order(Object(WC_Order), Array)
+#1 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\onlinecourse\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\class-wc-checkout.php(446): do_action('woocommerce_che...', Object(WC_Order), Array)
+#4 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\class-wc-checkout.php(1256): WC_Checkout->create_order(Array)
+#5 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(481): WC_Checkout->process_checkout()
+#6 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(308): WC_AJAX::checkout('')
+#7 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\onlinecourse\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(94): do_action('wc_ajax_checkou...')
+#10 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(308): WC_AJAX::do_wc_ajax('')
+#11 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(false, Array)
+#12 C:\xampp\htdocs\onlinecourse\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#13 C:\xampp\htdocs\onlinecourse\wp-includes\template-loader.php(13): do_action('template_redire...')
+#14 C:\xampp\htdocs\onlinecourse\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#15 C:\xampp\htdocs\onlinecourse\index.php(17): require('C:\\xampp\\htdocs...')
+#16 {main}
+  thrown in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php on line 270
+
+2023-02-09T13:03:15+00:00 CRITICAL Uncaught Error: Undefined constant "data" in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php:270
+Stack trace:
+#0 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(308): before_checkout_create_order(Object(WC_Order), Array)
+#1 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\onlinecourse\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\class-wc-checkout.php(446): do_action('woocommerce_che...', Object(WC_Order), Array)
+#4 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\class-wc-checkout.php(1256): WC_Checkout->create_order(Array)
+#5 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(481): WC_Checkout->process_checkout()
+#6 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(308): WC_AJAX::checkout('')
+#7 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\onlinecourse\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(94): do_action('wc_ajax_checkou...')
+#10 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(308): WC_AJAX::do_wc_ajax('')
+#11 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(false, Array)
+#12 C:\xampp\htdocs\onlinecourse\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#13 C:\xampp\htdocs\onlinecourse\wp-includes\template-loader.php(13): do_action('template_redire...')
+#14 C:\xampp\htdocs\onlinecourse\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#15 C:\xampp\htdocs\onlinecourse\index.php(17): require('C:\\xampp\\htdocs...')
+#16 {main}
+  thrown in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php on line 270
+
+2023-02-09T13:03:41+00:00 CRITICAL Uncaught Error: Undefined constant "data" in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php:270
+Stack trace:
+#0 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(308): before_checkout_create_order(Object(WC_Order), Array)
+#1 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\onlinecourse\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\class-wc-checkout.php(446): do_action('woocommerce_che...', Object(WC_Order), Array)
+#4 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\class-wc-checkout.php(1256): WC_Checkout->create_order(Array)
+#5 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(481): WC_Checkout->process_checkout()
+#6 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(308): WC_AJAX::checkout('')
+#7 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\onlinecourse\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(94): do_action('wc_ajax_checkou...')
+#10 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(308): WC_AJAX::do_wc_ajax('')
+#11 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(false, Array)
+#12 C:\xampp\htdocs\onlinecourse\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#13 C:\xampp\htdocs\onlinecourse\wp-includes\template-loader.php(13): do_action('template_redire...')
+#14 C:\xampp\htdocs\onlinecourse\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#15 C:\xampp\htdocs\onlinecourse\index.php(17): require('C:\\xampp\\htdocs...')
+#16 {main}
+  thrown in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php on line 270
+
+2023-02-09T13:04:35+00:00 CRITICAL Uncaught Error: Undefined constant "data" in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php:270
+Stack trace:
+#0 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(308): before_checkout_create_order(Object(WC_Order), Array)
+#1 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\onlinecourse\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\class-wc-checkout.php(446): do_action('woocommerce_che...', Object(WC_Order), Array)
+#4 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\class-wc-checkout.php(1256): WC_Checkout->create_order(Array)
+#5 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(481): WC_Checkout->process_checkout()
+#6 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(308): WC_AJAX::checkout('')
+#7 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\onlinecourse\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(94): do_action('wc_ajax_checkou...')
+#10 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(308): WC_AJAX::do_wc_ajax('')
+#11 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(false, Array)
+#12 C:\xampp\htdocs\onlinecourse\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#13 C:\xampp\htdocs\onlinecourse\wp-includes\template-loader.php(13): do_action('template_redire...')
+#14 C:\xampp\htdocs\onlinecourse\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#15 C:\xampp\htdocs\onlinecourse\index.php(17): require('C:\\xampp\\htdocs...')
+#16 {main}
+  thrown in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php on line 270
+
+2023-02-09T13:07:49+00:00 CRITICAL Uncaught Error: Undefined constant "data" in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php:272
+Stack trace:
+#0 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(308): before_checkout_create_order(Object(WC_Order), Array)
+#1 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\onlinecourse\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\class-wc-checkout.php(446): do_action('woocommerce_che...', Object(WC_Order), Array)
+#4 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\class-wc-checkout.php(1256): WC_Checkout->create_order(Array)
+#5 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(481): WC_Checkout->process_checkout()
+#6 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(308): WC_AJAX::checkout('')
+#7 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\onlinecourse\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(94): do_action('wc_ajax_checkou...')
+#10 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(308): WC_AJAX::do_wc_ajax('')
+#11 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(false, Array)
+#12 C:\xampp\htdocs\onlinecourse\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#13 C:\xampp\htdocs\onlinecourse\wp-includes\template-loader.php(13): do_action('template_redire...')
+#14 C:\xampp\htdocs\onlinecourse\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#15 C:\xampp\htdocs\onlinecourse\index.php(17): require('C:\\xampp\\htdocs...')
+#16 {main}
+  thrown in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php on line 272
+
+2023-02-09T13:08:26+00:00 CRITICAL Uncaught Error: Undefined constant "data" in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php:272
+Stack trace:
+#0 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(308): before_checkout_create_order(Object(WC_Order), Array)
+#1 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\onlinecourse\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\class-wc-checkout.php(446): do_action('woocommerce_che...', Object(WC_Order), Array)
+#4 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\class-wc-checkout.php(1256): WC_Checkout->create_order(Array)
+#5 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(481): WC_Checkout->process_checkout()
+#6 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(308): WC_AJAX::checkout('')
+#7 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\onlinecourse\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(94): do_action('wc_ajax_checkou...')
+#10 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(308): WC_AJAX::do_wc_ajax('')
+#11 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(false, Array)
+#12 C:\xampp\htdocs\onlinecourse\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#13 C:\xampp\htdocs\onlinecourse\wp-includes\template-loader.php(13): do_action('template_redire...')
+#14 C:\xampp\htdocs\onlinecourse\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#15 C:\xampp\htdocs\onlinecourse\index.php(17): require('C:\\xampp\\htdocs...')
+#16 {main}
+  thrown in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php on line 272
+
+2023-02-09T13:09:07+00:00 CRITICAL Uncaught Error: Call to a member function update_meta_data() on array in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php:247
+Stack trace:
+#0 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(308): {closure}(154, Array)
+#1 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\onlinecourse\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\class-wc-checkout.php(456): do_action('woocommerce_che...', 154, Array)
+#4 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\class-wc-checkout.php(1256): WC_Checkout->create_order(Array)
+#5 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(481): WC_Checkout->process_checkout()
+#6 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(308): WC_AJAX::checkout('')
+#7 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\onlinecourse\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(94): do_action('wc_ajax_checkou...')
+#10 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(308): WC_AJAX::do_wc_ajax('')
+#11 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(false, Array)
+#12 C:\xampp\htdocs\onlinecourse\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#13 C:\xampp\htdocs\onlinecourse\wp-includes\template-loader.php(13): do_action('template_redire...')
+#14 C:\xampp\htdocs\onlinecourse\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#15 C:\xampp\htdocs\onlinecourse\index.php(17): require('C:\\xampp\\htdocs...')
+#16 {main}
+  thrown in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php on line 247
+
+2023-02-09T13:09:17+00:00 CRITICAL Uncaught Error: Call to a member function update_meta_data() on array in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php:247
+Stack trace:
+#0 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(308): {closure}(156, Array)
+#1 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\onlinecourse\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\class-wc-checkout.php(456): do_action('woocommerce_che...', 156, Array)
+#4 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\class-wc-checkout.php(1256): WC_Checkout->create_order(Array)
+#5 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(481): WC_Checkout->process_checkout()
+#6 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(308): WC_AJAX::checkout('')
+#7 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\onlinecourse\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(94): do_action('wc_ajax_checkou...')
+#10 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(308): WC_AJAX::do_wc_ajax('')
+#11 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(false, Array)
+#12 C:\xampp\htdocs\onlinecourse\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#13 C:\xampp\htdocs\onlinecourse\wp-includes\template-loader.php(13): do_action('template_redire...')
+#14 C:\xampp\htdocs\onlinecourse\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#15 C:\xampp\htdocs\onlinecourse\index.php(17): require('C:\\xampp\\htdocs...')
+#16 {main}
+  thrown in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php on line 247
+
+2023-02-09T13:12:52+00:00 CRITICAL Uncaught Error: Call to undefined function update_meta_data() in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php:253
+Stack trace:
+#0 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(308): {closure}(158, Array)
+#1 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\onlinecourse\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\class-wc-checkout.php(456): do_action('woocommerce_che...', 158, Array)
+#4 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\class-wc-checkout.php(1256): WC_Checkout->create_order(Array)
+#5 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(481): WC_Checkout->process_checkout()
+#6 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(308): WC_AJAX::checkout('')
+#7 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\onlinecourse\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(94): do_action('wc_ajax_checkou...')
+#10 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(308): WC_AJAX::do_wc_ajax('')
+#11 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(false, Array)
+#12 C:\xampp\htdocs\onlinecourse\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#13 C:\xampp\htdocs\onlinecourse\wp-includes\template-loader.php(13): do_action('template_redire...')
+#14 C:\xampp\htdocs\onlinecourse\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#15 C:\xampp\htdocs\onlinecourse\index.php(17): require('C:\\xampp\\htdocs...')
+#16 {main}
+  thrown in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php on line 253
+
+2023-02-09T13:13:39+00:00 CRITICAL Uncaught Error: Call to undefined function update_meta_data() in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php:253
+Stack trace:
+#0 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(308): {closure}(159, Array)
+#1 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\onlinecourse\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\class-wc-checkout.php(456): do_action('woocommerce_che...', 159, Array)
+#4 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\class-wc-checkout.php(1256): WC_Checkout->create_order(Array)
+#5 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(481): WC_Checkout->process_checkout()
+#6 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(308): WC_AJAX::checkout('')
+#7 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\onlinecourse\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(94): do_action('wc_ajax_checkou...')
+#10 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(308): WC_AJAX::do_wc_ajax('')
+#11 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(false, Array)
+#12 C:\xampp\htdocs\onlinecourse\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#13 C:\xampp\htdocs\onlinecourse\wp-includes\template-loader.php(13): do_action('template_redire...')
+#14 C:\xampp\htdocs\onlinecourse\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#15 C:\xampp\htdocs\onlinecourse\index.php(17): require('C:\\xampp\\htdocs...')
+#16 {main}
+  thrown in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php on line 253
+
+2023-02-09T13:13:56+00:00 CRITICAL Uncaught Error: Call to undefined function update_meta_data() in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php:253
+Stack trace:
+#0 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(308): {closure}(160, Array)
+#1 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\onlinecourse\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\class-wc-checkout.php(456): do_action('woocommerce_che...', 160, Array)
+#4 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\class-wc-checkout.php(1256): WC_Checkout->create_order(Array)
+#5 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(481): WC_Checkout->process_checkout()
+#6 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(308): WC_AJAX::checkout('')
+#7 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\onlinecourse\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(94): do_action('wc_ajax_checkou...')
+#10 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(308): WC_AJAX::do_wc_ajax('')
+#11 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(false, Array)
+#12 C:\xampp\htdocs\onlinecourse\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#13 C:\xampp\htdocs\onlinecourse\wp-includes\template-loader.php(13): do_action('template_redire...')
+#14 C:\xampp\htdocs\onlinecourse\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#15 C:\xampp\htdocs\onlinecourse\index.php(17): require('C:\\xampp\\htdocs...')
+#16 {main}
+  thrown in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php on line 253
+
+2023-02-09T13:14:21+00:00 CRITICAL Uncaught Error: Call to undefined function update_meta_data() in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php:253
+Stack trace:
+#0 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(308): {closure}(161, Array)
+#1 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\onlinecourse\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\class-wc-checkout.php(456): do_action('woocommerce_che...', 161, Array)
+#4 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\class-wc-checkout.php(1256): WC_Checkout->create_order(Array)
+#5 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(481): WC_Checkout->process_checkout()
+#6 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(308): WC_AJAX::checkout('')
+#7 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\onlinecourse\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(94): do_action('wc_ajax_checkou...')
+#10 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(308): WC_AJAX::do_wc_ajax('')
+#11 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(false, Array)
+#12 C:\xampp\htdocs\onlinecourse\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#13 C:\xampp\htdocs\onlinecourse\wp-includes\template-loader.php(13): do_action('template_redire...')
+#14 C:\xampp\htdocs\onlinecourse\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#15 C:\xampp\htdocs\onlinecourse\index.php(17): require('C:\\xampp\\htdocs...')
+#16 {main}
+  thrown in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php on line 253
+
+2023-02-09T13:14:31+00:00 CRITICAL Uncaught Error: Call to undefined function update_meta_data() in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php:253
+Stack trace:
+#0 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(308): {closure}(162, Array)
+#1 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\onlinecourse\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\class-wc-checkout.php(456): do_action('woocommerce_che...', 162, Array)
+#4 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\class-wc-checkout.php(1256): WC_Checkout->create_order(Array)
+#5 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(481): WC_Checkout->process_checkout()
+#6 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(308): WC_AJAX::checkout('')
+#7 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\onlinecourse\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(94): do_action('wc_ajax_checkou...')
+#10 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(308): WC_AJAX::do_wc_ajax('')
+#11 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(false, Array)
+#12 C:\xampp\htdocs\onlinecourse\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#13 C:\xampp\htdocs\onlinecourse\wp-includes\template-loader.php(13): do_action('template_redire...')
+#14 C:\xampp\htdocs\onlinecourse\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#15 C:\xampp\htdocs\onlinecourse\index.php(17): require('C:\\xampp\\htdocs...')
+#16 {main}
+  thrown in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php on line 253
+
+2023-02-09T13:15:08+00:00 CRITICAL Uncaught Error: Call to undefined function update_meta_data() in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php:253
+Stack trace:
+#0 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(308): {closure}(163, Array)
+#1 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\onlinecourse\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\class-wc-checkout.php(456): do_action('woocommerce_che...', 163, Array)
+#4 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\class-wc-checkout.php(1256): WC_Checkout->create_order(Array)
+#5 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(481): WC_Checkout->process_checkout()
+#6 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(308): WC_AJAX::checkout('')
+#7 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\onlinecourse\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(94): do_action('wc_ajax_checkou...')
+#10 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(308): WC_AJAX::do_wc_ajax('')
+#11 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(false, Array)
+#12 C:\xampp\htdocs\onlinecourse\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#13 C:\xampp\htdocs\onlinecourse\wp-includes\template-loader.php(13): do_action('template_redire...')
+#14 C:\xampp\htdocs\onlinecourse\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#15 C:\xampp\htdocs\onlinecourse\index.php(17): require('C:\\xampp\\htdocs...')
+#16 {main}
+  thrown in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php on line 253
+
+2023-02-09T13:17:48+00:00 CRITICAL Uncaught Error: Call to undefined function update_meta_data() in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php:245
+Stack trace:
+#0 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(308): {closure}(166, Array)
+#1 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\onlinecourse\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\class-wc-checkout.php(456): do_action('woocommerce_che...', 166, Array)
+#4 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\class-wc-checkout.php(1256): WC_Checkout->create_order(Array)
+#5 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(481): WC_Checkout->process_checkout()
+#6 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(308): WC_AJAX::checkout('')
+#7 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\onlinecourse\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(94): do_action('wc_ajax_checkou...')
+#10 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(308): WC_AJAX::do_wc_ajax('')
+#11 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(false, Array)
+#12 C:\xampp\htdocs\onlinecourse\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#13 C:\xampp\htdocs\onlinecourse\wp-includes\template-loader.php(13): do_action('template_redire...')
+#14 C:\xampp\htdocs\onlinecourse\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#15 C:\xampp\htdocs\onlinecourse\index.php(17): require('C:\\xampp\\htdocs...')
+#16 {main}
+  thrown in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php on line 245
+

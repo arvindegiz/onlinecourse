@@ -1,0 +1,89 @@
+2023-02-08T04:56:25+00:00 CRITICAL syntax error, unexpected token ";", expecting ")" in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php on line 239
+
+2023-02-08T04:57:50+00:00 CRITICAL Uncaught Error: Call to a member function have_posts() on null in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php:232
+Stack trace:
+#0 C:\xampp\htdocs\onlinecourse\wp-settings.php(585): include()
+#1 C:\xampp\htdocs\onlinecourse\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\onlinecourse\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\onlinecourse\wp-admin\admin-ajax.php(22): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php on line 232
+
+2023-02-08T04:58:05+00:00 CRITICAL Uncaught Error: Call to a member function have_posts() on null in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php:232
+Stack trace:
+#0 C:\xampp\htdocs\onlinecourse\wp-settings.php(585): include()
+#1 C:\xampp\htdocs\onlinecourse\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\onlinecourse\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\onlinecourse\wp-admin\admin-ajax.php(22): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php on line 232
+
+2023-02-08T04:58:37+00:00 CRITICAL Uncaught Error: Call to a member function have_posts() on null in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php:232
+Stack trace:
+#0 C:\xampp\htdocs\onlinecourse\wp-settings.php(585): include()
+#1 C:\xampp\htdocs\onlinecourse\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\onlinecourse\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\onlinecourse\wp-admin\admin-ajax.php(22): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php on line 232
+
+2023-02-08T04:58:38+00:00 CRITICAL Uncaught Error: Call to a member function have_posts() on null in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php:232
+Stack trace:
+#0 C:\xampp\htdocs\onlinecourse\wp-settings.php(585): include()
+#1 C:\xampp\htdocs\onlinecourse\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\onlinecourse\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\onlinecourse\wp-admin\admin.php(34): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\onlinecourse\wp-admin\edit.php(10): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php on line 232
+
+2023-02-08T05:04:45+00:00 CRITICAL syntax error, unexpected token ";", expecting ")" in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php on line 239
+
+2023-02-08T05:04:46+00:00 CRITICAL syntax error, unexpected token ";", expecting ")" in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php on line 239
+
+2023-02-08T05:05:49+00:00 CRITICAL Uncaught Error: Call to a member function have_posts() on null in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php:232
+Stack trace:
+#0 C:\xampp\htdocs\onlinecourse\wp-settings.php(585): include()
+#1 C:\xampp\htdocs\onlinecourse\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\onlinecourse\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\onlinecourse\wp-admin\admin.php(34): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\onlinecourse\wp-admin\edit.php(10): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php on line 232
+
+2023-02-08T05:06:24+00:00 CRITICAL Uncaught Error: Call to a member function have_posts() on null in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php:232
+Stack trace:
+#0 C:\xampp\htdocs\onlinecourse\wp-settings.php(585): include()
+#1 C:\xampp\htdocs\onlinecourse\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\onlinecourse\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\onlinecourse\wp-admin\admin.php(34): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\onlinecourse\wp-admin\edit.php(10): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php on line 232
+
+2023-02-08T05:15:13+00:00 CRITICAL Uncaught Error: Call to a member function have_posts() on null in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php:232
+Stack trace:
+#0 C:\xampp\htdocs\onlinecourse\wp-settings.php(585): include()
+#1 C:\xampp\htdocs\onlinecourse\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\onlinecourse\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\onlinecourse\wp-admin\admin.php(34): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\onlinecourse\wp-admin\edit.php(10): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php on line 232
+
+2023-02-08T05:44:40+00:00 CRITICAL syntax error, unexpected token ";", expecting ")" in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php on line 239
+
+2023-02-08T05:44:42+00:00 CRITICAL syntax error, unexpected token ";", expecting ")" in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php on line 239
+
+2023-02-08T05:45:12+00:00 CRITICAL syntax error, unexpected token "," in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php on line 237
+
+2023-02-08T05:45:34+00:00 CRITICAL syntax error, unexpected token "=>" in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php on line 237
+
+2023-02-08T06:45:45+00:00 CRITICAL syntax error, unexpected token ";", expecting ")" in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php on line 239
+
+2023-02-08T10:24:00+00:00 CRITICAL syntax error, unexpected identifier "add_action", expecting "," or ";" in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php on line 393
+
+2023-02-08T10:24:07+00:00 CRITICAL syntax error, unexpected identifier "add_action", expecting "," or ";" in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php on line 393
+
+2023-02-08T10:24:16+00:00 CRITICAL syntax error, unexpected identifier "add_action", expecting "," or ";" in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php on line 393
+

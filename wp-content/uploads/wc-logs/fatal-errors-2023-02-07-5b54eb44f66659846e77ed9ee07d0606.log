@@ -1,0 +1,750 @@
+2023-02-07T05:59:05+00:00 CRITICAL Uncaught Error: Call to undefined method Automattic\WooCommerce\Admin\Overrides\Order::update_post_meta() in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php:182
+Stack trace:
+#0 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(308): bbloomer_checkout_save_user_meta(78)
+#1 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\onlinecourse\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\woocommerce\checkout\thankyou.php(72): do_action('woocommerce_tha...', 78)
+#4 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-checkout.php(279): wc_get_template('checkout/thanky...', Array)
+#6 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-checkout.php(63): WC_Shortcode_Checkout::order_received(78)
+#7 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(72): WC_Shortcode_Checkout::output('')
+#8 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(95): WC_Shortcodes::shortcode_wrapper(Array, '')
+#9 C:\xampp\htdocs\onlinecourse\wp-includes\shortcodes.php(355): WC_Shortcodes::checkout('', '', 'woocommerce_che...')
+#10 [internal function]: do_shortcode_tag(Array)
+#11 C:\xampp\htdocs\onlinecourse\wp-includes\shortcodes.php(227): preg_replace_callback('/\\[(\\[?)(woocom...', 'do_shortcode_ta...', '[woocommerce_ch...')
+#12 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(308): do_shortcode('[woocommerce_ch...')
+#13 C:\xampp\htdocs\onlinecourse\wp-includes\plugin.php(205): WP_Hook->apply_filters('[woocommerce_ch...', Array)
+#14 C:\xampp\htdocs\onlinecourse\wp-includes\post-template.php(255): apply_filters('the_content', '<!-- wp:shortco...')
+#15 C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\views\content-page.php(26): the_content()
+#16 C:\xampp\htdocs\onlinecourse\wp-includes\template.php(785): require('C:\\xampp\\htdocs...')
+#17 C:\xampp\htdocs\onlinecourse\wp-includes\template.php(718): load_template('C:\\xampp\\htdocs...', false, Array)
+#18 C:\xampp\htdocs\onlinecourse\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#19 C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\page.php(35): get_template_part('views/content', 'page')
+#20 C:\xampp\htdocs\onlinecourse\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#21 C:\xampp\htdocs\onlinecourse\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#22 C:\xampp\htdocs\onlinecourse\index.php(17): require('C:\\xampp\\htdocs...')
+#23 {main}
+  thrown in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php on line 182
+
+2023-02-07T05:59:44+00:00 CRITICAL Uncaught Error: Call to undefined method Automattic\WooCommerce\Admin\Overrides\Order::update_post_meta() in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php:182
+Stack trace:
+#0 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(308): bbloomer_checkout_save_user_meta(78)
+#1 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\onlinecourse\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\woocommerce\checkout\thankyou.php(72): do_action('woocommerce_tha...', 78)
+#4 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-checkout.php(279): wc_get_template('checkout/thanky...', Array)
+#6 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-checkout.php(63): WC_Shortcode_Checkout::order_received(78)
+#7 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(72): WC_Shortcode_Checkout::output('')
+#8 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(95): WC_Shortcodes::shortcode_wrapper(Array, '')
+#9 C:\xampp\htdocs\onlinecourse\wp-includes\shortcodes.php(355): WC_Shortcodes::checkout('', '', 'woocommerce_che...')
+#10 [internal function]: do_shortcode_tag(Array)
+#11 C:\xampp\htdocs\onlinecourse\wp-includes\shortcodes.php(227): preg_replace_callback('/\\[(\\[?)(woocom...', 'do_shortcode_ta...', '[woocommerce_ch...')
+#12 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(308): do_shortcode('[woocommerce_ch...')
+#13 C:\xampp\htdocs\onlinecourse\wp-includes\plugin.php(205): WP_Hook->apply_filters('[woocommerce_ch...', Array)
+#14 C:\xampp\htdocs\onlinecourse\wp-includes\post-template.php(255): apply_filters('the_content', '<!-- wp:shortco...')
+#15 C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\views\content-page.php(26): the_content()
+#16 C:\xampp\htdocs\onlinecourse\wp-includes\template.php(785): require('C:\\xampp\\htdocs...')
+#17 C:\xampp\htdocs\onlinecourse\wp-includes\template.php(718): load_template('C:\\xampp\\htdocs...', false, Array)
+#18 C:\xampp\htdocs\onlinecourse\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#19 C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\page.php(35): get_template_part('views/content', 'page')
+#20 C:\xampp\htdocs\onlinecourse\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#21 C:\xampp\htdocs\onlinecourse\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#22 C:\xampp\htdocs\onlinecourse\index.php(17): require('C:\\xampp\\htdocs...')
+#23 {main}
+  thrown in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php on line 182
+
+2023-02-07T06:00:31+00:00 CRITICAL Uncaught Error: Call to undefined method Automattic\WooCommerce\Admin\Overrides\Order::update_post_meta() in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php:182
+Stack trace:
+#0 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(308): bbloomer_checkout_save_user_meta(79)
+#1 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\onlinecourse\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\woocommerce\checkout\thankyou.php(72): do_action('woocommerce_tha...', 79)
+#4 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-checkout.php(279): wc_get_template('checkout/thanky...', Array)
+#6 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-checkout.php(63): WC_Shortcode_Checkout::order_received(79)
+#7 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(72): WC_Shortcode_Checkout::output('')
+#8 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(95): WC_Shortcodes::shortcode_wrapper(Array, '')
+#9 C:\xampp\htdocs\onlinecourse\wp-includes\shortcodes.php(355): WC_Shortcodes::checkout('', '', 'woocommerce_che...')
+#10 [internal function]: do_shortcode_tag(Array)
+#11 C:\xampp\htdocs\onlinecourse\wp-includes\shortcodes.php(227): preg_replace_callback('/\\[(\\[?)(woocom...', 'do_shortcode_ta...', '[woocommerce_ch...')
+#12 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(308): do_shortcode('[woocommerce_ch...')
+#13 C:\xampp\htdocs\onlinecourse\wp-includes\plugin.php(205): WP_Hook->apply_filters('[woocommerce_ch...', Array)
+#14 C:\xampp\htdocs\onlinecourse\wp-includes\post-template.php(255): apply_filters('the_content', '<!-- wp:shortco...')
+#15 C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\views\content-page.php(26): the_content()
+#16 C:\xampp\htdocs\onlinecourse\wp-includes\template.php(785): require('C:\\xampp\\htdocs...')
+#17 C:\xampp\htdocs\onlinecourse\wp-includes\template.php(718): load_template('C:\\xampp\\htdocs...', false, Array)
+#18 C:\xampp\htdocs\onlinecourse\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#19 C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\page.php(35): get_template_part('views/content', 'page')
+#20 C:\xampp\htdocs\onlinecourse\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#21 C:\xampp\htdocs\onlinecourse\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#22 C:\xampp\htdocs\onlinecourse\index.php(17): require('C:\\xampp\\htdocs...')
+#23 {main}
+  thrown in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php on line 182
+
+2023-02-07T06:20:22+00:00 CRITICAL Unmatched '}' in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php on line 196
+
+2023-02-07T06:20:24+00:00 CRITICAL Unmatched '}' in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php on line 196
+
+2023-02-07T06:20:28+00:00 CRITICAL Unmatched '}' in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php on line 196
+
+2023-02-07T06:20:30+00:00 CRITICAL Unmatched '}' in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php on line 196
+
+2023-02-07T06:21:21+00:00 CRITICAL Unmatched '}' in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php on line 196
+
+2023-02-07T06:21:23+00:00 CRITICAL Unmatched '}' in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php on line 196
+
+2023-02-07T06:21:25+00:00 CRITICAL Unmatched '}' in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php on line 196
+
+2023-02-07T06:23:02+00:00 CRITICAL Uncaught Error: Call to undefined method Automattic\WooCommerce\Admin\Overrides\Order::update_post_meta() in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php:192
+Stack trace:
+#0 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(308): bbloomer_checkout_save_user_meta(82)
+#1 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\onlinecourse\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\woocommerce\checkout\thankyou.php(72): do_action('woocommerce_tha...', 82)
+#4 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-checkout.php(279): wc_get_template('checkout/thanky...', Array)
+#6 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-checkout.php(63): WC_Shortcode_Checkout::order_received(82)
+#7 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(72): WC_Shortcode_Checkout::output('')
+#8 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(95): WC_Shortcodes::shortcode_wrapper(Array, '')
+#9 C:\xampp\htdocs\onlinecourse\wp-includes\shortcodes.php(355): WC_Shortcodes::checkout('', '', 'woocommerce_che...')
+#10 [internal function]: do_shortcode_tag(Array)
+#11 C:\xampp\htdocs\onlinecourse\wp-includes\shortcodes.php(227): preg_replace_callback('/\\[(\\[?)(woocom...', 'do_shortcode_ta...', '[woocommerce_ch...')
+#12 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(308): do_shortcode('[woocommerce_ch...')
+#13 C:\xampp\htdocs\onlinecourse\wp-includes\plugin.php(205): WP_Hook->apply_filters('[woocommerce_ch...', Array)
+#14 C:\xampp\htdocs\onlinecourse\wp-includes\post-template.php(255): apply_filters('the_content', '<!-- wp:shortco...')
+#15 C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\views\content-page.php(26): the_content()
+#16 C:\xampp\htdocs\onlinecourse\wp-includes\template.php(785): require('C:\\xampp\\htdocs...')
+#17 C:\xampp\htdocs\onlinecourse\wp-includes\template.php(718): load_template('C:\\xampp\\htdocs...', false, Array)
+#18 C:\xampp\htdocs\onlinecourse\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#19 C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\page.php(35): get_template_part('views/content', 'page')
+#20 C:\xampp\htdocs\onlinecourse\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#21 C:\xampp\htdocs\onlinecourse\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#22 C:\xampp\htdocs\onlinecourse\index.php(17): require('C:\\xampp\\htdocs...')
+#23 {main}
+  thrown in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php on line 192
+
+2023-02-07T06:36:24+00:00 CRITICAL Uncaught Error: Call to undefined method Automattic\WooCommerce\Admin\Overrides\Order::update_post_meta() in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php:192
+Stack trace:
+#0 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(308): bbloomer_checkout_save_user_meta(82)
+#1 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\onlinecourse\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\woocommerce\checkout\thankyou.php(72): do_action('woocommerce_tha...', 82)
+#4 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-checkout.php(279): wc_get_template('checkout/thanky...', Array)
+#6 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-checkout.php(63): WC_Shortcode_Checkout::order_received(82)
+#7 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(72): WC_Shortcode_Checkout::output('')
+#8 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(95): WC_Shortcodes::shortcode_wrapper(Array, '')
+#9 C:\xampp\htdocs\onlinecourse\wp-includes\shortcodes.php(355): WC_Shortcodes::checkout('', '', 'woocommerce_che...')
+#10 [internal function]: do_shortcode_tag(Array)
+#11 C:\xampp\htdocs\onlinecourse\wp-includes\shortcodes.php(227): preg_replace_callback('/\\[(\\[?)(woocom...', 'do_shortcode_ta...', '[woocommerce_ch...')
+#12 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(308): do_shortcode('[woocommerce_ch...')
+#13 C:\xampp\htdocs\onlinecourse\wp-includes\plugin.php(205): WP_Hook->apply_filters('[woocommerce_ch...', Array)
+#14 C:\xampp\htdocs\onlinecourse\wp-includes\post-template.php(255): apply_filters('the_content', '<!-- wp:shortco...')
+#15 C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\views\content-page.php(26): the_content()
+#16 C:\xampp\htdocs\onlinecourse\wp-includes\template.php(785): require('C:\\xampp\\htdocs...')
+#17 C:\xampp\htdocs\onlinecourse\wp-includes\template.php(718): load_template('C:\\xampp\\htdocs...', false, Array)
+#18 C:\xampp\htdocs\onlinecourse\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#19 C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\page.php(35): get_template_part('views/content', 'page')
+#20 C:\xampp\htdocs\onlinecourse\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#21 C:\xampp\htdocs\onlinecourse\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#22 C:\xampp\htdocs\onlinecourse\index.php(17): require('C:\\xampp\\htdocs...')
+#23 {main}
+  thrown in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php on line 192
+
+2023-02-07T06:36:28+00:00 CRITICAL Uncaught Error: Call to undefined method Automattic\WooCommerce\Admin\Overrides\Order::update_post_meta() in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php:192
+Stack trace:
+#0 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(308): bbloomer_checkout_save_user_meta(82)
+#1 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\onlinecourse\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\woocommerce\checkout\thankyou.php(72): do_action('woocommerce_tha...', 82)
+#4 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-checkout.php(279): wc_get_template('checkout/thanky...', Array)
+#6 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-checkout.php(63): WC_Shortcode_Checkout::order_received(82)
+#7 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(72): WC_Shortcode_Checkout::output('')
+#8 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(95): WC_Shortcodes::shortcode_wrapper(Array, '')
+#9 C:\xampp\htdocs\onlinecourse\wp-includes\shortcodes.php(355): WC_Shortcodes::checkout('', '', 'woocommerce_che...')
+#10 [internal function]: do_shortcode_tag(Array)
+#11 C:\xampp\htdocs\onlinecourse\wp-includes\shortcodes.php(227): preg_replace_callback('/\\[(\\[?)(woocom...', 'do_shortcode_ta...', '[woocommerce_ch...')
+#12 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(308): do_shortcode('[woocommerce_ch...')
+#13 C:\xampp\htdocs\onlinecourse\wp-includes\plugin.php(205): WP_Hook->apply_filters('[woocommerce_ch...', Array)
+#14 C:\xampp\htdocs\onlinecourse\wp-includes\post-template.php(255): apply_filters('the_content', '<!-- wp:shortco...')
+#15 C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\views\content-page.php(26): the_content()
+#16 C:\xampp\htdocs\onlinecourse\wp-includes\template.php(785): require('C:\\xampp\\htdocs...')
+#17 C:\xampp\htdocs\onlinecourse\wp-includes\template.php(718): load_template('C:\\xampp\\htdocs...', false, Array)
+#18 C:\xampp\htdocs\onlinecourse\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#19 C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\page.php(35): get_template_part('views/content', 'page')
+#20 C:\xampp\htdocs\onlinecourse\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#21 C:\xampp\htdocs\onlinecourse\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#22 C:\xampp\htdocs\onlinecourse\index.php(17): require('C:\\xampp\\htdocs...')
+#23 {main}
+  thrown in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php on line 192
+
+2023-02-07T06:57:30+00:00 CRITICAL syntax error, unexpected token "return" in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php on line 195
+
+2023-02-07T07:39:49+00:00 CRITICAL Uncaught Error: Call to undefined function update_meta_data() in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php:192
+Stack trace:
+#0 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(308): enroll_student(84)
+#1 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\onlinecourse\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\woocommerce\checkout\thankyou.php(72): do_action('woocommerce_tha...', 84)
+#4 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-checkout.php(279): wc_get_template('checkout/thanky...', Array)
+#6 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-checkout.php(63): WC_Shortcode_Checkout::order_received(84)
+#7 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(72): WC_Shortcode_Checkout::output('')
+#8 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(95): WC_Shortcodes::shortcode_wrapper(Array, '')
+#9 C:\xampp\htdocs\onlinecourse\wp-includes\shortcodes.php(355): WC_Shortcodes::checkout('', '', 'woocommerce_che...')
+#10 [internal function]: do_shortcode_tag(Array)
+#11 C:\xampp\htdocs\onlinecourse\wp-includes\shortcodes.php(227): preg_replace_callback('/\\[(\\[?)(woocom...', 'do_shortcode_ta...', '[woocommerce_ch...')
+#12 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(308): do_shortcode('[woocommerce_ch...')
+#13 C:\xampp\htdocs\onlinecourse\wp-includes\plugin.php(205): WP_Hook->apply_filters('[woocommerce_ch...', Array)
+#14 C:\xampp\htdocs\onlinecourse\wp-includes\post-template.php(255): apply_filters('the_content', '<!-- wp:shortco...')
+#15 C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\views\content-page.php(26): the_content()
+#16 C:\xampp\htdocs\onlinecourse\wp-includes\template.php(785): require('C:\\xampp\\htdocs...')
+#17 C:\xampp\htdocs\onlinecourse\wp-includes\template.php(718): load_template('C:\\xampp\\htdocs...', false, Array)
+#18 C:\xampp\htdocs\onlinecourse\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#19 C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\page.php(35): get_template_part('views/content', 'page')
+#20 C:\xampp\htdocs\onlinecourse\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#21 C:\xampp\htdocs\onlinecourse\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#22 C:\xampp\htdocs\onlinecourse\index.php(17): require('C:\\xampp\\htdocs...')
+#23 {main}
+  thrown in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php on line 192
+
+2023-02-07T08:02:55+00:00 CRITICAL Uncaught Error: Call to undefined method Automattic\WooCommerce\Admin\Overrides\Order::update_post_meta() in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php:182
+Stack trace:
+#0 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(308): bbloomer_checkout_save_user_meta(87)
+#1 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\onlinecourse\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\woocommerce\checkout\thankyou.php(72): do_action('woocommerce_tha...', 87)
+#4 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-checkout.php(279): wc_get_template('checkout/thanky...', Array)
+#6 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-checkout.php(63): WC_Shortcode_Checkout::order_received(87)
+#7 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(72): WC_Shortcode_Checkout::output('')
+#8 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(95): WC_Shortcodes::shortcode_wrapper(Array, '')
+#9 C:\xampp\htdocs\onlinecourse\wp-includes\shortcodes.php(355): WC_Shortcodes::checkout('', '', 'woocommerce_che...')
+#10 [internal function]: do_shortcode_tag(Array)
+#11 C:\xampp\htdocs\onlinecourse\wp-includes\shortcodes.php(227): preg_replace_callback('/\\[(\\[?)(woocom...', 'do_shortcode_ta...', '[woocommerce_ch...')
+#12 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(308): do_shortcode('[woocommerce_ch...')
+#13 C:\xampp\htdocs\onlinecourse\wp-includes\plugin.php(205): WP_Hook->apply_filters('[woocommerce_ch...', Array)
+#14 C:\xampp\htdocs\onlinecourse\wp-includes\post-template.php(255): apply_filters('the_content', '<!-- wp:shortco...')
+#15 C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\views\content-page.php(26): the_content()
+#16 C:\xampp\htdocs\onlinecourse\wp-includes\template.php(785): require('C:\\xampp\\htdocs...')
+#17 C:\xampp\htdocs\onlinecourse\wp-includes\template.php(718): load_template('C:\\xampp\\htdocs...', false, Array)
+#18 C:\xampp\htdocs\onlinecourse\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#19 C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\page.php(35): get_template_part('views/content', 'page')
+#20 C:\xampp\htdocs\onlinecourse\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#21 C:\xampp\htdocs\onlinecourse\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#22 C:\xampp\htdocs\onlinecourse\index.php(17): require('C:\\xampp\\htdocs...')
+#23 {main}
+  thrown in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php on line 182
+
+2023-02-07T09:32:04+00:00 CRITICAL Uncaught Error: Call to undefined method Automattic\WooCommerce\Admin\Overrides\Order::update_post_meta() in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php:192
+Stack trace:
+#0 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(308): hasLoadedPlayPage(88)
+#1 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\onlinecourse\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\woocommerce\checkout\thankyou.php(72): do_action('woocommerce_tha...', 88)
+#4 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-checkout.php(279): wc_get_template('checkout/thanky...', Array)
+#6 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-checkout.php(63): WC_Shortcode_Checkout::order_received(88)
+#7 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(72): WC_Shortcode_Checkout::output('')
+#8 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(95): WC_Shortcodes::shortcode_wrapper(Array, '')
+#9 C:\xampp\htdocs\onlinecourse\wp-includes\shortcodes.php(355): WC_Shortcodes::checkout('', '', 'woocommerce_che...')
+#10 [internal function]: do_shortcode_tag(Array)
+#11 C:\xampp\htdocs\onlinecourse\wp-includes\shortcodes.php(227): preg_replace_callback('/\\[(\\[?)(woocom...', 'do_shortcode_ta...', '[woocommerce_ch...')
+#12 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(308): do_shortcode('[woocommerce_ch...')
+#13 C:\xampp\htdocs\onlinecourse\wp-includes\plugin.php(205): WP_Hook->apply_filters('[woocommerce_ch...', Array)
+#14 C:\xampp\htdocs\onlinecourse\wp-includes\post-template.php(255): apply_filters('the_content', '<!-- wp:shortco...')
+#15 C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\views\content-page.php(26): the_content()
+#16 C:\xampp\htdocs\onlinecourse\wp-includes\template.php(785): require('C:\\xampp\\htdocs...')
+#17 C:\xampp\htdocs\onlinecourse\wp-includes\template.php(718): load_template('C:\\xampp\\htdocs...', false, Array)
+#18 C:\xampp\htdocs\onlinecourse\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#19 C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\page.php(35): get_template_part('views/content', 'page')
+#20 C:\xampp\htdocs\onlinecourse\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#21 C:\xampp\htdocs\onlinecourse\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#22 C:\xampp\htdocs\onlinecourse\index.php(17): require('C:\\xampp\\htdocs...')
+#23 {main}
+  thrown in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php on line 192
+
+2023-02-07T09:32:49+00:00 CRITICAL Uncaught Error: Call to undefined function update_meta_data() in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php:193
+Stack trace:
+#0 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(308): hasLoadedPlayPage(88)
+#1 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\onlinecourse\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\woocommerce\checkout\thankyou.php(72): do_action('woocommerce_tha...', 88)
+#4 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-checkout.php(279): wc_get_template('checkout/thanky...', Array)
+#6 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-checkout.php(63): WC_Shortcode_Checkout::order_received(88)
+#7 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(72): WC_Shortcode_Checkout::output('')
+#8 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(95): WC_Shortcodes::shortcode_wrapper(Array, '')
+#9 C:\xampp\htdocs\onlinecourse\wp-includes\shortcodes.php(355): WC_Shortcodes::checkout('', '', 'woocommerce_che...')
+#10 [internal function]: do_shortcode_tag(Array)
+#11 C:\xampp\htdocs\onlinecourse\wp-includes\shortcodes.php(227): preg_replace_callback('/\\[(\\[?)(woocom...', 'do_shortcode_ta...', '[woocommerce_ch...')
+#12 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(308): do_shortcode('[woocommerce_ch...')
+#13 C:\xampp\htdocs\onlinecourse\wp-includes\plugin.php(205): WP_Hook->apply_filters('[woocommerce_ch...', Array)
+#14 C:\xampp\htdocs\onlinecourse\wp-includes\post-template.php(255): apply_filters('the_content', '<!-- wp:shortco...')
+#15 C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\views\content-page.php(26): the_content()
+#16 C:\xampp\htdocs\onlinecourse\wp-includes\template.php(785): require('C:\\xampp\\htdocs...')
+#17 C:\xampp\htdocs\onlinecourse\wp-includes\template.php(718): load_template('C:\\xampp\\htdocs...', false, Array)
+#18 C:\xampp\htdocs\onlinecourse\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#19 C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\page.php(35): get_template_part('views/content', 'page')
+#20 C:\xampp\htdocs\onlinecourse\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#21 C:\xampp\htdocs\onlinecourse\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#22 C:\xampp\htdocs\onlinecourse\index.php(17): require('C:\\xampp\\htdocs...')
+#23 {main}
+  thrown in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php on line 193
+
+2023-02-07T09:33:59+00:00 CRITICAL Uncaught Error: Call to undefined function update_meta_data() in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php:193
+Stack trace:
+#0 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(308): hasLoadedPlayPage(88)
+#1 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\onlinecourse\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\woocommerce\checkout\thankyou.php(72): do_action('woocommerce_tha...', 88)
+#4 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-checkout.php(279): wc_get_template('checkout/thanky...', Array)
+#6 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-checkout.php(63): WC_Shortcode_Checkout::order_received(88)
+#7 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(72): WC_Shortcode_Checkout::output('')
+#8 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(95): WC_Shortcodes::shortcode_wrapper(Array, '')
+#9 C:\xampp\htdocs\onlinecourse\wp-includes\shortcodes.php(355): WC_Shortcodes::checkout('', '', 'woocommerce_che...')
+#10 [internal function]: do_shortcode_tag(Array)
+#11 C:\xampp\htdocs\onlinecourse\wp-includes\shortcodes.php(227): preg_replace_callback('/\\[(\\[?)(woocom...', 'do_shortcode_ta...', '[woocommerce_ch...')
+#12 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(308): do_shortcode('[woocommerce_ch...')
+#13 C:\xampp\htdocs\onlinecourse\wp-includes\plugin.php(205): WP_Hook->apply_filters('[woocommerce_ch...', Array)
+#14 C:\xampp\htdocs\onlinecourse\wp-includes\post-template.php(255): apply_filters('the_content', '<!-- wp:shortco...')
+#15 C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\views\content-page.php(26): the_content()
+#16 C:\xampp\htdocs\onlinecourse\wp-includes\template.php(785): require('C:\\xampp\\htdocs...')
+#17 C:\xampp\htdocs\onlinecourse\wp-includes\template.php(718): load_template('C:\\xampp\\htdocs...', false, Array)
+#18 C:\xampp\htdocs\onlinecourse\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#19 C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\page.php(35): get_template_part('views/content', 'page')
+#20 C:\xampp\htdocs\onlinecourse\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#21 C:\xampp\htdocs\onlinecourse\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#22 C:\xampp\htdocs\onlinecourse\index.php(17): require('C:\\xampp\\htdocs...')
+#23 {main}
+  thrown in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php on line 193
+
+2023-02-07T09:35:07+00:00 CRITICAL Uncaught Error: Call to undefined function update_meta_data() in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php:193
+Stack trace:
+#0 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(308): hasLoadedPlayPage(88)
+#1 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\onlinecourse\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\woocommerce\checkout\thankyou.php(72): do_action('woocommerce_tha...', 88)
+#4 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-checkout.php(279): wc_get_template('checkout/thanky...', Array)
+#6 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-checkout.php(63): WC_Shortcode_Checkout::order_received(88)
+#7 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(72): WC_Shortcode_Checkout::output('')
+#8 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(95): WC_Shortcodes::shortcode_wrapper(Array, '')
+#9 C:\xampp\htdocs\onlinecourse\wp-includes\shortcodes.php(355): WC_Shortcodes::checkout('', '', 'woocommerce_che...')
+#10 [internal function]: do_shortcode_tag(Array)
+#11 C:\xampp\htdocs\onlinecourse\wp-includes\shortcodes.php(227): preg_replace_callback('/\\[(\\[?)(woocom...', 'do_shortcode_ta...', '[woocommerce_ch...')
+#12 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(308): do_shortcode('[woocommerce_ch...')
+#13 C:\xampp\htdocs\onlinecourse\wp-includes\plugin.php(205): WP_Hook->apply_filters('[woocommerce_ch...', Array)
+#14 C:\xampp\htdocs\onlinecourse\wp-includes\post-template.php(255): apply_filters('the_content', '<!-- wp:shortco...')
+#15 C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\views\content-page.php(26): the_content()
+#16 C:\xampp\htdocs\onlinecourse\wp-includes\template.php(785): require('C:\\xampp\\htdocs...')
+#17 C:\xampp\htdocs\onlinecourse\wp-includes\template.php(718): load_template('C:\\xampp\\htdocs...', false, Array)
+#18 C:\xampp\htdocs\onlinecourse\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#19 C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\page.php(35): get_template_part('views/content', 'page')
+#20 C:\xampp\htdocs\onlinecourse\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#21 C:\xampp\htdocs\onlinecourse\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#22 C:\xampp\htdocs\onlinecourse\index.php(17): require('C:\\xampp\\htdocs...')
+#23 {main}
+  thrown in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php on line 193
+
+2023-02-07T09:35:35+00:00 CRITICAL Uncaught Error: Call to undefined function update_meta_data() in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php:193
+Stack trace:
+#0 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(308): hasLoadedPlayPage(88)
+#1 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\onlinecourse\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\woocommerce\checkout\thankyou.php(72): do_action('woocommerce_tha...', 88)
+#4 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-checkout.php(279): wc_get_template('checkout/thanky...', Array)
+#6 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-checkout.php(63): WC_Shortcode_Checkout::order_received(88)
+#7 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(72): WC_Shortcode_Checkout::output('')
+#8 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(95): WC_Shortcodes::shortcode_wrapper(Array, '')
+#9 C:\xampp\htdocs\onlinecourse\wp-includes\shortcodes.php(355): WC_Shortcodes::checkout('', '', 'woocommerce_che...')
+#10 [internal function]: do_shortcode_tag(Array)
+#11 C:\xampp\htdocs\onlinecourse\wp-includes\shortcodes.php(227): preg_replace_callback('/\\[(\\[?)(woocom...', 'do_shortcode_ta...', '[woocommerce_ch...')
+#12 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(308): do_shortcode('[woocommerce_ch...')
+#13 C:\xampp\htdocs\onlinecourse\wp-includes\plugin.php(205): WP_Hook->apply_filters('[woocommerce_ch...', Array)
+#14 C:\xampp\htdocs\onlinecourse\wp-includes\post-template.php(255): apply_filters('the_content', '<!-- wp:shortco...')
+#15 C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\views\content-page.php(26): the_content()
+#16 C:\xampp\htdocs\onlinecourse\wp-includes\template.php(785): require('C:\\xampp\\htdocs...')
+#17 C:\xampp\htdocs\onlinecourse\wp-includes\template.php(718): load_template('C:\\xampp\\htdocs...', false, Array)
+#18 C:\xampp\htdocs\onlinecourse\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#19 C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\page.php(35): get_template_part('views/content', 'page')
+#20 C:\xampp\htdocs\onlinecourse\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#21 C:\xampp\htdocs\onlinecourse\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#22 C:\xampp\htdocs\onlinecourse\index.php(17): require('C:\\xampp\\htdocs...')
+#23 {main}
+  thrown in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php on line 193
+
+2023-02-07T09:48:34+00:00 CRITICAL Uncaught Error: Call to undefined method Automattic\WooCommerce\Admin\Overrides\Order::update_post_meta() in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php:190
+Stack trace:
+#0 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(308): hasLoadedPlayPage(92)
+#1 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\onlinecourse\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\woocommerce\checkout\thankyou.php(72): do_action('woocommerce_tha...', 92)
+#4 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-checkout.php(279): wc_get_template('checkout/thanky...', Array)
+#6 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-checkout.php(63): WC_Shortcode_Checkout::order_received(92)
+#7 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(72): WC_Shortcode_Checkout::output('')
+#8 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(95): WC_Shortcodes::shortcode_wrapper(Array, '')
+#9 C:\xampp\htdocs\onlinecourse\wp-includes\shortcodes.php(355): WC_Shortcodes::checkout('', '', 'woocommerce_che...')
+#10 [internal function]: do_shortcode_tag(Array)
+#11 C:\xampp\htdocs\onlinecourse\wp-includes\shortcodes.php(227): preg_replace_callback('/\\[(\\[?)(woocom...', 'do_shortcode_ta...', '[woocommerce_ch...')
+#12 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(308): do_shortcode('[woocommerce_ch...')
+#13 C:\xampp\htdocs\onlinecourse\wp-includes\plugin.php(205): WP_Hook->apply_filters('[woocommerce_ch...', Array)
+#14 C:\xampp\htdocs\onlinecourse\wp-includes\post-template.php(255): apply_filters('the_content', '<!-- wp:shortco...')
+#15 C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\views\content-page.php(26): the_content()
+#16 C:\xampp\htdocs\onlinecourse\wp-includes\template.php(785): require('C:\\xampp\\htdocs...')
+#17 C:\xampp\htdocs\onlinecourse\wp-includes\template.php(718): load_template('C:\\xampp\\htdocs...', false, Array)
+#18 C:\xampp\htdocs\onlinecourse\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#19 C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\page.php(35): get_template_part('views/content', 'page')
+#20 C:\xampp\htdocs\onlinecourse\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#21 C:\xampp\htdocs\onlinecourse\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#22 C:\xampp\htdocs\onlinecourse\index.php(17): require('C:\\xampp\\htdocs...')
+#23 {main}
+  thrown in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php on line 190
+
+2023-02-07T09:49:50+00:00 CRITICAL Uncaught Error: Call to undefined function update_meta_data() in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php:191
+Stack trace:
+#0 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(308): hasLoadedPlayPage(92)
+#1 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\onlinecourse\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\woocommerce\checkout\thankyou.php(72): do_action('woocommerce_tha...', 92)
+#4 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-checkout.php(279): wc_get_template('checkout/thanky...', Array)
+#6 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-checkout.php(63): WC_Shortcode_Checkout::order_received(92)
+#7 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(72): WC_Shortcode_Checkout::output('')
+#8 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(95): WC_Shortcodes::shortcode_wrapper(Array, '')
+#9 C:\xampp\htdocs\onlinecourse\wp-includes\shortcodes.php(355): WC_Shortcodes::checkout('', '', 'woocommerce_che...')
+#10 [internal function]: do_shortcode_tag(Array)
+#11 C:\xampp\htdocs\onlinecourse\wp-includes\shortcodes.php(227): preg_replace_callback('/\\[(\\[?)(woocom...', 'do_shortcode_ta...', '[woocommerce_ch...')
+#12 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(308): do_shortcode('[woocommerce_ch...')
+#13 C:\xampp\htdocs\onlinecourse\wp-includes\plugin.php(205): WP_Hook->apply_filters('[woocommerce_ch...', Array)
+#14 C:\xampp\htdocs\onlinecourse\wp-includes\post-template.php(255): apply_filters('the_content', '<!-- wp:shortco...')
+#15 C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\views\content-page.php(26): the_content()
+#16 C:\xampp\htdocs\onlinecourse\wp-includes\template.php(785): require('C:\\xampp\\htdocs...')
+#17 C:\xampp\htdocs\onlinecourse\wp-includes\template.php(718): load_template('C:\\xampp\\htdocs...', false, Array)
+#18 C:\xampp\htdocs\onlinecourse\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#19 C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\page.php(35): get_template_part('views/content', 'page')
+#20 C:\xampp\htdocs\onlinecourse\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#21 C:\xampp\htdocs\onlinecourse\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#22 C:\xampp\htdocs\onlinecourse\index.php(17): require('C:\\xampp\\htdocs...')
+#23 {main}
+  thrown in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php on line 191
+
+2023-02-07T10:48:25+00:00 CRITICAL Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php:237
+Stack trace:
+#0 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(308): wdm_add_user_custom_option_from_session_into_cart('<span class="wo...', Array, '4e732ced3463d06...')
+#1 C:\xampp\htdocs\onlinecourse\wp-includes\plugin.php(205): WP_Hook->apply_filters('<span class="wo...', Array)
+#2 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\templates\cart\mini-cart.php(37): apply_filters('woocommerce_car...', '<span class="wo...', Array, '4e732ced3463d06...')
+#3 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\wc-template-functions.php(2241): wc_get_template('cart/mini-cart....', Array)
+#5 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(203): woocommerce_mini_cart()
+#6 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(445): WC_AJAX::get_refreshed_fragments()
+#7 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(308): WC_AJAX::add_to_cart('')
+#8 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#9 C:\xampp\htdocs\onlinecourse\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#10 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(94): do_action('wc_ajax_add_to_...')
+#11 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(308): WC_AJAX::do_wc_ajax('')
+#12 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(false, Array)
+#13 C:\xampp\htdocs\onlinecourse\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#14 C:\xampp\htdocs\onlinecourse\wp-includes\template-loader.php(13): do_action('template_redire...')
+#15 C:\xampp\htdocs\onlinecourse\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#16 C:\xampp\htdocs\onlinecourse\index.php(17): require('C:\\xampp\\htdocs...')
+#17 {main}
+  thrown in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php on line 237
+
+2023-02-07T10:49:16+00:00 CRITICAL Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php:237
+Stack trace:
+#0 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(308): wdm_add_user_custom_option_from_session_into_cart('<span class="wo...', Array, '4e732ced3463d06...')
+#1 C:\xampp\htdocs\onlinecourse\wp-includes\plugin.php(205): WP_Hook->apply_filters('<span class="wo...', Array)
+#2 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\templates\cart\mini-cart.php(37): apply_filters('woocommerce_car...', '<span class="wo...', Array, '4e732ced3463d06...')
+#3 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\wc-template-functions.php(2241): wc_get_template('cart/mini-cart....', Array)
+#5 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(203): woocommerce_mini_cart()
+#6 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(308): WC_AJAX::get_refreshed_fragments('')
+#7 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\onlinecourse\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(94): do_action('wc_ajax_get_ref...')
+#10 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(308): WC_AJAX::do_wc_ajax('')
+#11 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(false, Array)
+#12 C:\xampp\htdocs\onlinecourse\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#13 C:\xampp\htdocs\onlinecourse\wp-includes\template-loader.php(13): do_action('template_redire...')
+#14 C:\xampp\htdocs\onlinecourse\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#15 C:\xampp\htdocs\onlinecourse\index.php(17): require('C:\\xampp\\htdocs...')
+#16 {main}
+  thrown in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php on line 237
+
+2023-02-07T10:49:17+00:00 CRITICAL Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php:237
+Stack trace:
+#0 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(308): wdm_add_user_custom_option_from_session_into_cart('<span class="wo...', Array, '4e732ced3463d06...')
+#1 C:\xampp\htdocs\onlinecourse\wp-includes\plugin.php(205): WP_Hook->apply_filters('<span class="wo...', Array)
+#2 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\templates\cart\mini-cart.php(37): apply_filters('woocommerce_car...', '<span class="wo...', Array, '4e732ced3463d06...')
+#3 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\wc-template-functions.php(2241): wc_get_template('cart/mini-cart....', Array)
+#5 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(203): woocommerce_mini_cart()
+#6 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(445): WC_AJAX::get_refreshed_fragments()
+#7 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(308): WC_AJAX::add_to_cart('')
+#8 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#9 C:\xampp\htdocs\onlinecourse\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#10 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(94): do_action('wc_ajax_add_to_...')
+#11 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(308): WC_AJAX::do_wc_ajax('')
+#12 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(false, Array)
+#13 C:\xampp\htdocs\onlinecourse\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#14 C:\xampp\htdocs\onlinecourse\wp-includes\template-loader.php(13): do_action('template_redire...')
+#15 C:\xampp\htdocs\onlinecourse\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#16 C:\xampp\htdocs\onlinecourse\index.php(17): require('C:\\xampp\\htdocs...')
+#17 {main}
+  thrown in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php on line 237
+
+2023-02-07T10:49:20+00:00 CRITICAL Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php:237
+Stack trace:
+#0 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(308): wdm_add_user_custom_option_from_session_into_cart('<span class="wo...', Array, '4e732ced3463d06...')
+#1 C:\xampp\htdocs\onlinecourse\wp-includes\plugin.php(205): WP_Hook->apply_filters('<span class="wo...', Array)
+#2 C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\woocommerce\checkout\form-checkout.php(80): apply_filters('woocommerce_car...', '<span class="wo...', Array, '4e732ced3463d06...')
+#3 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-checkout.php(316): wc_get_template('checkout/form-c...', Array)
+#5 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-checkout.php(67): WC_Shortcode_Checkout::checkout()
+#6 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(72): WC_Shortcode_Checkout::output('')
+#7 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(95): WC_Shortcodes::shortcode_wrapper(Array, '')
+#8 C:\xampp\htdocs\onlinecourse\wp-includes\shortcodes.php(355): WC_Shortcodes::checkout('', '', 'woocommerce_che...')
+#9 [internal function]: do_shortcode_tag(Array)
+#10 C:\xampp\htdocs\onlinecourse\wp-includes\shortcodes.php(227): preg_replace_callback('/\\[(\\[?)(woocom...', 'do_shortcode_ta...', '[woocommerce_ch...')
+#11 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(308): do_shortcode('[woocommerce_ch...')
+#12 C:\xampp\htdocs\onlinecourse\wp-includes\plugin.php(205): WP_Hook->apply_filters('[woocommerce_ch...', Array)
+#13 C:\xampp\htdocs\onlinecourse\wp-includes\post-template.php(255): apply_filters('the_content', '<!-- wp:shortco...')
+#14 C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\views\content-page.php(26): the_content()
+#15 C:\xampp\htdocs\onlinecourse\wp-includes\template.php(785): require('C:\\xampp\\htdocs...')
+#16 C:\xampp\htdocs\onlinecourse\wp-includes\template.php(718): load_template('C:\\xampp\\htdocs...', false, Array)
+#17 C:\xampp\htdocs\onlinecourse\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#18 C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\page.php(35): get_template_part('views/content', 'page')
+#19 C:\xampp\htdocs\onlinecourse\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#20 C:\xampp\htdocs\onlinecourse\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#21 C:\xampp\htdocs\onlinecourse\index.php(17): require('C:\\xampp\\htdocs...')
+#22 {main}
+  thrown in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php on line 237
+
+2023-02-07T11:24:06+00:00 CRITICAL Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php:237
+Stack trace:
+#0 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(308): wdm_add_user_custom_option_from_session_into_cart('<span class="wo...', Array, 'e369853df766fa4...')
+#1 C:\xampp\htdocs\onlinecourse\wp-includes\plugin.php(205): WP_Hook->apply_filters('<span class="wo...', Array)
+#2 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\templates\cart\mini-cart.php(37): apply_filters('woocommerce_car...', '<span class="wo...', Array, 'e369853df766fa4...')
+#3 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\wc-template-functions.php(2241): wc_get_template('cart/mini-cart....', Array)
+#5 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(203): woocommerce_mini_cart()
+#6 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(445): WC_AJAX::get_refreshed_fragments()
+#7 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(308): WC_AJAX::add_to_cart('')
+#8 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#9 C:\xampp\htdocs\onlinecourse\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#10 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(94): do_action('wc_ajax_add_to_...')
+#11 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(308): WC_AJAX::do_wc_ajax('')
+#12 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(false, Array)
+#13 C:\xampp\htdocs\onlinecourse\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#14 C:\xampp\htdocs\onlinecourse\wp-includes\template-loader.php(13): do_action('template_redire...')
+#15 C:\xampp\htdocs\onlinecourse\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#16 C:\xampp\htdocs\onlinecourse\index.php(17): require('C:\\xampp\\htdocs...')
+#17 {main}
+  thrown in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php on line 237
+
+2023-02-07T11:24:07+00:00 CRITICAL Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php:237
+Stack trace:
+#0 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(308): wdm_add_user_custom_option_from_session_into_cart('<span class="wo...', Array, 'e369853df766fa4...')
+#1 C:\xampp\htdocs\onlinecourse\wp-includes\plugin.php(205): WP_Hook->apply_filters('<span class="wo...', Array)
+#2 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\templates\cart\mini-cart.php(37): apply_filters('woocommerce_car...', '<span class="wo...', Array, 'e369853df766fa4...')
+#3 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\wc-template-functions.php(2241): wc_get_template('cart/mini-cart....', Array)
+#5 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(203): woocommerce_mini_cart()
+#6 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(445): WC_AJAX::get_refreshed_fragments()
+#7 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(308): WC_AJAX::add_to_cart('')
+#8 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#9 C:\xampp\htdocs\onlinecourse\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#10 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(94): do_action('wc_ajax_add_to_...')
+#11 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(308): WC_AJAX::do_wc_ajax('')
+#12 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(false, Array)
+#13 C:\xampp\htdocs\onlinecourse\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#14 C:\xampp\htdocs\onlinecourse\wp-includes\template-loader.php(13): do_action('template_redire...')
+#15 C:\xampp\htdocs\onlinecourse\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#16 C:\xampp\htdocs\onlinecourse\index.php(17): require('C:\\xampp\\htdocs...')
+#17 {main}
+  thrown in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php on line 237
+
+2023-02-07T11:25:11+00:00 CRITICAL Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php:237
+Stack trace:
+#0 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(308): wdm_add_user_custom_option_from_session_into_cart('<span class="wo...', Array, 'e369853df766fa4...')
+#1 C:\xampp\htdocs\onlinecourse\wp-includes\plugin.php(205): WP_Hook->apply_filters('<span class="wo...', Array)
+#2 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\templates\cart\mini-cart.php(37): apply_filters('woocommerce_car...', '<span class="wo...', Array, 'e369853df766fa4...')
+#3 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\wc-template-functions.php(2241): wc_get_template('cart/mini-cart....', Array)
+#5 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(203): woocommerce_mini_cart()
+#6 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(445): WC_AJAX::get_refreshed_fragments()
+#7 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(308): WC_AJAX::add_to_cart('')
+#8 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#9 C:\xampp\htdocs\onlinecourse\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#10 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(94): do_action('wc_ajax_add_to_...')
+#11 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(308): WC_AJAX::do_wc_ajax('')
+#12 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(false, Array)
+#13 C:\xampp\htdocs\onlinecourse\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#14 C:\xampp\htdocs\onlinecourse\wp-includes\template-loader.php(13): do_action('template_redire...')
+#15 C:\xampp\htdocs\onlinecourse\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#16 C:\xampp\htdocs\onlinecourse\index.php(17): require('C:\\xampp\\htdocs...')
+#17 {main}
+  thrown in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php on line 237
+
+2023-02-07T11:28:13+00:00 CRITICAL Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php:237
+Stack trace:
+#0 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(308): wdm_add_user_custom_option_from_session_into_cart('<span class="wo...', Array, 'e369853df766fa4...')
+#1 C:\xampp\htdocs\onlinecourse\wp-includes\plugin.php(205): WP_Hook->apply_filters('<span class="wo...', Array)
+#2 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\templates\cart\mini-cart.php(37): apply_filters('woocommerce_car...', '<span class="wo...', Array, 'e369853df766fa4...')
+#3 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\wc-template-functions.php(2241): wc_get_template('cart/mini-cart....', Array)
+#5 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(203): woocommerce_mini_cart()
+#6 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(308): WC_AJAX::get_refreshed_fragments('')
+#7 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\onlinecourse\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(94): do_action('wc_ajax_get_ref...')
+#10 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(308): WC_AJAX::do_wc_ajax('')
+#11 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(false, Array)
+#12 C:\xampp\htdocs\onlinecourse\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#13 C:\xampp\htdocs\onlinecourse\wp-includes\template-loader.php(13): do_action('template_redire...')
+#14 C:\xampp\htdocs\onlinecourse\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#15 C:\xampp\htdocs\onlinecourse\index.php(17): require('C:\\xampp\\htdocs...')
+#16 {main}
+  thrown in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php on line 237
+
+2023-02-07T11:28:16+00:00 CRITICAL Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php:237
+Stack trace:
+#0 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(308): wdm_add_user_custom_option_from_session_into_cart('<span class="wo...', Array, 'e369853df766fa4...')
+#1 C:\xampp\htdocs\onlinecourse\wp-includes\plugin.php(205): WP_Hook->apply_filters('<span class="wo...', Array)
+#2 C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\woocommerce\cart\cart.php(73): apply_filters('woocommerce_car...', '<span class="wo...', Array, 'e369853df766fa4...')
+#3 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-cart.php(99): wc_get_template('cart/cart.php')
+#5 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(72): WC_Shortcode_Cart::output(Array)
+#6 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(85): WC_Shortcodes::shortcode_wrapper(Array)
+#7 C:\xampp\htdocs\onlinecourse\wp-includes\shortcodes.php(355): WC_Shortcodes::cart('', '', 'woocommerce_car...')
+#8 [internal function]: do_shortcode_tag(Array)
+#9 C:\xampp\htdocs\onlinecourse\wp-includes\shortcodes.php(227): preg_replace_callback('/\\[(\\[?)(woocom...', 'do_shortcode_ta...', '[woocommerce_ca...')
+#10 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(308): do_shortcode('[woocommerce_ca...')
+#11 C:\xampp\htdocs\onlinecourse\wp-includes\plugin.php(205): WP_Hook->apply_filters('[woocommerce_ca...', Array)
+#12 C:\xampp\htdocs\onlinecourse\wp-includes\post-template.php(255): apply_filters('the_content', '<!-- wp:shortco...')
+#13 C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\views\content-page.php(26): the_content()
+#14 C:\xampp\htdocs\onlinecourse\wp-includes\template.php(785): require('C:\\xampp\\htdocs...')
+#15 C:\xampp\htdocs\onlinecourse\wp-includes\template.php(718): load_template('C:\\xampp\\htdocs...', false, Array)
+#16 C:\xampp\htdocs\onlinecourse\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#17 C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\page.php(35): get_template_part('views/content', 'page')
+#18 C:\xampp\htdocs\onlinecourse\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#19 C:\xampp\htdocs\onlinecourse\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#20 C:\xampp\htdocs\onlinecourse\index.php(17): require('C:\\xampp\\htdocs...')
+#21 {main}
+  thrown in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php on line 237
+
+2023-02-07T11:28:17+00:00 CRITICAL Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php:237
+Stack trace:
+#0 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(308): wdm_add_user_custom_option_from_session_into_cart('<span class="wo...', Array, 'e369853df766fa4...')
+#1 C:\xampp\htdocs\onlinecourse\wp-includes\plugin.php(205): WP_Hook->apply_filters('<span class="wo...', Array)
+#2 C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\woocommerce\cart\cart.php(73): apply_filters('woocommerce_car...', '<span class="wo...', Array, 'e369853df766fa4...')
+#3 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-cart.php(99): wc_get_template('cart/cart.php')
+#5 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(72): WC_Shortcode_Cart::output(Array)
+#6 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(85): WC_Shortcodes::shortcode_wrapper(Array)
+#7 C:\xampp\htdocs\onlinecourse\wp-includes\shortcodes.php(355): WC_Shortcodes::cart('', '', 'woocommerce_car...')
+#8 [internal function]: do_shortcode_tag(Array)
+#9 C:\xampp\htdocs\onlinecourse\wp-includes\shortcodes.php(227): preg_replace_callback('/\\[(\\[?)(woocom...', 'do_shortcode_ta...', '[woocommerce_ca...')
+#10 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(308): do_shortcode('[woocommerce_ca...')
+#11 C:\xampp\htdocs\onlinecourse\wp-includes\plugin.php(205): WP_Hook->apply_filters('[woocommerce_ca...', Array)
+#12 C:\xampp\htdocs\onlinecourse\wp-includes\post-template.php(255): apply_filters('the_content', '<!-- wp:shortco...')
+#13 C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\views\content-page.php(26): the_content()
+#14 C:\xampp\htdocs\onlinecourse\wp-includes\template.php(785): require('C:\\xampp\\htdocs...')
+#15 C:\xampp\htdocs\onlinecourse\wp-includes\template.php(718): load_template('C:\\xampp\\htdocs...', false, Array)
+#16 C:\xampp\htdocs\onlinecourse\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#17 C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\page.php(35): get_template_part('views/content', 'page')
+#18 C:\xampp\htdocs\onlinecourse\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#19 C:\xampp\htdocs\onlinecourse\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#20 C:\xampp\htdocs\onlinecourse\index.php(17): require('C:\\xampp\\htdocs...')
+#21 {main}
+  thrown in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php on line 237
+
+2023-02-07T11:28:27+00:00 CRITICAL Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php:237
+Stack trace:
+#0 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(308): wdm_add_user_custom_option_from_session_into_cart('<span class="wo...', Array, 'e369853df766fa4...')
+#1 C:\xampp\htdocs\onlinecourse\wp-includes\plugin.php(205): WP_Hook->apply_filters('<span class="wo...', Array)
+#2 C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\woocommerce\checkout\form-checkout.php(80): apply_filters('woocommerce_car...', '<span class="wo...', Array, 'e369853df766fa4...')
+#3 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-checkout.php(316): wc_get_template('checkout/form-c...', Array)
+#5 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-checkout.php(67): WC_Shortcode_Checkout::checkout()
+#6 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(72): WC_Shortcode_Checkout::output('')
+#7 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(95): WC_Shortcodes::shortcode_wrapper(Array, '')
+#8 C:\xampp\htdocs\onlinecourse\wp-includes\shortcodes.php(355): WC_Shortcodes::checkout('', '', 'woocommerce_che...')
+#9 [internal function]: do_shortcode_tag(Array)
+#10 C:\xampp\htdocs\onlinecourse\wp-includes\shortcodes.php(227): preg_replace_callback('/\\[(\\[?)(woocom...', 'do_shortcode_ta...', '[woocommerce_ch...')
+#11 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(308): do_shortcode('[woocommerce_ch...')
+#12 C:\xampp\htdocs\onlinecourse\wp-includes\plugin.php(205): WP_Hook->apply_filters('[woocommerce_ch...', Array)
+#13 C:\xampp\htdocs\onlinecourse\wp-includes\post-template.php(255): apply_filters('the_content', '<!-- wp:shortco...')
+#14 C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\views\content-page.php(26): the_content()
+#15 C:\xampp\htdocs\onlinecourse\wp-includes\template.php(785): require('C:\\xampp\\htdocs...')
+#16 C:\xampp\htdocs\onlinecourse\wp-includes\template.php(718): load_template('C:\\xampp\\htdocs...', false, Array)
+#17 C:\xampp\htdocs\onlinecourse\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#18 C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\page.php(35): get_template_part('views/content', 'page')
+#19 C:\xampp\htdocs\onlinecourse\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#20 C:\xampp\htdocs\onlinecourse\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#21 C:\xampp\htdocs\onlinecourse\index.php(17): require('C:\\xampp\\htdocs...')
+#22 {main}
+  thrown in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php on line 237
+
+2023-02-07T11:28:33+00:00 CRITICAL Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php:237
+Stack trace:
+#0 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(308): wdm_add_user_custom_option_from_session_into_cart('<span class="wo...', Array, 'e369853df766fa4...')
+#1 C:\xampp\htdocs\onlinecourse\wp-includes\plugin.php(205): WP_Hook->apply_filters('<span class="wo...', Array)
+#2 C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\woocommerce\cart\cart.php(73): apply_filters('woocommerce_car...', '<span class="wo...', Array, 'e369853df766fa4...')
+#3 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-cart.php(99): wc_get_template('cart/cart.php')
+#5 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(72): WC_Shortcode_Cart::output(Array)
+#6 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(85): WC_Shortcodes::shortcode_wrapper(Array)
+#7 C:\xampp\htdocs\onlinecourse\wp-includes\shortcodes.php(355): WC_Shortcodes::cart('', '', 'woocommerce_car...')
+#8 [internal function]: do_shortcode_tag(Array)
+#9 C:\xampp\htdocs\onlinecourse\wp-includes\shortcodes.php(227): preg_replace_callback('/\\[(\\[?)(woocom...', 'do_shortcode_ta...', '[woocommerce_ca...')
+#10 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(308): do_shortcode('[woocommerce_ca...')
+#11 C:\xampp\htdocs\onlinecourse\wp-includes\plugin.php(205): WP_Hook->apply_filters('[woocommerce_ca...', Array)
+#12 C:\xampp\htdocs\onlinecourse\wp-includes\post-template.php(255): apply_filters('the_content', '<!-- wp:shortco...')
+#13 C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\views\content-page.php(26): the_content()
+#14 C:\xampp\htdocs\onlinecourse\wp-includes\template.php(785): require('C:\\xampp\\htdocs...')
+#15 C:\xampp\htdocs\onlinecourse\wp-includes\template.php(718): load_template('C:\\xampp\\htdocs...', false, Array)
+#16 C:\xampp\htdocs\onlinecourse\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#17 C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\page.php(35): get_template_part('views/content', 'page')
+#18 C:\xampp\htdocs\onlinecourse\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#19 C:\xampp\htdocs\onlinecourse\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#20 C:\xampp\htdocs\onlinecourse\index.php(17): require('C:\\xampp\\htdocs...')
+#21 {main}
+  thrown in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php on line 237
+
+2023-02-07T11:32:07+00:00 CRITICAL Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php:237
+Stack trace:
+#0 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(308): wdm_add_user_custom_option_from_session_into_cart('<span class="wo...', Array, 'e369853df766fa4...')
+#1 C:\xampp\htdocs\onlinecourse\wp-includes\plugin.php(205): WP_Hook->apply_filters('<span class="wo...', Array)
+#2 C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\woocommerce\cart\cart.php(73): apply_filters('woocommerce_car...', '<span class="wo...', Array, 'e369853df766fa4...')
+#3 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-cart.php(99): wc_get_template('cart/cart.php')
+#5 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(72): WC_Shortcode_Cart::output(Array)
+#6 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(85): WC_Shortcodes::shortcode_wrapper(Array)
+#7 C:\xampp\htdocs\onlinecourse\wp-includes\shortcodes.php(355): WC_Shortcodes::cart('', '', 'woocommerce_car...')
+#8 [internal function]: do_shortcode_tag(Array)
+#9 C:\xampp\htdocs\onlinecourse\wp-includes\shortcodes.php(227): preg_replace_callback('/\\[(\\[?)(woocom...', 'do_shortcode_ta...', '[woocommerce_ca...')
+#10 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(308): do_shortcode('[woocommerce_ca...')
+#11 C:\xampp\htdocs\onlinecourse\wp-includes\plugin.php(205): WP_Hook->apply_filters('[woocommerce_ca...', Array)
+#12 C:\xampp\htdocs\onlinecourse\wp-includes\post-template.php(255): apply_filters('the_content', '<!-- wp:shortco...')
+#13 C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\views\content-page.php(26): the_content()
+#14 C:\xampp\htdocs\onlinecourse\wp-includes\template.php(785): require('C:\\xampp\\htdocs...')
+#15 C:\xampp\htdocs\onlinecourse\wp-includes\template.php(718): load_template('C:\\xampp\\htdocs...', false, Array)
+#16 C:\xampp\htdocs\onlinecourse\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#17 C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\page.php(35): get_template_part('views/content', 'page')
+#18 C:\xampp\htdocs\onlinecourse\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#19 C:\xampp\htdocs\onlinecourse\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#20 C:\xampp\htdocs\onlinecourse\index.php(17): require('C:\\xampp\\htdocs...')
+#21 {main}
+  thrown in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php on line 237
+
+2023-02-07T12:15:44+00:00 CRITICAL syntax error, unexpected token "public", expecting end of file in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php on line 292
+
+2023-02-07T12:15:47+00:00 CRITICAL syntax error, unexpected token "public", expecting end of file in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php on line 292
+

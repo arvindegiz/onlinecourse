@@ -1,0 +1,176 @@
+2023-02-13T05:34:06+00:00 CRITICAL Unclosed '{' on line 286 in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php on line 401
+
+2023-02-13T05:36:30+00:00 CRITICAL syntax error, unexpected token "else", expecting end of file in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php on line 300
+
+2023-02-13T05:36:53+00:00 CRITICAL syntax error, unexpected token "else", expecting end of file in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php on line 300
+
+2023-02-13T05:37:45+00:00 CRITICAL syntax error, unexpected token "}", expecting "," or ";" in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php on line 303
+
+2023-02-13T06:36:35+00:00 CRITICAL Uncaught Error: Undefined constant "_wc_acof_2" in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php:292
+Stack trace:
+#0 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(308): add_custom_order_status_actions_button(Array, Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#1 C:\xampp\htdocs\onlinecourse\wp-includes\plugin.php(205): WP_Hook->apply_filters(Array, Array)
+#2 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\src\Internal\Admin\Orders\ListTable.php(1033): apply_filters('woocommerce_adm...', Array, Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#3 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\admin\list-tables\class-wc-admin-list-table-orders.php(204): Automattic\WooCommerce\Internal\Admin\Orders\ListTable->render_wc_actions_column(Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#4 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\admin\list-tables\abstract-class-wc-admin-list-table.php(261): WC_Admin_List_Table_Orders->render_wc_actions_column()
+#5 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(308): WC_Admin_List_Table->render_columns('wc_actions', 247)
+#6 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#7 C:\xampp\htdocs\onlinecourse\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#8 C:\xampp\htdocs\onlinecourse\wp-admin\includes\class-wp-posts-list-table.php(1363): do_action('manage_shop_ord...', 'wc_actions', 247)
+#9 C:\xampp\htdocs\onlinecourse\wp-admin\includes\class-wp-list-table.php(1532): WP_Posts_List_Table->column_default(Object(WP_Post), 'wc_actions')
+#10 C:\xampp\htdocs\onlinecourse\wp-admin\includes\class-wp-posts-list-table.php(1397): WP_List_Table->single_row_columns(Object(WP_Post))
+#11 C:\xampp\htdocs\onlinecourse\wp-admin\includes\class-wp-posts-list-table.php(807): WP_Posts_List_Table->single_row(Object(WP_Post), 0)
+#12 C:\xampp\htdocs\onlinecourse\wp-admin\includes\class-wp-posts-list-table.php(783): WP_Posts_List_Table->_display_rows(Array, 0)
+#13 C:\xampp\htdocs\onlinecourse\wp-admin\includes\class-wp-list-table.php(1444): WP_Posts_List_Table->display_rows()
+#14 C:\xampp\htdocs\onlinecourse\wp-admin\includes\class-wp-list-table.php(1371): WP_List_Table->display_rows_or_placeholder()
+#15 C:\xampp\htdocs\onlinecourse\wp-admin\edit.php(487): WP_List_Table->display()
+#16 {main}
+  thrown in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php on line 292
+
+2023-02-13T09:25:54+00:00 CRITICAL syntax error, unexpected token "if" in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php on line 294
+
+2023-02-13T09:26:18+00:00 CRITICAL syntax error, unexpected token "exit" in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php on line 293
+
+2023-02-13T09:26:22+00:00 CRITICAL syntax error, unexpected token "exit" in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php on line 293
+
+2023-02-13T09:30:40+00:00 CRITICAL Uncaught Error: Cannot use object of type Automattic\WooCommerce\Admin\Overrides\Order as array in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php:293
+Stack trace:
+#0 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(308): add_custom_order_status_actions_button(Array, Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#1 C:\xampp\htdocs\onlinecourse\wp-includes\plugin.php(205): WP_Hook->apply_filters(Array, Array)
+#2 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\src\Internal\Admin\Orders\ListTable.php(1033): apply_filters('woocommerce_adm...', Array, Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#3 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\admin\list-tables\class-wc-admin-list-table-orders.php(204): Automattic\WooCommerce\Internal\Admin\Orders\ListTable->render_wc_actions_column(Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#4 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\admin\list-tables\abstract-class-wc-admin-list-table.php(261): WC_Admin_List_Table_Orders->render_wc_actions_column()
+#5 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(308): WC_Admin_List_Table->render_columns('wc_actions', 249)
+#6 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#7 C:\xampp\htdocs\onlinecourse\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#8 C:\xampp\htdocs\onlinecourse\wp-admin\includes\class-wp-posts-list-table.php(1363): do_action('manage_shop_ord...', 'wc_actions', 249)
+#9 C:\xampp\htdocs\onlinecourse\wp-admin\includes\class-wp-list-table.php(1532): WP_Posts_List_Table->column_default(Object(WP_Post), 'wc_actions')
+#10 C:\xampp\htdocs\onlinecourse\wp-admin\includes\class-wp-posts-list-table.php(1397): WP_List_Table->single_row_columns(Object(WP_Post))
+#11 C:\xampp\htdocs\onlinecourse\wp-admin\includes\class-wp-posts-list-table.php(807): WP_Posts_List_Table->single_row(Object(WP_Post), 0)
+#12 C:\xampp\htdocs\onlinecourse\wp-admin\includes\class-wp-posts-list-table.php(783): WP_Posts_List_Table->_display_rows(Array, 0)
+#13 C:\xampp\htdocs\onlinecourse\wp-admin\includes\class-wp-list-table.php(1444): WP_Posts_List_Table->display_rows()
+#14 C:\xampp\htdocs\onlinecourse\wp-admin\includes\class-wp-list-table.php(1371): WP_List_Table->display_rows_or_placeholder()
+#15 C:\xampp\htdocs\onlinecourse\wp-admin\edit.php(487): WP_List_Table->display()
+#16 {main}
+  thrown in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php on line 293
+
+2023-02-13T09:30:58+00:00 CRITICAL syntax error, unexpected token "[", expecting variable or "{" or "$" in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php on line 293
+
+2023-02-13T09:31:07+00:00 CRITICAL Uncaught Error: Cannot use object of type Automattic\WooCommerce\Admin\Overrides\Order as array in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php:293
+Stack trace:
+#0 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(308): add_custom_order_status_actions_button(Array, Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#1 C:\xampp\htdocs\onlinecourse\wp-includes\plugin.php(205): WP_Hook->apply_filters(Array, Array)
+#2 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\src\Internal\Admin\Orders\ListTable.php(1033): apply_filters('woocommerce_adm...', Array, Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#3 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\admin\list-tables\class-wc-admin-list-table-orders.php(204): Automattic\WooCommerce\Internal\Admin\Orders\ListTable->render_wc_actions_column(Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#4 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\admin\list-tables\abstract-class-wc-admin-list-table.php(261): WC_Admin_List_Table_Orders->render_wc_actions_column()
+#5 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(308): WC_Admin_List_Table->render_columns('wc_actions', 249)
+#6 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#7 C:\xampp\htdocs\onlinecourse\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#8 C:\xampp\htdocs\onlinecourse\wp-admin\includes\class-wp-posts-list-table.php(1363): do_action('manage_shop_ord...', 'wc_actions', 249)
+#9 C:\xampp\htdocs\onlinecourse\wp-admin\includes\class-wp-list-table.php(1532): WP_Posts_List_Table->column_default(Object(WP_Post), 'wc_actions')
+#10 C:\xampp\htdocs\onlinecourse\wp-admin\includes\class-wp-posts-list-table.php(1397): WP_List_Table->single_row_columns(Object(WP_Post))
+#11 C:\xampp\htdocs\onlinecourse\wp-admin\includes\class-wp-posts-list-table.php(807): WP_Posts_List_Table->single_row(Object(WP_Post), 0)
+#12 C:\xampp\htdocs\onlinecourse\wp-admin\includes\class-wp-posts-list-table.php(783): WP_Posts_List_Table->_display_rows(Array, 0)
+#13 C:\xampp\htdocs\onlinecourse\wp-admin\includes\class-wp-list-table.php(1444): WP_Posts_List_Table->display_rows()
+#14 C:\xampp\htdocs\onlinecourse\wp-admin\includes\class-wp-list-table.php(1371): WP_List_Table->display_rows_or_placeholder()
+#15 C:\xampp\htdocs\onlinecourse\wp-admin\edit.php(487): WP_List_Table->display()
+#16 {main}
+  thrown in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php on line 293
+
+2023-02-13T09:31:30+00:00 CRITICAL Uncaught Error: Cannot use object of type Automattic\WooCommerce\Admin\Overrides\Order as array in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php:293
+Stack trace:
+#0 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(308): add_custom_order_status_actions_button(Array, Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#1 C:\xampp\htdocs\onlinecourse\wp-includes\plugin.php(205): WP_Hook->apply_filters(Array, Array)
+#2 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\src\Internal\Admin\Orders\ListTable.php(1033): apply_filters('woocommerce_adm...', Array, Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#3 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\admin\list-tables\class-wc-admin-list-table-orders.php(204): Automattic\WooCommerce\Internal\Admin\Orders\ListTable->render_wc_actions_column(Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#4 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\admin\list-tables\abstract-class-wc-admin-list-table.php(261): WC_Admin_List_Table_Orders->render_wc_actions_column()
+#5 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(308): WC_Admin_List_Table->render_columns('wc_actions', 249)
+#6 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#7 C:\xampp\htdocs\onlinecourse\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#8 C:\xampp\htdocs\onlinecourse\wp-admin\includes\class-wp-posts-list-table.php(1363): do_action('manage_shop_ord...', 'wc_actions', 249)
+#9 C:\xampp\htdocs\onlinecourse\wp-admin\includes\class-wp-list-table.php(1532): WP_Posts_List_Table->column_default(Object(WP_Post), 'wc_actions')
+#10 C:\xampp\htdocs\onlinecourse\wp-admin\includes\class-wp-posts-list-table.php(1397): WP_List_Table->single_row_columns(Object(WP_Post))
+#11 C:\xampp\htdocs\onlinecourse\wp-admin\includes\class-wp-posts-list-table.php(807): WP_Posts_List_Table->single_row(Object(WP_Post), 0)
+#12 C:\xampp\htdocs\onlinecourse\wp-admin\includes\class-wp-posts-list-table.php(783): WP_Posts_List_Table->_display_rows(Array, 0)
+#13 C:\xampp\htdocs\onlinecourse\wp-admin\includes\class-wp-list-table.php(1444): WP_Posts_List_Table->display_rows()
+#14 C:\xampp\htdocs\onlinecourse\wp-admin\includes\class-wp-list-table.php(1371): WP_List_Table->display_rows_or_placeholder()
+#15 C:\xampp\htdocs\onlinecourse\wp-admin\edit.php(487): WP_List_Table->display()
+#16 {main}
+  thrown in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php on line 293
+
+2023-02-13T09:31:46+00:00 CRITICAL Uncaught Error: Cannot use object of type Automattic\WooCommerce\Admin\Overrides\Order as array in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php:293
+Stack trace:
+#0 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(308): add_custom_order_status_actions_button(Array, Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#1 C:\xampp\htdocs\onlinecourse\wp-includes\plugin.php(205): WP_Hook->apply_filters(Array, Array)
+#2 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\src\Internal\Admin\Orders\ListTable.php(1033): apply_filters('woocommerce_adm...', Array, Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#3 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\admin\list-tables\class-wc-admin-list-table-orders.php(204): Automattic\WooCommerce\Internal\Admin\Orders\ListTable->render_wc_actions_column(Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#4 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\admin\list-tables\abstract-class-wc-admin-list-table.php(261): WC_Admin_List_Table_Orders->render_wc_actions_column()
+#5 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(308): WC_Admin_List_Table->render_columns('wc_actions', 249)
+#6 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#7 C:\xampp\htdocs\onlinecourse\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#8 C:\xampp\htdocs\onlinecourse\wp-admin\includes\class-wp-posts-list-table.php(1363): do_action('manage_shop_ord...', 'wc_actions', 249)
+#9 C:\xampp\htdocs\onlinecourse\wp-admin\includes\class-wp-list-table.php(1532): WP_Posts_List_Table->column_default(Object(WP_Post), 'wc_actions')
+#10 C:\xampp\htdocs\onlinecourse\wp-admin\includes\class-wp-posts-list-table.php(1397): WP_List_Table->single_row_columns(Object(WP_Post))
+#11 C:\xampp\htdocs\onlinecourse\wp-admin\includes\class-wp-posts-list-table.php(807): WP_Posts_List_Table->single_row(Object(WP_Post), 0)
+#12 C:\xampp\htdocs\onlinecourse\wp-admin\includes\class-wp-posts-list-table.php(783): WP_Posts_List_Table->_display_rows(Array, 0)
+#13 C:\xampp\htdocs\onlinecourse\wp-admin\includes\class-wp-list-table.php(1444): WP_Posts_List_Table->display_rows()
+#14 C:\xampp\htdocs\onlinecourse\wp-admin\includes\class-wp-list-table.php(1371): WP_List_Table->display_rows_or_placeholder()
+#15 C:\xampp\htdocs\onlinecourse\wp-admin\edit.php(487): WP_List_Table->display()
+#16 {main}
+  thrown in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php on line 293
+
+2023-02-13T11:08:06+00:00 CRITICAL syntax error, unexpected token "if" in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php on line 288
+
+2023-02-13T11:08:06+00:00 CRITICAL syntax error, unexpected token "if" in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php on line 288
+
+2023-02-13T11:08:18+00:00 CRITICAL Uncaught Error: Call to undefined function _order_json_data() in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php:287
+Stack trace:
+#0 C:\xampp\htdocs\onlinecourse\wp-settings.php(585): include()
+#1 C:\xampp\htdocs\onlinecourse\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\onlinecourse\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\onlinecourse\wp-blog-header.php(13): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\onlinecourse\index.php(17): require('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php on line 287
+
+2023-02-13T12:06:07+00:00 CRITICAL Uncaught Error: Undefined constant "data" in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php:265
+Stack trace:
+#0 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(308): before_checkout_create_order(Object(WC_Order), Array)
+#1 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\onlinecourse\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\class-wc-checkout.php(446): do_action('woocommerce_che...', Object(WC_Order), Array)
+#4 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\class-wc-checkout.php(1256): WC_Checkout->create_order(Array)
+#5 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(481): WC_Checkout->process_checkout()
+#6 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(308): WC_AJAX::checkout('')
+#7 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\onlinecourse\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(94): do_action('wc_ajax_checkou...')
+#10 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(308): WC_AJAX::do_wc_ajax('')
+#11 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(false, Array)
+#12 C:\xampp\htdocs\onlinecourse\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#13 C:\xampp\htdocs\onlinecourse\wp-includes\template-loader.php(13): do_action('template_redire...')
+#14 C:\xampp\htdocs\onlinecourse\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#15 C:\xampp\htdocs\onlinecourse\index.php(17): require('C:\\xampp\\htdocs...')
+#16 {main}
+  thrown in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php on line 265
+
+2023-02-13T13:22:01+00:00 CRITICAL syntax error, unexpected token "<" in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php on line 281
+
+2023-02-13T13:23:02+00:00 CRITICAL syntax error, unexpected token "<" in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php on line 281
+
+2023-02-13T13:24:52+00:00 CRITICAL syntax error, unexpected token "<" in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php on line 281
+
+2023-02-13T13:24:55+00:00 CRITICAL syntax error, unexpected token "<" in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php on line 281
+
+2023-02-13T13:24:57+00:00 CRITICAL syntax error, unexpected token "<" in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php on line 281
+
+2023-02-13T13:25:07+00:00 CRITICAL syntax error, unexpected token "<" in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php on line 281
+
+2023-02-13T13:25:08+00:00 CRITICAL syntax error, unexpected token "<" in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php on line 281
+
+2023-02-13T13:25:08+00:00 CRITICAL syntax error, unexpected token "<" in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php on line 281
+
+2023-02-13T13:25:12+00:00 CRITICAL syntax error, unexpected token "<" in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php on line 281
+
+2023-02-13T13:25:12+00:00 CRITICAL syntax error, unexpected token "<" in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php on line 281
+

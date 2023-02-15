@@ -1,0 +1,156 @@
+2023-02-14T05:36:56+00:00 CRITICAL Uncaught Error: Call to a member function get_value() on null in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php:278
+Stack trace:
+#0 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(308): my_custom_checkout_field(Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#1 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\onlinecourse\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\admin\meta-boxes\class-wc-meta-box-order-data.php(468): do_action('woocommerce_adm...', Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#4 C:\xampp\htdocs\onlinecourse\wp-admin\includes\template.php(1409): WC_Meta_Box_Order_Data::output(Object(WP_Post), Array)
+#5 C:\xampp\htdocs\onlinecourse\wp-admin\edit-form-advanced.php(688): do_meta_boxes(Object(WP_Screen), 'normal', Object(WP_Post))
+#6 C:\xampp\htdocs\onlinecourse\wp-admin\post.php(206): require('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php on line 278
+
+2023-02-14T05:48:23+00:00 CRITICAL Uncaught Error: Call to a member function get_value() on null in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php:278
+Stack trace:
+#0 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(308): my_custom_checkout_field(Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#1 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\onlinecourse\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\admin\meta-boxes\class-wc-meta-box-order-data.php(468): do_action('woocommerce_adm...', Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#4 C:\xampp\htdocs\onlinecourse\wp-admin\includes\template.php(1409): WC_Meta_Box_Order_Data::output(Object(WP_Post), Array)
+#5 C:\xampp\htdocs\onlinecourse\wp-admin\edit-form-advanced.php(688): do_meta_boxes(Object(WP_Screen), 'normal', Object(WP_Post))
+#6 C:\xampp\htdocs\onlinecourse\wp-admin\post.php(206): require('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php on line 278
+
+2023-02-14T06:27:39+00:00 CRITICAL syntax error, unexpected token "<" in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php on line 311
+
+2023-02-14T06:27:39+00:00 CRITICAL syntax error, unexpected token "<" in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php on line 311
+
+2023-02-14T10:47:07+00:00 CRITICAL syntax error, unexpected token "public", expecting end of file in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php on line 185
+
+2023-02-14T10:47:09+00:00 CRITICAL syntax error, unexpected token "public", expecting end of file in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php on line 185
+
+2023-02-14T10:47:10+00:00 CRITICAL syntax error, unexpected token "public", expecting end of file in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php on line 185
+
+2023-02-14T10:48:11+00:00 CRITICAL Uncaught Error: Using $this when not in object context in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php:184
+Stack trace:
+#0 C:\xampp\htdocs\onlinecourse\wp-settings.php(585): include()
+#1 C:\xampp\htdocs\onlinecourse\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\onlinecourse\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\onlinecourse\wp-admin\admin.php(34): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\onlinecourse\wp-admin\post.php(12): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php on line 184
+
+2023-02-14T11:22:41+00:00 CRITICAL Uncaught Error: Call to undefined function update_meta_data() in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php:245
+Stack trace:
+#0 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(308): api_request_ajax_function('')
+#1 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\onlinecourse\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\onlinecourse\wp-admin\admin-ajax.php(188): do_action('wp_ajax_api_req...')
+#4 {main}
+  thrown in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php on line 245
+
+2023-02-14T12:55:17+00:00 CRITICAL Uncaught TypeError: array_keys(): Argument #1 ($array) must be of type array, string given in C:\xampp\htdocs\onlinecourse\wp-admin\includes\class-wp-list-table.php:1254
+Stack trace:
+#0 C:\xampp\htdocs\onlinecourse\wp-admin\includes\class-wp-list-table.php(1254): array_keys('jjjj')
+#1 C:\xampp\htdocs\onlinecourse\wp-admin\includes\class-wp-posts-list-table.php(1627): WP_List_Table->get_column_count()
+#2 C:\xampp\htdocs\onlinecourse\wp-admin\edit.php(493): WP_Posts_List_Table->inline_edit()
+#3 {main}
+  thrown in C:\xampp\htdocs\onlinecourse\wp-admin\includes\class-wp-list-table.php on line 1254
+
+2023-02-14T13:06:27+00:00 CRITICAL Uncaught Error: Using $this when not in object context in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php:227
+Stack trace:
+#0 C:\xampp\htdocs\onlinecourse\wp-settings.php(585): include()
+#1 C:\xampp\htdocs\onlinecourse\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\onlinecourse\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\onlinecourse\wp-admin\admin-ajax.php(22): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php on line 227
+
+2023-02-14T13:06:29+00:00 CRITICAL Uncaught Error: Using $this when not in object context in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php:227
+Stack trace:
+#0 C:\xampp\htdocs\onlinecourse\wp-settings.php(585): include()
+#1 C:\xampp\htdocs\onlinecourse\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\onlinecourse\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\onlinecourse\wp-admin\admin.php(34): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\onlinecourse\wp-admin\edit.php(10): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php on line 227
+
+2023-02-14T13:07:09+00:00 CRITICAL Uncaught Error: Using $this when not in object context in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php:227
+Stack trace:
+#0 C:\xampp\htdocs\onlinecourse\wp-settings.php(585): include()
+#1 C:\xampp\htdocs\onlinecourse\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\onlinecourse\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\onlinecourse\wp-admin\admin.php(34): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\onlinecourse\wp-admin\edit.php(10): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php on line 227
+
+2023-02-14T13:07:12+00:00 CRITICAL Uncaught Error: Using $this when not in object context in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php:227
+Stack trace:
+#0 C:\xampp\htdocs\onlinecourse\wp-settings.php(585): include()
+#1 C:\xampp\htdocs\onlinecourse\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\onlinecourse\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\onlinecourse\wp-admin\admin.php(34): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\onlinecourse\wp-admin\edit.php(10): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php on line 227
+
+2023-02-14T13:07:27+00:00 CRITICAL Uncaught Error: Using $this when not in object context in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php:227
+Stack trace:
+#0 C:\xampp\htdocs\onlinecourse\wp-settings.php(585): include()
+#1 C:\xampp\htdocs\onlinecourse\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\onlinecourse\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\onlinecourse\wp-admin\admin-ajax.php(22): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php on line 227
+
+2023-02-14T13:08:27+00:00 CRITICAL Uncaught Error: Using $this when not in object context in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php:227
+Stack trace:
+#0 C:\xampp\htdocs\onlinecourse\wp-settings.php(585): include()
+#1 C:\xampp\htdocs\onlinecourse\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\onlinecourse\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\onlinecourse\wp-admin\admin-ajax.php(22): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php on line 227
+
+2023-02-14T13:10:28+00:00 CRITICAL Uncaught Error: Using $this when not in object context in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php:227
+Stack trace:
+#0 C:\xampp\htdocs\onlinecourse\wp-settings.php(585): include()
+#1 C:\xampp\htdocs\onlinecourse\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\onlinecourse\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\onlinecourse\wp-admin\admin-ajax.php(22): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php on line 227
+
+2023-02-14T13:12:29+00:00 CRITICAL Uncaught Error: Using $this when not in object context in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php:227
+Stack trace:
+#0 C:\xampp\htdocs\onlinecourse\wp-settings.php(585): include()
+#1 C:\xampp\htdocs\onlinecourse\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\onlinecourse\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\onlinecourse\wp-admin\admin-ajax.php(22): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php on line 227
+
+2023-02-14T13:14:30+00:00 CRITICAL Uncaught Error: Using $this when not in object context in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php:227
+Stack trace:
+#0 C:\xampp\htdocs\onlinecourse\wp-settings.php(585): include()
+#1 C:\xampp\htdocs\onlinecourse\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\onlinecourse\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\onlinecourse\wp-admin\admin-ajax.php(22): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php on line 227
+
+2023-02-14T13:17:47+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "add_new_columns" not found or invalid function name in C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php:308
+Stack trace:
+#0 C:\xampp\htdocs\onlinecourse\wp-includes\plugin.php(205): WP_Hook->apply_filters(Array, Array)
+#1 C:\xampp\htdocs\onlinecourse\wp-admin\includes\screen.php(37): apply_filters('manage_edit-sho...', Array)
+#2 C:\xampp\htdocs\onlinecourse\wp-admin\includes\class-wp-screen.php(998): get_column_headers(Object(WP_Screen))
+#3 C:\xampp\htdocs\onlinecourse\wp-admin\includes\class-wp-screen.php(959): WP_Screen->show_screen_options()
+#4 C:\xampp\htdocs\onlinecourse\wp-admin\admin-header.php(281): WP_Screen->render_screen_meta()
+#5 C:\xampp\htdocs\onlinecourse\wp-admin\edit.php(407): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown in C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php on line 308
+

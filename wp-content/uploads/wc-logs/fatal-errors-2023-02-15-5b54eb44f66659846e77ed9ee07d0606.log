@@ -1,0 +1,114 @@
+2023-02-15T04:50:17+00:00 CRITICAL Unclosed '{' on line 241 in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php on line 250
+
+2023-02-15T04:50:19+00:00 CRITICAL Unclosed '{' on line 241 in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php on line 250
+
+2023-02-15T04:50:38+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function action_custom_columns_content(), 1 passed in C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php on line 308 and exactly 2 expected in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php:241
+Stack trace:
+#0 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(308): action_custom_columns_content(Array)
+#1 C:\xampp\htdocs\onlinecourse\wp-includes\plugin.php(205): WP_Hook->apply_filters(Array, Array)
+#2 C:\xampp\htdocs\onlinecourse\wp-admin\includes\screen.php(37): apply_filters('manage_edit-sho...', Array)
+#3 C:\xampp\htdocs\onlinecourse\wp-admin\includes\class-wp-screen.php(998): get_column_headers(Object(WP_Screen))
+#4 C:\xampp\htdocs\onlinecourse\wp-admin\includes\class-wp-screen.php(959): WP_Screen->show_screen_options()
+#5 C:\xampp\htdocs\onlinecourse\wp-admin\admin-header.php(281): WP_Screen->render_screen_meta()
+#6 C:\xampp\htdocs\onlinecourse\wp-admin\edit.php(407): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php on line 241
+
+2023-02-15T04:50:44+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function action_custom_columns_content(), 1 passed in C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php on line 308 and exactly 2 expected in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php:241
+Stack trace:
+#0 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(308): action_custom_columns_content(Array)
+#1 C:\xampp\htdocs\onlinecourse\wp-includes\plugin.php(205): WP_Hook->apply_filters(Array, Array)
+#2 C:\xampp\htdocs\onlinecourse\wp-admin\includes\screen.php(37): apply_filters('manage_edit-sho...', Array)
+#3 C:\xampp\htdocs\onlinecourse\wp-admin\includes\class-wp-screen.php(998): get_column_headers(Object(WP_Screen))
+#4 C:\xampp\htdocs\onlinecourse\wp-admin\includes\class-wp-screen.php(959): WP_Screen->show_screen_options()
+#5 C:\xampp\htdocs\onlinecourse\wp-admin\admin-header.php(281): WP_Screen->render_screen_meta()
+#6 C:\xampp\htdocs\onlinecourse\wp-admin\edit.php(407): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php on line 241
+
+2023-02-15T04:54:33+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function hs_product_table_content(), 1 passed in C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php on line 308 and exactly 2 expected in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php:242
+Stack trace:
+#0 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(308): hs_product_table_content(Array)
+#1 C:\xampp\htdocs\onlinecourse\wp-includes\plugin.php(205): WP_Hook->apply_filters(Array, Array)
+#2 C:\xampp\htdocs\onlinecourse\wp-admin\includes\screen.php(37): apply_filters('manage_edit-sho...', Array)
+#3 C:\xampp\htdocs\onlinecourse\wp-admin\includes\class-wp-screen.php(998): get_column_headers(Object(WP_Screen))
+#4 C:\xampp\htdocs\onlinecourse\wp-admin\includes\class-wp-screen.php(959): WP_Screen->show_screen_options()
+#5 C:\xampp\htdocs\onlinecourse\wp-admin\admin-header.php(281): WP_Screen->render_screen_meta()
+#6 C:\xampp\htdocs\onlinecourse\wp-admin\edit.php(407): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php on line 242
+
+2023-02-15T06:01:19+00:00 CRITICAL syntax error, unexpected token "case" in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php on line 245
+
+2023-02-15T06:11:06+00:00 CRITICAL syntax error, unexpected token "{", expecting "(" in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php on line 238
+
+2023-02-15T06:11:22+00:00 CRITICAL syntax error, unexpected token "{", expecting "(" in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php on line 238
+
+2023-02-15T06:13:23+00:00 CRITICAL syntax error, unexpected token "{", expecting "(" in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php on line 238
+
+2023-02-15T06:20:18+00:00 CRITICAL syntax error, unexpected token "}" in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php on line 267
+
+2023-02-15T06:20:20+00:00 CRITICAL syntax error, unexpected token "}" in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php on line 267
+
+2023-02-15T06:21:09+00:00 CRITICAL syntax error, unexpected token "}" in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php on line 267
+
+2023-02-15T06:21:13+00:00 CRITICAL syntax error, unexpected token "}" in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php on line 267
+
+2023-02-15T06:30:35+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function show_custom_order_column_values(), 1 passed in C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php on line 310 and exactly 2 expected in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php:245
+Stack trace:
+#0 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(310): show_custom_order_column_values('order_number')
+#1 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\onlinecourse\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\onlinecourse\wp-admin\includes\class-wp-posts-list-table.php(1363): do_action('manage_shop_ord...', 'order_number', 280)
+#4 C:\xampp\htdocs\onlinecourse\wp-admin\includes\class-wp-list-table.php(1532): WP_Posts_List_Table->column_default(Object(WP_Post), 'order_number')
+#5 C:\xampp\htdocs\onlinecourse\wp-admin\includes\class-wp-posts-list-table.php(1397): WP_List_Table->single_row_columns(Object(WP_Post))
+#6 C:\xampp\htdocs\onlinecourse\wp-admin\includes\class-wp-posts-list-table.php(807): WP_Posts_List_Table->single_row(Object(WP_Post), 0)
+#7 C:\xampp\htdocs\onlinecourse\wp-admin\includes\class-wp-posts-list-table.php(783): WP_Posts_List_Table->_display_rows(Array, 0)
+#8 C:\xampp\htdocs\onlinecourse\wp-admin\includes\class-wp-list-table.php(1444): WP_Posts_List_Table->display_rows()
+#9 C:\xampp\htdocs\onlinecourse\wp-admin\includes\class-wp-list-table.php(1371): WP_List_Table->display_rows_or_placeholder()
+#10 C:\xampp\htdocs\onlinecourse\wp-admin\edit.php(487): WP_List_Table->display()
+#11 {main}
+  thrown in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php on line 245
+
+2023-02-15T06:32:20+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "show_custom_order_column_values" not found or invalid function name in C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php:310
+Stack trace:
+#0 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\onlinecourse\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\onlinecourse\wp-admin\includes\class-wp-posts-list-table.php(1363): do_action('manage_shop_ord...', 'order_number', 280)
+#3 C:\xampp\htdocs\onlinecourse\wp-admin\includes\class-wp-list-table.php(1532): WP_Posts_List_Table->column_default(Object(WP_Post), 'order_number')
+#4 C:\xampp\htdocs\onlinecourse\wp-admin\includes\class-wp-posts-list-table.php(1397): WP_List_Table->single_row_columns(Object(WP_Post))
+#5 C:\xampp\htdocs\onlinecourse\wp-admin\includes\class-wp-posts-list-table.php(807): WP_Posts_List_Table->single_row(Object(WP_Post), 0)
+#6 C:\xampp\htdocs\onlinecourse\wp-admin\includes\class-wp-posts-list-table.php(783): WP_Posts_List_Table->_display_rows(Array, 0)
+#7 C:\xampp\htdocs\onlinecourse\wp-admin\includes\class-wp-list-table.php(1444): WP_Posts_List_Table->display_rows()
+#8 C:\xampp\htdocs\onlinecourse\wp-admin\includes\class-wp-list-table.php(1371): WP_List_Table->display_rows_or_placeholder()
+#9 C:\xampp\htdocs\onlinecourse\wp-admin\edit.php(487): WP_List_Table->display()
+#10 {main}
+  thrown in C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php on line 310
+
+2023-02-15T06:32:32+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "show_custom_order_column_values" not found or invalid function name in C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php:310
+Stack trace:
+#0 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\onlinecourse\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\onlinecourse\wp-admin\includes\class-wp-posts-list-table.php(1363): do_action('manage_shop_ord...', 'order_number', 280)
+#3 C:\xampp\htdocs\onlinecourse\wp-admin\includes\class-wp-list-table.php(1532): WP_Posts_List_Table->column_default(Object(WP_Post), 'order_number')
+#4 C:\xampp\htdocs\onlinecourse\wp-admin\includes\class-wp-posts-list-table.php(1397): WP_List_Table->single_row_columns(Object(WP_Post))
+#5 C:\xampp\htdocs\onlinecourse\wp-admin\includes\class-wp-posts-list-table.php(807): WP_Posts_List_Table->single_row(Object(WP_Post), 0)
+#6 C:\xampp\htdocs\onlinecourse\wp-admin\includes\class-wp-posts-list-table.php(783): WP_Posts_List_Table->_display_rows(Array, 0)
+#7 C:\xampp\htdocs\onlinecourse\wp-admin\includes\class-wp-list-table.php(1444): WP_Posts_List_Table->display_rows()
+#8 C:\xampp\htdocs\onlinecourse\wp-admin\includes\class-wp-list-table.php(1371): WP_List_Table->display_rows_or_placeholder()
+#9 C:\xampp\htdocs\onlinecourse\wp-admin\edit.php(487): WP_List_Table->display()
+#10 {main}
+  thrown in C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php on line 310
+
+2023-02-15T06:45:04+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function action_custom_columns_content(), 1 passed in C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php on line 308 and exactly 2 expected in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php:243
+Stack trace:
+#0 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(308): action_custom_columns_content(Array)
+#1 C:\xampp\htdocs\onlinecourse\wp-includes\plugin.php(205): WP_Hook->apply_filters(Array, Array)
+#2 C:\xampp\htdocs\onlinecourse\wp-admin\includes\screen.php(37): apply_filters('manage_edit-sho...', Array)
+#3 C:\xampp\htdocs\onlinecourse\wp-admin\includes\class-wp-screen.php(998): get_column_headers(Object(WP_Screen))
+#4 C:\xampp\htdocs\onlinecourse\wp-admin\includes\class-wp-screen.php(959): WP_Screen->show_screen_options()
+#5 C:\xampp\htdocs\onlinecourse\wp-admin\admin-header.php(281): WP_Screen->render_screen_meta()
+#6 C:\xampp\htdocs\onlinecourse\wp-admin\edit.php(407): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php on line 243
+

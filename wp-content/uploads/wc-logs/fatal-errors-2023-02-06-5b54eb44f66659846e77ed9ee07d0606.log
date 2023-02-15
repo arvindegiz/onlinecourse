@@ -1,0 +1,404 @@
+2023-02-06T04:27:35+00:00 CRITICAL Unclosed '{' on line 198 in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php on line 230
+
+2023-02-06T05:02:27+00:00 CRITICAL Uncaught TypeError: array_slice(): Argument #1 ($array) must be of type array, null given in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php:344
+Stack trace:
+#0 C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php(344): array_slice(NULL, 0, 3, true)
+#1 C:\xampp\htdocs\onlinecourse\wp-settings.php(585): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\onlinecourse\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\onlinecourse\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\onlinecourse\wp-admin\admin-ajax.php(22): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php on line 344
+
+2023-02-06T05:02:29+00:00 CRITICAL Uncaught TypeError: array_slice(): Argument #1 ($array) must be of type array, null given in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php:344
+Stack trace:
+#0 C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php(344): array_slice(NULL, 0, 3, true)
+#1 C:\xampp\htdocs\onlinecourse\wp-settings.php(585): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\onlinecourse\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\onlinecourse\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\onlinecourse\wp-admin\admin.php(34): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\onlinecourse\wp-admin\edit.php(10): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php on line 344
+
+2023-02-06T05:03:15+00:00 CRITICAL Uncaught TypeError: array_slice(): Argument #1 ($array) must be of type array, null given in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php:344
+Stack trace:
+#0 C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php(344): array_slice(NULL, 0, 3, true)
+#1 C:\xampp\htdocs\onlinecourse\wp-settings.php(585): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\onlinecourse\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\onlinecourse\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\onlinecourse\wp-blog-header.php(13): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\onlinecourse\index.php(17): require('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php on line 344
+
+2023-02-06T05:03:34+00:00 CRITICAL Uncaught TypeError: array_slice(): Argument #1 ($array) must be of type array, null given in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php:344
+Stack trace:
+#0 C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php(344): array_slice(NULL, 0, 3, true)
+#1 C:\xampp\htdocs\onlinecourse\wp-settings.php(585): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\onlinecourse\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\onlinecourse\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\onlinecourse\wp-blog-header.php(13): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\onlinecourse\index.php(17): require('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php on line 344
+
+2023-02-06T05:03:35+00:00 CRITICAL Uncaught TypeError: array_slice(): Argument #1 ($array) must be of type array, null given in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php:344
+Stack trace:
+#0 C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php(344): array_slice(NULL, 0, 3, true)
+#1 C:\xampp\htdocs\onlinecourse\wp-settings.php(585): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\onlinecourse\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\onlinecourse\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\onlinecourse\wp-blog-header.php(13): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\onlinecourse\index.php(17): require('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php on line 344
+
+2023-02-06T05:03:36+00:00 CRITICAL Uncaught TypeError: array_slice(): Argument #1 ($array) must be of type array, null given in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php:344
+Stack trace:
+#0 C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php(344): array_slice(NULL, 0, 3, true)
+#1 C:\xampp\htdocs\onlinecourse\wp-settings.php(585): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\onlinecourse\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\onlinecourse\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\onlinecourse\wp-blog-header.php(13): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\onlinecourse\index.php(17): require('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php on line 344
+
+2023-02-06T05:03:37+00:00 CRITICAL Uncaught TypeError: array_slice(): Argument #1 ($array) must be of type array, null given in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php:344
+Stack trace:
+#0 C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php(344): array_slice(NULL, 0, 3, true)
+#1 C:\xampp\htdocs\onlinecourse\wp-settings.php(585): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\onlinecourse\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\onlinecourse\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\onlinecourse\wp-blog-header.php(13): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\onlinecourse\index.php(17): require('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php on line 344
+
+2023-02-06T05:03:37+00:00 CRITICAL Uncaught TypeError: array_slice(): Argument #1 ($array) must be of type array, null given in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php:344
+Stack trace:
+#0 C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php(344): array_slice(NULL, 0, 3, true)
+#1 C:\xampp\htdocs\onlinecourse\wp-settings.php(585): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\onlinecourse\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\onlinecourse\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\onlinecourse\wp-blog-header.php(13): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\onlinecourse\index.php(17): require('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php on line 344
+
+2023-02-06T05:24:28+00:00 CRITICAL Unclosed '{' on line 375 in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php on line 402
+
+2023-02-06T05:24:29+00:00 CRITICAL Unclosed '{' on line 375 in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php on line 402
+
+2023-02-06T05:24:31+00:00 CRITICAL Unclosed '{' on line 375 in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php on line 402
+
+2023-02-06T06:18:46+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function add_action(), 1 passed in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php on line 270 and at least 2 expected in C:\xampp\htdocs\onlinecourse\wp-includes\plugin.php:441
+Stack trace:
+#0 C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php(270): add_action('manage_shop_ord...')
+#1 C:\xampp\htdocs\onlinecourse\wp-settings.php(585): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\onlinecourse\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\onlinecourse\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\onlinecourse\wp-admin\admin-ajax.php(22): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\onlinecourse\wp-includes\plugin.php on line 441
+
+2023-02-06T06:19:01+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function add_action(), 1 passed in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php on line 270 and at least 2 expected in C:\xampp\htdocs\onlinecourse\wp-includes\plugin.php:441
+Stack trace:
+#0 C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php(270): add_action('manage_shop_ord...')
+#1 C:\xampp\htdocs\onlinecourse\wp-settings.php(585): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\onlinecourse\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\onlinecourse\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\onlinecourse\wp-admin\admin-ajax.php(22): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\onlinecourse\wp-includes\plugin.php on line 441
+
+2023-02-06T06:19:16+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function add_action(), 1 passed in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php on line 270 and at least 2 expected in C:\xampp\htdocs\onlinecourse\wp-includes\plugin.php:441
+Stack trace:
+#0 C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php(270): add_action('manage_shop_ord...')
+#1 C:\xampp\htdocs\onlinecourse\wp-settings.php(585): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\onlinecourse\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\onlinecourse\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\onlinecourse\wp-admin\admin-ajax.php(22): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\onlinecourse\wp-includes\plugin.php on line 441
+
+2023-02-06T06:19:31+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function add_action(), 1 passed in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php on line 270 and at least 2 expected in C:\xampp\htdocs\onlinecourse\wp-includes\plugin.php:441
+Stack trace:
+#0 C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php(270): add_action('manage_shop_ord...')
+#1 C:\xampp\htdocs\onlinecourse\wp-settings.php(585): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\onlinecourse\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\onlinecourse\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\onlinecourse\wp-admin\admin-ajax.php(22): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\onlinecourse\wp-includes\plugin.php on line 441
+
+2023-02-06T06:41:51+00:00 CRITICAL syntax error, unexpected token "}" in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php on line 270
+
+2023-02-06T06:42:53+00:00 CRITICAL Uncaught Error: Call to a member function get_total() on null in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php:269
+Stack trace:
+#0 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(310): sv_wc_cogs_add_order_profit_column_content('order_profit')
+#1 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\onlinecourse\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\onlinecourse\wp-admin\includes\class-wp-posts-list-table.php(1363): do_action('manage_shop_ord...', 'order_profit', 66)
+#4 C:\xampp\htdocs\onlinecourse\wp-admin\includes\class-wp-list-table.php(1532): WP_Posts_List_Table->column_default(Object(WP_Post), 'order_profit')
+#5 C:\xampp\htdocs\onlinecourse\wp-admin\includes\class-wp-posts-list-table.php(1397): WP_List_Table->single_row_columns(Object(WP_Post))
+#6 C:\xampp\htdocs\onlinecourse\wp-admin\includes\class-wp-posts-list-table.php(807): WP_Posts_List_Table->single_row(Object(WP_Post), 0)
+#7 C:\xampp\htdocs\onlinecourse\wp-admin\includes\class-wp-posts-list-table.php(783): WP_Posts_List_Table->_display_rows(Array, 0)
+#8 C:\xampp\htdocs\onlinecourse\wp-admin\includes\class-wp-list-table.php(1444): WP_Posts_List_Table->display_rows()
+#9 C:\xampp\htdocs\onlinecourse\wp-admin\includes\class-wp-list-table.php(1371): WP_List_Table->display_rows_or_placeholder()
+#10 C:\xampp\htdocs\onlinecourse\wp-admin\edit.php(487): WP_List_Table->display()
+#11 {main}
+  thrown in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php on line 269
+
+2023-02-06T06:45:15+00:00 CRITICAL Uncaught Error: Using $this when not in object context in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php:288
+Stack trace:
+#0 C:\xampp\htdocs\onlinecourse\wp-settings.php(585): include()
+#1 C:\xampp\htdocs\onlinecourse\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\onlinecourse\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\onlinecourse\wp-admin\admin-ajax.php(22): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php on line 288
+
+2023-02-06T06:45:17+00:00 CRITICAL Uncaught Error: Using $this when not in object context in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php:288
+Stack trace:
+#0 C:\xampp\htdocs\onlinecourse\wp-settings.php(585): include()
+#1 C:\xampp\htdocs\onlinecourse\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\onlinecourse\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\onlinecourse\wp-admin\admin.php(34): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\onlinecourse\wp-admin\edit.php(10): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php on line 288
+
+2023-02-06T06:57:42+00:00 CRITICAL Unclosed '{' on line 250 in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php on line 316
+
+2023-02-06T06:57:43+00:00 CRITICAL Unclosed '{' on line 250 in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php on line 316
+
+2023-02-06T06:58:18+00:00 CRITICAL Unclosed '{' on line 247 in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php on line 309
+
+2023-02-06T06:58:20+00:00 CRITICAL Unclosed '{' on line 247 in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php on line 309
+
+2023-02-06T06:58:21+00:00 CRITICAL Unclosed '{' on line 247 in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php on line 309
+
+2023-02-06T06:58:22+00:00 CRITICAL Unclosed '{' on line 247 in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php on line 309
+
+2023-02-06T06:58:22+00:00 CRITICAL Unclosed '{' on line 247 in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php on line 309
+
+2023-02-06T06:58:29+00:00 CRITICAL Unclosed '{' on line 247 in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php on line 309
+
+2023-02-06T06:58:30+00:00 CRITICAL Unclosed '{' on line 247 in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php on line 309
+
+2023-02-06T06:58:46+00:00 CRITICAL Unclosed '{' on line 247 in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php on line 289
+
+2023-02-06T06:58:53+00:00 CRITICAL Unclosed '{' on line 247 in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php on line 289
+
+2023-02-06T06:58:54+00:00 CRITICAL Unclosed '{' on line 247 in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php on line 289
+
+2023-02-06T06:58:54+00:00 CRITICAL Unclosed '{' on line 247 in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php on line 289
+
+2023-02-06T06:58:55+00:00 CRITICAL Unclosed '{' on line 247 in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php on line 289
+
+2023-02-06T06:59:02+00:00 CRITICAL Unclosed '{' on line 247 in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php on line 288
+
+2023-02-06T06:59:02+00:00 CRITICAL Unclosed '{' on line 247 in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php on line 288
+
+2023-02-06T06:59:04+00:00 CRITICAL Unclosed '{' on line 247 in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php on line 288
+
+2023-02-06T09:38:20+00:00 CRITICAL Unclosed '{' on line 171 in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php on line 174
+
+2023-02-06T09:38:22+00:00 CRITICAL Unclosed '{' on line 171 in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php on line 174
+
+2023-02-06T09:46:40+00:00 CRITICAL syntax error, unexpected token "," in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php on line 194
+
+2023-02-06T09:47:10+00:00 CRITICAL syntax error, unexpected token "," in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php on line 194
+
+2023-02-06T09:47:11+00:00 CRITICAL syntax error, unexpected token "," in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php on line 194
+
+2023-02-06T09:49:13+00:00 CRITICAL Uncaught Error: Call to undefined function sv_helper_get_order_meta() in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php:184
+Stack trace:
+#0 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(310): cw_add_order_profit_column_content('api_send_reques...')
+#1 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\onlinecourse\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\onlinecourse\wp-admin\includes\class-wp-posts-list-table.php(1363): do_action('manage_shop_ord...', 'api_send_reques...', 66)
+#4 C:\xampp\htdocs\onlinecourse\wp-admin\includes\class-wp-list-table.php(1532): WP_Posts_List_Table->column_default(Object(WP_Post), 'api_send_reques...')
+#5 C:\xampp\htdocs\onlinecourse\wp-admin\includes\class-wp-posts-list-table.php(1397): WP_List_Table->single_row_columns(Object(WP_Post))
+#6 C:\xampp\htdocs\onlinecourse\wp-admin\includes\class-wp-posts-list-table.php(807): WP_Posts_List_Table->single_row(Object(WP_Post), 0)
+#7 C:\xampp\htdocs\onlinecourse\wp-admin\includes\class-wp-posts-list-table.php(783): WP_Posts_List_Table->_display_rows(Array, 0)
+#8 C:\xampp\htdocs\onlinecourse\wp-admin\includes\class-wp-list-table.php(1444): WP_Posts_List_Table->display_rows()
+#9 C:\xampp\htdocs\onlinecourse\wp-admin\includes\class-wp-list-table.php(1371): WP_List_Table->display_rows_or_placeholder()
+#10 C:\xampp\htdocs\onlinecourse\wp-admin\edit.php(487): WP_List_Table->display()
+#11 {main}
+  thrown in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php on line 184
+
+2023-02-06T09:50:01+00:00 CRITICAL Uncaught Error: Call to undefined function sv_helper_get_order_meta() in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php:184
+Stack trace:
+#0 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(310): cw_add_order_profit_column_content('api_send_reques...')
+#1 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\onlinecourse\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\onlinecourse\wp-admin\includes\class-wp-posts-list-table.php(1363): do_action('manage_shop_ord...', 'api_send_reques...', 66)
+#4 C:\xampp\htdocs\onlinecourse\wp-admin\includes\class-wp-list-table.php(1532): WP_Posts_List_Table->column_default(Object(WP_Post), 'api_send_reques...')
+#5 C:\xampp\htdocs\onlinecourse\wp-admin\includes\class-wp-posts-list-table.php(1397): WP_List_Table->single_row_columns(Object(WP_Post))
+#6 C:\xampp\htdocs\onlinecourse\wp-admin\includes\class-wp-posts-list-table.php(807): WP_Posts_List_Table->single_row(Object(WP_Post), 0)
+#7 C:\xampp\htdocs\onlinecourse\wp-admin\includes\class-wp-posts-list-table.php(783): WP_Posts_List_Table->_display_rows(Array, 0)
+#8 C:\xampp\htdocs\onlinecourse\wp-admin\includes\class-wp-list-table.php(1444): WP_Posts_List_Table->display_rows()
+#9 C:\xampp\htdocs\onlinecourse\wp-admin\includes\class-wp-list-table.php(1371): WP_List_Table->display_rows_or_placeholder()
+#10 C:\xampp\htdocs\onlinecourse\wp-admin\edit.php(487): WP_List_Table->display()
+#11 {main}
+  thrown in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php on line 184
+
+2023-02-06T09:52:35+00:00 CRITICAL Uncaught Error: Using $this when not in object context in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php:178
+Stack trace:
+#0 C:\xampp\htdocs\onlinecourse\wp-settings.php(585): include()
+#1 C:\xampp\htdocs\onlinecourse\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\onlinecourse\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\onlinecourse\wp-admin\admin-ajax.php(22): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php on line 178
+
+2023-02-06T09:52:36+00:00 CRITICAL Uncaught Error: Using $this when not in object context in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php:178
+Stack trace:
+#0 C:\xampp\htdocs\onlinecourse\wp-settings.php(585): include()
+#1 C:\xampp\htdocs\onlinecourse\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\onlinecourse\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\onlinecourse\wp-admin\admin.php(34): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\onlinecourse\wp-admin\edit.php(10): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php on line 178
+
+2023-02-06T10:10:59+00:00 CRITICAL syntax error, unexpected end of file in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php on line 207
+
+2023-02-06T10:11:00+00:00 CRITICAL syntax error, unexpected end of file in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php on line 207
+
+2023-02-06T10:14:52+00:00 CRITICAL Uncaught Error: Call to undefined function sv_helper_get_order_meta() in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php:192
+Stack trace:
+#0 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(310): sv_wc_cogs_add_order_profit_column_content('api_send_reques...')
+#1 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\onlinecourse\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\onlinecourse\wp-admin\includes\class-wp-posts-list-table.php(1363): do_action('manage_shop_ord...', 'api_send_reques...', 66)
+#4 C:\xampp\htdocs\onlinecourse\wp-admin\includes\class-wp-list-table.php(1532): WP_Posts_List_Table->column_default(Object(WP_Post), 'api_send_reques...')
+#5 C:\xampp\htdocs\onlinecourse\wp-admin\includes\class-wp-posts-list-table.php(1397): WP_List_Table->single_row_columns(Object(WP_Post))
+#6 C:\xampp\htdocs\onlinecourse\wp-admin\includes\class-wp-posts-list-table.php(807): WP_Posts_List_Table->single_row(Object(WP_Post), 0)
+#7 C:\xampp\htdocs\onlinecourse\wp-admin\includes\class-wp-posts-list-table.php(783): WP_Posts_List_Table->_display_rows(Array, 0)
+#8 C:\xampp\htdocs\onlinecourse\wp-admin\includes\class-wp-list-table.php(1444): WP_Posts_List_Table->display_rows()
+#9 C:\xampp\htdocs\onlinecourse\wp-admin\includes\class-wp-list-table.php(1371): WP_List_Table->display_rows_or_placeholder()
+#10 C:\xampp\htdocs\onlinecourse\wp-admin\edit.php(487): WP_List_Table->display()
+#11 {main}
+  thrown in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php on line 192
+
+2023-02-06T10:52:56+00:00 CRITICAL syntax error, unexpected token "<", expecting end of file in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php on line 209
+
+2023-02-06T10:53:00+00:00 CRITICAL syntax error, unexpected token "<", expecting end of file in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php on line 209
+
+2023-02-06T10:57:51+00:00 CRITICAL Unmatched '}' in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php on line 228
+
+2023-02-06T10:57:52+00:00 CRITICAL Unmatched '}' in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php on line 228
+
+2023-02-06T10:58:06+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "sv_wc_cogs_add_order_profit_column_content" not found or invalid function name in C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php:310
+Stack trace:
+#0 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\onlinecourse\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\onlinecourse\wp-admin\includes\class-wp-posts-list-table.php(1363): do_action('manage_shop_ord...', 'order_number', 66)
+#3 C:\xampp\htdocs\onlinecourse\wp-admin\includes\class-wp-list-table.php(1532): WP_Posts_List_Table->column_default(Object(WP_Post), 'order_number')
+#4 C:\xampp\htdocs\onlinecourse\wp-admin\includes\class-wp-posts-list-table.php(1397): WP_List_Table->single_row_columns(Object(WP_Post))
+#5 C:\xampp\htdocs\onlinecourse\wp-admin\includes\class-wp-posts-list-table.php(807): WP_Posts_List_Table->single_row(Object(WP_Post), 0)
+#6 C:\xampp\htdocs\onlinecourse\wp-admin\includes\class-wp-posts-list-table.php(783): WP_Posts_List_Table->_display_rows(Array, 0)
+#7 C:\xampp\htdocs\onlinecourse\wp-admin\includes\class-wp-list-table.php(1444): WP_Posts_List_Table->display_rows()
+#8 C:\xampp\htdocs\onlinecourse\wp-admin\includes\class-wp-list-table.php(1371): WP_List_Table->display_rows_or_placeholder()
+#9 C:\xampp\htdocs\onlinecourse\wp-admin\edit.php(487): WP_List_Table->display()
+#10 {main}
+  thrown in C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php on line 310
+
+2023-02-06T11:03:57+00:00 CRITICAL Uncaught Error: Call to undefined function sv_helper_get_order_meta() in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php:223
+Stack trace:
+#0 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(310): sv_wc_cogs_add_order_profit_column_content('api_send_reques...')
+#1 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\onlinecourse\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\onlinecourse\wp-admin\includes\class-wp-posts-list-table.php(1363): do_action('manage_shop_ord...', 'api_send_reques...', 66)
+#4 C:\xampp\htdocs\onlinecourse\wp-admin\includes\class-wp-list-table.php(1532): WP_Posts_List_Table->column_default(Object(WP_Post), 'api_send_reques...')
+#5 C:\xampp\htdocs\onlinecourse\wp-admin\includes\class-wp-posts-list-table.php(1397): WP_List_Table->single_row_columns(Object(WP_Post))
+#6 C:\xampp\htdocs\onlinecourse\wp-admin\includes\class-wp-posts-list-table.php(807): WP_Posts_List_Table->single_row(Object(WP_Post), 0)
+#7 C:\xampp\htdocs\onlinecourse\wp-admin\includes\class-wp-posts-list-table.php(783): WP_Posts_List_Table->_display_rows(Array, 0)
+#8 C:\xampp\htdocs\onlinecourse\wp-admin\includes\class-wp-list-table.php(1444): WP_Posts_List_Table->display_rows()
+#9 C:\xampp\htdocs\onlinecourse\wp-admin\includes\class-wp-list-table.php(1371): WP_List_Table->display_rows_or_placeholder()
+#10 C:\xampp\htdocs\onlinecourse\wp-admin\edit.php(487): WP_List_Table->display()
+#11 {main}
+  thrown in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php on line 223
+
+2023-02-06T11:13:42+00:00 CRITICAL syntax error, unexpected single-quoted string "Profit" in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php on line 183
+
+2023-02-06T11:14:58+00:00 CRITICAL syntax error, unexpected single-quoted string "Profit" in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php on line 183
+
+2023-02-06T11:14:59+00:00 CRITICAL syntax error, unexpected single-quoted string "Profit" in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php on line 183
+
+2023-02-06T11:30:20+00:00 CRITICAL syntax error, unexpected token "-", expecting "(" in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php on line 212
+
+2023-02-06T11:30:22+00:00 CRITICAL syntax error, unexpected token "-", expecting "(" in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php on line 212
+
+2023-02-06T13:13:28+00:00 CRITICAL Uncaught TypeError: Automattic\WooCommerce\Utilities\OrderUtil::get_post_or_object_meta(): Argument #3 ($key) must be of type string, null given, called in C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\admin\wc-meta-box-functions.php on line 30 and defined in C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\src\Utilities\OrderUtil.php:58
+Stack trace:
+#0 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\admin\wc-meta-box-functions.php(30): Automattic\WooCommerce\Utilities\OrderUtil::get_post_or_object_meta(Object(WP_Post), NULL, NULL, true)
+#1 C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php(218): woocommerce_wp_text_input(Array)
+#2 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(308): product_custom_text_field('')
+#3 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#4 C:\xampp\htdocs\onlinecourse\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#5 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\admin\meta-boxes\views\html-product-data-general.php(206): do_action('woocommerce_pro...')
+#6 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\admin\meta-boxes\class-wc-meta-box-product-data.php(42): include('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\admin\meta-boxes\views\html-product-data-panel.php(52): WC_Meta_Box_Product_Data::output_tabs()
+#8 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\admin\meta-boxes\class-wc-meta-box-product-data.php(33): include('C:\\xampp\\htdocs...')
+#9 C:\xampp\htdocs\onlinecourse\wp-admin\includes\template.php(1409): WC_Meta_Box_Product_Data::output(Object(WP_Post), Array)
+#10 C:\xampp\htdocs\onlinecourse\wp-admin\edit-form-advanced.php(688): do_meta_boxes(Object(WP_Screen), 'normal', Object(WP_Post))
+#11 C:\xampp\htdocs\onlinecourse\wp-admin\post.php(206): require('C:\\xampp\\htdocs...')
+#12 {main}
+  thrown in C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\src\Utilities\OrderUtil.php on line 58
+
+2023-02-06T13:14:43+00:00 CRITICAL Uncaught TypeError: Automattic\WooCommerce\Utilities\OrderUtil::get_post_or_object_meta(): Argument #3 ($key) must be of type string, null given, called in C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\admin\wc-meta-box-functions.php on line 30 and defined in C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\src\Utilities\OrderUtil.php:58
+Stack trace:
+#0 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\admin\wc-meta-box-functions.php(30): Automattic\WooCommerce\Utilities\OrderUtil::get_post_or_object_meta(Object(WP_Post), NULL, NULL, true)
+#1 C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php(218): woocommerce_wp_text_input(Array)
+#2 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(308): product_custom_text_field('')
+#3 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#4 C:\xampp\htdocs\onlinecourse\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#5 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\admin\meta-boxes\views\html-product-data-general.php(206): do_action('woocommerce_pro...')
+#6 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\admin\meta-boxes\class-wc-meta-box-product-data.php(42): include('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\admin\meta-boxes\views\html-product-data-panel.php(52): WC_Meta_Box_Product_Data::output_tabs()
+#8 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\admin\meta-boxes\class-wc-meta-box-product-data.php(33): include('C:\\xampp\\htdocs...')
+#9 C:\xampp\htdocs\onlinecourse\wp-admin\includes\template.php(1409): WC_Meta_Box_Product_Data::output(Object(WP_Post), Array)
+#10 C:\xampp\htdocs\onlinecourse\wp-admin\edit-form-advanced.php(688): do_meta_boxes(Object(WP_Screen), 'normal', Object(WP_Post))
+#11 C:\xampp\htdocs\onlinecourse\wp-admin\post.php(206): require('C:\\xampp\\htdocs...')
+#12 {main}
+  thrown in C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\src\Utilities\OrderUtil.php on line 58
+
+2023-02-06T13:15:11+00:00 CRITICAL Uncaught TypeError: Automattic\WooCommerce\Utilities\OrderUtil::get_post_or_object_meta(): Argument #3 ($key) must be of type string, null given, called in C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\admin\wc-meta-box-functions.php on line 30 and defined in C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\src\Utilities\OrderUtil.php:58
+Stack trace:
+#0 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\admin\wc-meta-box-functions.php(30): Automattic\WooCommerce\Utilities\OrderUtil::get_post_or_object_meta(Object(WP_Post), NULL, NULL, true)
+#1 C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php(218): woocommerce_wp_text_input(Array)
+#2 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(308): product_custom_text_field('')
+#3 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#4 C:\xampp\htdocs\onlinecourse\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#5 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\admin\meta-boxes\views\html-product-data-general.php(206): do_action('woocommerce_pro...')
+#6 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\admin\meta-boxes\class-wc-meta-box-product-data.php(42): include('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\admin\meta-boxes\views\html-product-data-panel.php(52): WC_Meta_Box_Product_Data::output_tabs()
+#8 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\admin\meta-boxes\class-wc-meta-box-product-data.php(33): include('C:\\xampp\\htdocs...')
+#9 C:\xampp\htdocs\onlinecourse\wp-admin\includes\template.php(1409): WC_Meta_Box_Product_Data::output(Object(WP_Post), Array)
+#10 C:\xampp\htdocs\onlinecourse\wp-admin\edit-form-advanced.php(688): do_meta_boxes(Object(WP_Screen), 'normal', Object(WP_Post))
+#11 C:\xampp\htdocs\onlinecourse\wp-admin\post.php(206): require('C:\\xampp\\htdocs...')
+#12 {main}
+  thrown in C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\src\Utilities\OrderUtil.php on line 58
+
+2023-02-06T13:15:25+00:00 CRITICAL Uncaught TypeError: Automattic\WooCommerce\Utilities\OrderUtil::get_post_or_object_meta(): Argument #3 ($key) must be of type string, null given, called in C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\admin\wc-meta-box-functions.php on line 30 and defined in C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\src\Utilities\OrderUtil.php:58
+Stack trace:
+#0 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\admin\wc-meta-box-functions.php(30): Automattic\WooCommerce\Utilities\OrderUtil::get_post_or_object_meta(Object(WP_Post), NULL, NULL, true)
+#1 C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php(218): woocommerce_wp_text_input(Array)
+#2 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(308): product_custom_text_field('')
+#3 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#4 C:\xampp\htdocs\onlinecourse\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#5 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\admin\meta-boxes\views\html-product-data-general.php(206): do_action('woocommerce_pro...')
+#6 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\admin\meta-boxes\class-wc-meta-box-product-data.php(42): include('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\admin\meta-boxes\views\html-product-data-panel.php(52): WC_Meta_Box_Product_Data::output_tabs()
+#8 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\admin\meta-boxes\class-wc-meta-box-product-data.php(33): include('C:\\xampp\\htdocs...')
+#9 C:\xampp\htdocs\onlinecourse\wp-admin\includes\template.php(1409): WC_Meta_Box_Product_Data::output(Object(WP_Post), Array)
+#10 C:\xampp\htdocs\onlinecourse\wp-admin\edit-form-advanced.php(688): do_meta_boxes(Object(WP_Screen), 'normal', Object(WP_Post))
+#11 C:\xampp\htdocs\onlinecourse\wp-admin\post-new.php(75): require('C:\\xampp\\htdocs...')
+#12 {main}
+  thrown in C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\src\Utilities\OrderUtil.php on line 58
+
