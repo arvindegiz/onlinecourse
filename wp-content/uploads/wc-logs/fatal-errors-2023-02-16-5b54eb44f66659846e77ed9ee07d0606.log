@@ -1,0 +1,68 @@
+2023-02-16T06:20:42+00:00 CRITICAL Uncaught Error: Call to a member function get_cart_contents_count() on null in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\inc\Helpers.php:458
+Stack trace:
+#0 C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\views\partials\header\header_default.php(40): tutor_starter_header_cart()
+#1 C:\xampp\htdocs\onlinecourse\wp-includes\template.php(785): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\onlinecourse\wp-includes\template.php(718): load_template('C:\\xampp\\htdocs...', false, Array)
+#3 C:\xampp\htdocs\onlinecourse\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#4 C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\header.php(42): get_template_part('views/partials/...')
+#5 C:\xampp\htdocs\onlinecourse\wp-includes\template.php(783): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\onlinecourse\wp-includes\template.php(718): load_template('C:\\xampp\\htdocs...', true, Array)
+#7 C:\xampp\htdocs\onlinecourse\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#8 C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\page.php(14): get_header()
+#9 C:\xampp\htdocs\onlinecourse\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\onlinecourse\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#11 C:\xampp\htdocs\onlinecourse\index.php(17): require('C:\\xampp\\htdocs...')
+#12 {main}
+  thrown in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\inc\Helpers.php on line 458
+
+2023-02-16T06:32:49+00:00 CRITICAL Uncaught Error: Call to a member function get_cart_contents_count() on null in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\inc\Helpers.php:458
+Stack trace:
+#0 C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\views\partials\header\header_default.php(40): tutor_starter_header_cart()
+#1 C:\xampp\htdocs\onlinecourse\wp-includes\template.php(785): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\onlinecourse\wp-includes\template.php(718): load_template('C:\\xampp\\htdocs...', false, Array)
+#3 C:\xampp\htdocs\onlinecourse\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#4 C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\header.php(42): get_template_part('views/partials/...')
+#5 C:\xampp\htdocs\onlinecourse\wp-includes\template.php(783): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\onlinecourse\wp-includes\template.php(718): load_template('C:\\xampp\\htdocs...', true, Array)
+#7 C:\xampp\htdocs\onlinecourse\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#8 C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\page.php(14): get_header()
+#9 C:\xampp\htdocs\onlinecourse\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\onlinecourse\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#11 C:\xampp\htdocs\onlinecourse\index.php(17): require('C:\\xampp\\htdocs...')
+#12 {main}
+  thrown in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\inc\Helpers.php on line 458
+
+2023-02-16T06:32:53+00:00 CRITICAL Uncaught Error: Call to a member function get_cart_contents_count() on null in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\inc\Helpers.php:458
+Stack trace:
+#0 C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\views\partials\header\header_default.php(40): tutor_starter_header_cart()
+#1 C:\xampp\htdocs\onlinecourse\wp-includes\template.php(785): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\onlinecourse\wp-includes\template.php(718): load_template('C:\\xampp\\htdocs...', false, Array)
+#3 C:\xampp\htdocs\onlinecourse\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#4 C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\header.php(42): get_template_part('views/partials/...')
+#5 C:\xampp\htdocs\onlinecourse\wp-includes\template.php(783): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\onlinecourse\wp-includes\template.php(718): load_template('C:\\xampp\\htdocs...', true, Array)
+#7 C:\xampp\htdocs\onlinecourse\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#8 C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\page.php(14): get_header()
+#9 C:\xampp\htdocs\onlinecourse\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\onlinecourse\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#11 C:\xampp\htdocs\onlinecourse\index.php(17): require('C:\\xampp\\htdocs...')
+#12 {main}
+  thrown in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\inc\Helpers.php on line 458
+
+2023-02-16T06:33:01+00:00 CRITICAL Uncaught Error: Call to a member function get_cart_contents_count() on null in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\inc\Helpers.php:458
+Stack trace:
+#0 C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\views\partials\header\header_default.php(40): tutor_starter_header_cart()
+#1 C:\xampp\htdocs\onlinecourse\wp-includes\template.php(785): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\onlinecourse\wp-includes\template.php(718): load_template('C:\\xampp\\htdocs...', false, Array)
+#3 C:\xampp\htdocs\onlinecourse\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#4 C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\header.php(42): get_template_part('views/partials/...')
+#5 C:\xampp\htdocs\onlinecourse\wp-includes\template.php(783): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\onlinecourse\wp-includes\template.php(718): load_template('C:\\xampp\\htdocs...', true, Array)
+#7 C:\xampp\htdocs\onlinecourse\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#8 C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\404.php(12): get_header()
+#9 C:\xampp\htdocs\onlinecourse\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\onlinecourse\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#11 C:\xampp\htdocs\onlinecourse\index.php(17): require('C:\\xampp\\htdocs...')
+#12 {main}
+  thrown in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\inc\Helpers.php on line 458
+

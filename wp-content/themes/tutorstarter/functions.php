@@ -212,18 +212,17 @@ function api_request_ajax_function() {
 	$order_id = $_POST['order_id'];
     $order_json_data = get_post_meta( $order_id, '_order_json_data', true );
     if(!empty($order_json_data)) {
-         // $response = wp_remote_post( 'https://www.google.com/send_data', $data );
-        //  if($response['success']) {
-        //     update_post_meta($order_id, 'send_api_request', 1);
-        //  }
-        update_post_meta($order_id, 'send_api_request', 1);
+         $response = wp_remote_post( 'https://crudcrud.com/api/979e9fe2d4f14577ac8fb9525a2c543e/a', $data );
+         if($response['success']) {
+            update_post_meta($order_id, 'send_api_request', 1);
+         }
+       // update_post_meta($order_id, 'send_api_request', 1);
         
     }
     
     //wp_send_json($order_json_data) ;
 }
-
-
+//WHEN ORDER PLACED Succefully then send order in json Format on third party API
 
 
 // // Add a column to the edit post list p
@@ -238,7 +237,7 @@ function api_request_ajax_function() {
 // 	$columns = array_slice( $columns, 0, 2, true ) + $column_meta + array_slice( $columns, 2, NULL, true );
 // 	return $columns; 
 // }   
-
+  
 
 // Add column to admin Orders summary page with custom field data
 function custom_api_request_column($columns)
