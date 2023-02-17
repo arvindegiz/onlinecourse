@@ -174,10 +174,20 @@ add_action('woocommerce_checkout_create_order', 'before_checkout_create_order', 
 function before_checkout_create_order( $order, $data ) {
     if(!empty($data)) {
         $order->update_meta_data( '_order_json_data', json_encode($data) );
-        // $response = wp_remote_post( 'https://www.google.com/send_data', $data );
+        $response = wp_remote_post( 'https://crudcrud.com/api/923f7f5aeae8418fbb225eeaa3bdfe27/s', $data );
         $order->update_meta_data( 'send_api_request', 0 );
     }
-    
+//     if(!empty($data)) {
+//         $response = wp_remote_post( 'https://crudcrud.com/api/923f7f5aeae8418fbb225eeaa3bdfe27/s', $data );
+//         if( isset($response['_id']) && ($response['_id']))  {
+//             $order->update_post_meta( 'send_api_request', 0);
+//             $order->save();
+//         }
+//         //   $order->update_meta_data( 'send_api_request', 0 );
+        
+//         // update_post_meta($order_id, 'send_api_request', 0);
+        
+//    }
 }
 
 // display custom field on order edit pages
@@ -212,13 +222,13 @@ function api_request_ajax_function() {
 	$order_id = $_POST['order_id'];
     $order_json_data = get_post_meta( $order_id, '_order_json_data', true );
     if(!empty($order_json_data)) {
-         $response = wp_remote_post( 'https://crudcrud.com/api/979e9fe2d4f14577ac8fb9525a2c543e/a', $data );
-         if($response['success']) {
-            update_post_meta($order_id, 'send_api_request', 1);
-         }
-       // update_post_meta($order_id, 'send_api_request', 1);
-        
-    }
+        // $response = wp_remote_post( 'https://crudcrud.com/api/923f7f5aeae8418fbb225eeaa3bdfe27/s', $data );
+        // if( isset($response['_id']) && ($response['_id']))  {
+        //    update_post_meta($order_id, 'send_api_request', 1);
+        // }
+      update_post_meta($order_id, 'send_api_request', 1);
+       
+   }
     
     //wp_send_json($order_json_data) ;
 }

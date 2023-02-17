@@ -1,0 +1,383 @@
+2023-02-17T05:19:55+00:00 CRITICAL Unmatched '}' in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php on line 229
+
+2023-02-17T06:34:54+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_Error as array in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php:177
+Stack trace:
+#0 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(308): before_checkout_create_order(Object(WC_Order), Array)
+#1 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\onlinecourse\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\class-wc-checkout.php(446): do_action('woocommerce_che...', Object(WC_Order), Array)
+#4 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\class-wc-checkout.php(1256): WC_Checkout->create_order(Array)
+#5 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(481): WC_Checkout->process_checkout()
+#6 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(308): WC_AJAX::checkout('')
+#7 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\onlinecourse\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(94): do_action('wc_ajax_checkou...')
+#10 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(308): WC_AJAX::do_wc_ajax('')
+#11 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(false, Array)
+#12 C:\xampp\htdocs\onlinecourse\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#13 C:\xampp\htdocs\onlinecourse\wp-includes\template-loader.php(13): do_action('template_redire...')
+#14 C:\xampp\htdocs\onlinecourse\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#15 C:\xampp\htdocs\onlinecourse\index.php(17): require('C:\\xampp\\htdocs...')
+#16 {main}
+  thrown in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php on line 177
+
+2023-02-17T06:35:14+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_Error as array in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php:177
+Stack trace:
+#0 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(308): before_checkout_create_order(Object(WC_Order), Array)
+#1 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\onlinecourse\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\class-wc-checkout.php(446): do_action('woocommerce_che...', Object(WC_Order), Array)
+#4 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\class-wc-checkout.php(1256): WC_Checkout->create_order(Array)
+#5 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(481): WC_Checkout->process_checkout()
+#6 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(308): WC_AJAX::checkout('')
+#7 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\onlinecourse\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(94): do_action('wc_ajax_checkou...')
+#10 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(308): WC_AJAX::do_wc_ajax('')
+#11 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(false, Array)
+#12 C:\xampp\htdocs\onlinecourse\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#13 C:\xampp\htdocs\onlinecourse\wp-includes\template-loader.php(13): do_action('template_redire...')
+#14 C:\xampp\htdocs\onlinecourse\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#15 C:\xampp\htdocs\onlinecourse\index.php(17): require('C:\\xampp\\htdocs...')
+#16 {main}
+  thrown in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php on line 177
+
+2023-02-17T06:35:49+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_Error as array in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php:177
+Stack trace:
+#0 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(308): before_checkout_create_order(Object(WC_Order), Array)
+#1 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\onlinecourse\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\class-wc-checkout.php(446): do_action('woocommerce_che...', Object(WC_Order), Array)
+#4 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\class-wc-checkout.php(1256): WC_Checkout->create_order(Array)
+#5 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(481): WC_Checkout->process_checkout()
+#6 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(308): WC_AJAX::checkout('')
+#7 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\onlinecourse\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(94): do_action('wc_ajax_checkou...')
+#10 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(308): WC_AJAX::do_wc_ajax('')
+#11 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(false, Array)
+#12 C:\xampp\htdocs\onlinecourse\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#13 C:\xampp\htdocs\onlinecourse\wp-includes\template-loader.php(13): do_action('template_redire...')
+#14 C:\xampp\htdocs\onlinecourse\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#15 C:\xampp\htdocs\onlinecourse\index.php(17): require('C:\\xampp\\htdocs...')
+#16 {main}
+  thrown in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php on line 177
+
+2023-02-17T06:36:58+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_Error as array in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php:177
+Stack trace:
+#0 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(308): before_checkout_create_order(Object(WC_Order), Array)
+#1 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\onlinecourse\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\class-wc-checkout.php(446): do_action('woocommerce_che...', Object(WC_Order), Array)
+#4 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\class-wc-checkout.php(1256): WC_Checkout->create_order(Array)
+#5 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(481): WC_Checkout->process_checkout()
+#6 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(308): WC_AJAX::checkout('')
+#7 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\onlinecourse\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(94): do_action('wc_ajax_checkou...')
+#10 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(308): WC_AJAX::do_wc_ajax('')
+#11 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(false, Array)
+#12 C:\xampp\htdocs\onlinecourse\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#13 C:\xampp\htdocs\onlinecourse\wp-includes\template-loader.php(13): do_action('template_redire...')
+#14 C:\xampp\htdocs\onlinecourse\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#15 C:\xampp\htdocs\onlinecourse\index.php(17): require('C:\\xampp\\htdocs...')
+#16 {main}
+  thrown in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php on line 177
+
+2023-02-17T06:39:44+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_Error as array in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php:177
+Stack trace:
+#0 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(308): before_checkout_create_order(Object(WC_Order), Array)
+#1 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\onlinecourse\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\class-wc-checkout.php(446): do_action('woocommerce_che...', Object(WC_Order), Array)
+#4 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\class-wc-checkout.php(1256): WC_Checkout->create_order(Array)
+#5 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(481): WC_Checkout->process_checkout()
+#6 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(308): WC_AJAX::checkout('')
+#7 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\onlinecourse\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(94): do_action('wc_ajax_checkou...')
+#10 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(308): WC_AJAX::do_wc_ajax('')
+#11 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(false, Array)
+#12 C:\xampp\htdocs\onlinecourse\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#13 C:\xampp\htdocs\onlinecourse\wp-includes\template-loader.php(13): do_action('template_redire...')
+#14 C:\xampp\htdocs\onlinecourse\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#15 C:\xampp\htdocs\onlinecourse\index.php(17): require('C:\\xampp\\htdocs...')
+#16 {main}
+  thrown in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php on line 177
+
+2023-02-17T06:46:37+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_Error as array in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php:177
+Stack trace:
+#0 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(308): before_checkout_create_order(Object(WC_Order), Array)
+#1 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\onlinecourse\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\class-wc-checkout.php(446): do_action('woocommerce_che...', Object(WC_Order), Array)
+#4 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\class-wc-checkout.php(1256): WC_Checkout->create_order(Array)
+#5 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(481): WC_Checkout->process_checkout()
+#6 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(308): WC_AJAX::checkout('')
+#7 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\onlinecourse\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(94): do_action('wc_ajax_checkou...')
+#10 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(308): WC_AJAX::do_wc_ajax('')
+#11 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(false, Array)
+#12 C:\xampp\htdocs\onlinecourse\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#13 C:\xampp\htdocs\onlinecourse\wp-includes\template-loader.php(13): do_action('template_redire...')
+#14 C:\xampp\htdocs\onlinecourse\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#15 C:\xampp\htdocs\onlinecourse\index.php(17): require('C:\\xampp\\htdocs...')
+#16 {main}
+  thrown in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php on line 177
+
+2023-02-17T06:53:38+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_Error as array in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php:216
+Stack trace:
+#0 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(308): api_request_ajax_function('')
+#1 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\onlinecourse\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\onlinecourse\wp-admin\admin-ajax.php(188): do_action('wp_ajax_api_req...')
+#4 {main}
+  thrown in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php on line 216
+
+2023-02-17T06:53:43+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_Error as array in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php:216
+Stack trace:
+#0 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(308): api_request_ajax_function('')
+#1 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\onlinecourse\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\onlinecourse\wp-admin\admin-ajax.php(188): do_action('wp_ajax_api_req...')
+#4 {main}
+  thrown in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php on line 216
+
+2023-02-17T06:53:44+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_Error as array in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php:216
+Stack trace:
+#0 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(308): api_request_ajax_function('')
+#1 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\onlinecourse\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\onlinecourse\wp-admin\admin-ajax.php(188): do_action('wp_ajax_api_req...')
+#4 {main}
+  thrown in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php on line 216
+
+2023-02-17T06:53:54+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_Error as array in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php:216
+Stack trace:
+#0 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(308): api_request_ajax_function('')
+#1 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\onlinecourse\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\onlinecourse\wp-admin\admin-ajax.php(188): do_action('wp_ajax_api_req...')
+#4 {main}
+  thrown in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php on line 216
+
+2023-02-17T06:53:54+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_Error as array in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php:216
+Stack trace:
+#0 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(308): api_request_ajax_function('')
+#1 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\onlinecourse\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\onlinecourse\wp-admin\admin-ajax.php(188): do_action('wp_ajax_api_req...')
+#4 {main}
+  thrown in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php on line 216
+
+2023-02-17T06:54:20+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_Error as array in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php:216
+Stack trace:
+#0 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(308): api_request_ajax_function('')
+#1 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\onlinecourse\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\onlinecourse\wp-admin\admin-ajax.php(188): do_action('wp_ajax_api_req...')
+#4 {main}
+  thrown in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php on line 216
+
+2023-02-17T06:54:27+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_Error as array in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php:216
+Stack trace:
+#0 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(308): api_request_ajax_function('')
+#1 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\onlinecourse\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\onlinecourse\wp-admin\admin-ajax.php(188): do_action('wp_ajax_api_req...')
+#4 {main}
+  thrown in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php on line 216
+
+2023-02-17T06:54:28+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_Error as array in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php:216
+Stack trace:
+#0 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(308): api_request_ajax_function('')
+#1 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\onlinecourse\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\onlinecourse\wp-admin\admin-ajax.php(188): do_action('wp_ajax_api_req...')
+#4 {main}
+  thrown in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php on line 216
+
+2023-02-17T07:00:12+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function before_checkout_create_order(), 2 passed in C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php on line 308 and exactly 3 expected in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php:174
+Stack trace:
+#0 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(308): before_checkout_create_order(Object(WC_Order), Array)
+#1 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\onlinecourse\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\class-wc-checkout.php(446): do_action('woocommerce_che...', Object(WC_Order), Array)
+#4 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\class-wc-checkout.php(1256): WC_Checkout->create_order(Array)
+#5 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(481): WC_Checkout->process_checkout()
+#6 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(308): WC_AJAX::checkout('')
+#7 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\onlinecourse\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(94): do_action('wc_ajax_checkou...')
+#10 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(308): WC_AJAX::do_wc_ajax('')
+#11 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(false, Array)
+#12 C:\xampp\htdocs\onlinecourse\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#13 C:\xampp\htdocs\onlinecourse\wp-includes\template-loader.php(13): do_action('template_redire...')
+#14 C:\xampp\htdocs\onlinecourse\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#15 C:\xampp\htdocs\onlinecourse\index.php(17): require('C:\\xampp\\htdocs...')
+#16 {main}
+  thrown in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php on line 174
+
+2023-02-17T07:01:10+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_Error as array in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php:182
+Stack trace:
+#0 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(308): before_checkout_create_order(Object(WC_Order), Array)
+#1 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\onlinecourse\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\class-wc-checkout.php(446): do_action('woocommerce_che...', Object(WC_Order), Array)
+#4 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\class-wc-checkout.php(1256): WC_Checkout->create_order(Array)
+#5 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(481): WC_Checkout->process_checkout()
+#6 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(308): WC_AJAX::checkout('')
+#7 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\onlinecourse\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(94): do_action('wc_ajax_checkou...')
+#10 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(308): WC_AJAX::do_wc_ajax('')
+#11 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(false, Array)
+#12 C:\xampp\htdocs\onlinecourse\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#13 C:\xampp\htdocs\onlinecourse\wp-includes\template-loader.php(13): do_action('template_redire...')
+#14 C:\xampp\htdocs\onlinecourse\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#15 C:\xampp\htdocs\onlinecourse\index.php(17): require('C:\\xampp\\htdocs...')
+#16 {main}
+  thrown in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php on line 182
+
+2023-02-17T07:02:39+00:00 CRITICAL Uncaught TypeError: json_decode(): Argument #1 ($json) must be of type string, array given in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php:181
+Stack trace:
+#0 C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php(181): json_decode(Array, true)
+#1 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(308): before_checkout_create_order(Object(WC_Order), Array)
+#2 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#3 C:\xampp\htdocs\onlinecourse\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\class-wc-checkout.php(446): do_action('woocommerce_che...', Object(WC_Order), Array)
+#5 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\class-wc-checkout.php(1256): WC_Checkout->create_order(Array)
+#6 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(481): WC_Checkout->process_checkout()
+#7 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(308): WC_AJAX::checkout('')
+#8 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#9 C:\xampp\htdocs\onlinecourse\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#10 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(94): do_action('wc_ajax_checkou...')
+#11 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(308): WC_AJAX::do_wc_ajax('')
+#12 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(false, Array)
+#13 C:\xampp\htdocs\onlinecourse\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#14 C:\xampp\htdocs\onlinecourse\wp-includes\template-loader.php(13): do_action('template_redire...')
+#15 C:\xampp\htdocs\onlinecourse\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#16 C:\xampp\htdocs\onlinecourse\index.php(17): require('C:\\xampp\\htdocs...')
+#17 {main}
+  thrown in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php on line 181
+
+2023-02-17T07:03:04+00:00 CRITICAL Uncaught TypeError: json_decode(): Argument #1 ($json) must be of type string, array given in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php:181
+Stack trace:
+#0 C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php(181): json_decode(Array, true)
+#1 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(308): before_checkout_create_order(Object(WC_Order), Array)
+#2 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#3 C:\xampp\htdocs\onlinecourse\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\class-wc-checkout.php(446): do_action('woocommerce_che...', Object(WC_Order), Array)
+#5 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\class-wc-checkout.php(1256): WC_Checkout->create_order(Array)
+#6 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(481): WC_Checkout->process_checkout()
+#7 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(308): WC_AJAX::checkout('')
+#8 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#9 C:\xampp\htdocs\onlinecourse\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#10 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(94): do_action('wc_ajax_checkou...')
+#11 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(308): WC_AJAX::do_wc_ajax('')
+#12 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(false, Array)
+#13 C:\xampp\htdocs\onlinecourse\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#14 C:\xampp\htdocs\onlinecourse\wp-includes\template-loader.php(13): do_action('template_redire...')
+#15 C:\xampp\htdocs\onlinecourse\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#16 C:\xampp\htdocs\onlinecourse\index.php(17): require('C:\\xampp\\htdocs...')
+#17 {main}
+  thrown in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php on line 181
+
+2023-02-17T07:03:27+00:00 CRITICAL Uncaught TypeError: json_decode(): Argument #1 ($json) must be of type string, array given in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php:181
+Stack trace:
+#0 C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php(181): json_decode(Array, true)
+#1 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(308): before_checkout_create_order(Object(WC_Order), Array)
+#2 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#3 C:\xampp\htdocs\onlinecourse\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\class-wc-checkout.php(446): do_action('woocommerce_che...', Object(WC_Order), Array)
+#5 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\class-wc-checkout.php(1256): WC_Checkout->create_order(Array)
+#6 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(481): WC_Checkout->process_checkout()
+#7 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(308): WC_AJAX::checkout('')
+#8 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#9 C:\xampp\htdocs\onlinecourse\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#10 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(94): do_action('wc_ajax_checkou...')
+#11 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(308): WC_AJAX::do_wc_ajax('')
+#12 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(false, Array)
+#13 C:\xampp\htdocs\onlinecourse\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#14 C:\xampp\htdocs\onlinecourse\wp-includes\template-loader.php(13): do_action('template_redire...')
+#15 C:\xampp\htdocs\onlinecourse\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#16 C:\xampp\htdocs\onlinecourse\index.php(17): require('C:\\xampp\\htdocs...')
+#17 {main}
+  thrown in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php on line 181
+
+2023-02-17T07:04:51+00:00 CRITICAL Uncaught TypeError: json_decode(): Argument #1 ($json) must be of type string, array given in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php:181
+Stack trace:
+#0 C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php(181): json_decode(Array, true)
+#1 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(308): before_checkout_create_order(Object(WC_Order), Array)
+#2 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#3 C:\xampp\htdocs\onlinecourse\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\class-wc-checkout.php(446): do_action('woocommerce_che...', Object(WC_Order), Array)
+#5 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\class-wc-checkout.php(1256): WC_Checkout->create_order(Array)
+#6 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(481): WC_Checkout->process_checkout()
+#7 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(308): WC_AJAX::checkout('')
+#8 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#9 C:\xampp\htdocs\onlinecourse\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#10 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(94): do_action('wc_ajax_checkou...')
+#11 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(308): WC_AJAX::do_wc_ajax('')
+#12 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(false, Array)
+#13 C:\xampp\htdocs\onlinecourse\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#14 C:\xampp\htdocs\onlinecourse\wp-includes\template-loader.php(13): do_action('template_redire...')
+#15 C:\xampp\htdocs\onlinecourse\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#16 C:\xampp\htdocs\onlinecourse\index.php(17): require('C:\\xampp\\htdocs...')
+#17 {main}
+  thrown in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php on line 181
+
+2023-02-17T11:01:06+00:00 CRITICAL Uncaught TypeError: json_decode(): Argument #1 ($json) must be of type string, array given in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php:181
+Stack trace:
+#0 C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php(181): json_decode(Array, true)
+#1 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(308): before_checkout_create_order(Object(WC_Order), Array)
+#2 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#3 C:\xampp\htdocs\onlinecourse\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\class-wc-checkout.php(446): do_action('woocommerce_che...', Object(WC_Order), Array)
+#5 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\class-wc-checkout.php(1256): WC_Checkout->create_order(Array)
+#6 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(481): WC_Checkout->process_checkout()
+#7 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(308): WC_AJAX::checkout('')
+#8 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#9 C:\xampp\htdocs\onlinecourse\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#10 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(94): do_action('wc_ajax_checkou...')
+#11 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(308): WC_AJAX::do_wc_ajax('')
+#12 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(false, Array)
+#13 C:\xampp\htdocs\onlinecourse\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#14 C:\xampp\htdocs\onlinecourse\wp-includes\template-loader.php(13): do_action('template_redire...')
+#15 C:\xampp\htdocs\onlinecourse\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#16 C:\xampp\htdocs\onlinecourse\index.php(17): require('C:\\xampp\\htdocs...')
+#17 {main}
+  thrown in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php on line 181
+
+2023-02-17T11:33:42+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Order::update_post_meta() in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php:188
+Stack trace:
+#0 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(308): before_checkout_create_order(Object(WC_Order), Array)
+#1 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\onlinecourse\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\class-wc-checkout.php(446): do_action('woocommerce_che...', Object(WC_Order), Array)
+#4 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\class-wc-checkout.php(1256): WC_Checkout->create_order(Array)
+#5 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(481): WC_Checkout->process_checkout()
+#6 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(308): WC_AJAX::checkout('')
+#7 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\onlinecourse\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\onlinecourse\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(94): do_action('wc_ajax_checkou...')
+#10 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(308): WC_AJAX::do_wc_ajax('')
+#11 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(false, Array)
+#12 C:\xampp\htdocs\onlinecourse\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#13 C:\xampp\htdocs\onlinecourse\wp-includes\template-loader.php(13): do_action('template_redire...')
+#14 C:\xampp\htdocs\onlinecourse\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#15 C:\xampp\htdocs\onlinecourse\index.php(17): require('C:\\xampp\\htdocs...')
+#16 {main}
+  thrown in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php on line 188
+
+2023-02-17T12:06:57+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function update_post_meta(), 2 passed in C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php on line 229 and at least 3 expected in C:\xampp\htdocs\onlinecourse\wp-includes\post.php:2515
+Stack trace:
+#0 C:\xampp\htdocs\onlinecourse\wp-content\themes\tutorstarter\functions.php(229): update_post_meta('336', NULL)
+#1 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(308): api_request_ajax_function('')
+#2 C:\xampp\htdocs\onlinecourse\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#3 C:\xampp\htdocs\onlinecourse\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 C:\xampp\htdocs\onlinecourse\wp-admin\admin-ajax.php(188): do_action('wp_ajax_api_req...')
+#5 {main}
+  thrown in C:\xampp\htdocs\onlinecourse\wp-includes\post.php on line 2515
+
